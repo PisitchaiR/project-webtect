@@ -6,7 +6,7 @@ const indexRouter = require("./routes");
 const app = express();
 
 //Middleware
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "/public")));
 
 //Template Engine
 app.set("views", path.join(__dirname, "views"));
@@ -15,7 +15,7 @@ app.set("view engine", "pug");
 app.use("/", indexRouter);
 
 app.listen(3000, () => {
-  console.log("listening to post 3000");
+  console.log("web run on http://localhost:3000/");
 });
 
 
