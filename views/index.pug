@@ -6,6 +6,10 @@ html(lang='en')
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
         title Lemkus | Sneakers & Culture | Lemkus
         link(rel='stylesheet' href='/css/tailwind.css')
+        style(type='text/css').
+            * {
+                transition: all 2s;
+            }
     body
         // Top Bar Nav
         nav.w-full.py-4(style='border-bottom: 1px solid black')
@@ -13,14 +17,15 @@ html(lang='en')
                 .logo.font-bold
                     a(href="/") 
                         h4 Thailand
+                        p#date
                 nav
                     ul.flex.items-center.justify-between.font-bold.text-sm.uppercase.no-underline
                         li
                             a.px-4(class='hover:text-yellow-300' href='/launches') launches
                         li
-                            a.px-4(class='hover:text-yellow-300' href='/sneakers') sneakers
+                            a.px-4(class='hover:text-yellow-300') sneakers
                         li
-                            a.px-4(class='hover:text-yellow-300' href='/apparel') apparel
+                            a.px-4(class='hover:text-yellow-300') apparel
                 .flex.items-center.font-bold.text-sm.no-underline.pr-6
                     a(href='#')
                         | ACCOUNT
@@ -38,18 +43,18 @@ html(lang='en')
                 .w-full.flex.justify-between
                     .join.flex.flex-col.font-bold.text-lg.w-80
                         | JOIN OUR COMMUNITY
-                        input.mt-2.shadow.appearance-none.rounded-sm.border.w-full.py-2.px-3.bg-yellow-400.text-black.border-black.mb-3.leading-tight(type='text' class='focus:outline-none focus:shadow-outline' value='EMAIL' required='')
+                        input.mt-2.appearance-none.rounded-sm.border.w-full.py-2.px-3.bg-yellow-400.text-black.border-black.mb-3.leading-tight.placeholder-black(type='email' class='focus:outline-none focus:shadow-none' placeholder="EMAIL" required)
                     .grid.grid-cols-3.gap-2.gap-x-10.text-xs
-                        a(href='') about us
-                        a(href='') privacy policy
-                        a(href='') how to order
-                        a(href='') faq
-                        a(href='') delivery policy
-                        a(href='') tack your order
-                        a(href='') contact us
-                        a(href='') terms of use
-                        a(href='') return & exchanges
-                a.w-full.my-20(href='https://lemkus.com' title='')
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") about us
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") privacy policy
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") how to order
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") faq
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") delivery policy
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") tack your order
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") contact us
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") terms of use
+                        a.border.border-transparent.py-1.rounded-full(href='' class="hover:border-black transition-all") return & exchanges
+                a.w-full.mb-20.mt-10(href='https://lemkus.com' title='')
                     svg(xmlns='http://www.w3.org/2000/svg' width='100%' viewBox='0 0 125.365 17.001' fill='white')
                         g#Small_Logo(transform='translate(-25 -19.5)')
                             path#Path_1073.cls-1(d='M5.791 1.779L0 18.125h16.209l1.524-4.492H8.368l3.893-11.854z' transform='translate(25 18.049)')
@@ -60,6 +65,27 @@ html(lang='en')
                     .credit
                         | © 2021 JACK LEMKUS - ALL RIGHTS RESERVED
                     .link.grid.gap-x-5.grid-cols-3
-                        a(href='#') instagram
-                        a(href='#') twitter
-                        a(href='#') facebook
+                        a.border.border-transparent.text-center.py-1.px-2.rounded-full(href='#' class="hover:border-black transition-all") instagram
+                        a.border.border-transparent.text-center.py-1.px-2.rounded-full(href='#' class="hover:border-black transition-all") twitter
+                        a.border.border-transparent.text-center.py-1.px-2.rounded-full(href='#' class="hover:border-black transition-all") facebook
+
+//- script.
+//-     function sivamtime() {
+//-         | now = new Date();
+//-         | datee = now.getDate()
+//-         | hour = now.getHours();
+//-         | min = now.getMinutes();
+//-         | sec = now.getSeconds();
+//-         | if (min <= 9) { min = "0" + min; }
+//-         | if (sec <= 9) { sec = "0" + sec; }
+//-         | if (hour > 12) { hour = hour - 12; add = "pm"; }
+//-         | else { hour = hour; add = "am"; }
+//-         | if (hour == 12) { add = "pm"; }
+//-         | time = hour + ":" + min + ":" + sec + " " + add;
+//-         | if (document.getElementById) { date.innerHTML = time; }
+//-         | else if (document.layers) { 
+//-         |   document.layers.date.document.write(time);
+//-         |   document.layers.date.document.close();
+//-         | }
+//-         | setTimeout("sivamtime()", 1000);
+//-     | }
