@@ -7,7 +7,7 @@ html(lang='en')
         title Launches | Lemkus
         link(rel='stylesheet' href='/css/tailwind.css')
         link(rel='stylesheet' href='/css/style.css')
-        script(src="/js/script.js") 
+        script(src="/js/script.js")
     body
         // Top Bar Nav
         nav.w-full.py-4(style='border-bottom: 1px solid black')
@@ -113,9 +113,16 @@ html(lang='en')
                             img.bg-contain.bg-center.border.border-black(src='../img/airmax.jpg')
                             p.uppercase.font-bold nsw icon gx hoodie
         //section
-
+        .w-full.h-96.flex.flex-col.items-center
+            .text-3xl.uppercase.mt-10 login
+            input(type="text", name="" placeholder="Email" class='w-4/12').mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-black.border-b.border-black.mt-10
+            input(type="password", name="" placeholder="Password" class='w-4/12').mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-black.border-b.border-black
+            button.p-2.border.border-dark.rounded-full.uppercase.bg-yellow-400.w-36.mt-5 sign in
+            p.uppercase.mt-5 don't have an account? 
+                a(href="/signUp").text-dark.underline SIGN UP
+            a(href="/forgot").text-dark.underline.mt-5 Forgot Password?  
         //footer
-        footer.w-full.bg-yellow-400.uppercase.text-sm.py-10.font-light
+        footer.w-full.bg-yellow-400.uppercase.text-sm.py-10.font-light.mt-44
             .mx-10.flex.flex-col.items-center.justify-between
                 .w-full.flex.justify-between
                     .join.flex.flex-col.font-bold.text-lg.w-80

@@ -21,11 +21,11 @@ html(lang='en')
                         li
                             a.px-4(class='hover:text-yellow-300' href='./launches') launches
                         li
-                            button.px-4.border.border-transparent.rounded-full.font-bold.uppercase(class='p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white') sneakers
+                            button.px-4.border.border-transparent.rounded-full.font-bold.uppercase(data-type="sneaker" class='p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white') sneakers
                         li
-                            button.px-4.border.border-transparent.rounded-full.font-bold.uppercase(class='p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white') apparel
+                            button.px-4.border.border-transparent.rounded-full.font-bold.uppercase(data-type="apparel" class='p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white') apparel
                 .flex.items-center.font-bold.text-sm.no-underline.pr-6
-                    a(href='#' class='hover:text-yellow-300' )
+                    a(href='/login' class='hover:text-yellow-300' )
                         | ACCOUNT
                     a.pl-6(href='#' class='hover:text-yellow-300' )
                         | WISHLIST (0)
@@ -34,6 +34,83 @@ html(lang='en')
                     a.pl-6(href='#' class='hover:text-yellow-300' )
                         | BAG (0)
         //content
+        #sneaker-drop.h-96.z-10.w-full.absolute.hidden.bg-white.shadow-lg.p-5
+            .grid.grid-flow-col.auto-cols-max.gap-24
+                div
+                    .text-3xl.font-bold COLLECTIONS
+                    .flex.flex-col.mt-5
+                        p.font-bold.uppercase(class="hover:text-yellow-400") all sneakers
+                        p.font-bold.uppercase(class="hover:text-yellow-400") mens
+                        p.font-bold.uppercase(class="hover:text-yellow-400") womens
+                        p.font-bold.uppercase(class="hover:text-yellow-400") grade school
+                div
+                    .text-3xl.font-bold BRANDS
+                    .flex.flex-col.mt-5
+                        p(class="hover:text-yellow-400") Nike
+                        p(class="hover:text-yellow-400") Air Jordan
+                        p(class="hover:text-yellow-400") Adidas
+                        p(class="hover:text-yellow-400") Converse
+                        p(class="hover:text-yellow-400") Reebok
+                        p(class="hover:text-yellow-400") New Balance
+                        p(class="hover:text-yellow-400") Puma
+                        p(class="hover:text-yellow-400") Crocs
+                div
+                    .text-3xl.uppercase.font-bold featured
+                    .grid.grid-flow-col.auto-cols-max.mt-5
+                        .card.w-72.mr-3
+                            img.bg-contain.bg-center.border.border-black(src='../img/blazer.png')
+                            p.uppercase.font-bold air max 90 qs
+                        .card.w-72.mr-3
+                            img.bg-contain.bg-center.border.border-black(src='../img/airmax.jpg')
+                            p.uppercase.font-bold nike blazer
+                        .card.w-72
+                            img.bg-contain.bg-center.border.border-black(src='../img/chuck.jpg')
+                            p.uppercase.font-bold chuck 70
+
+        #apparel-drop.h-96.z-10.w-full.absolute.hidden.bg-white.shadow-lg.p-5
+            .grid.grid-flow-col.auto-cols-max.gap-32
+                div
+                    .text-3xl.font-bold COLLECTIONS
+                    .flex.flex-col.mt-5
+                        p.font-bold.uppercase(class="hover:text-yellow-400") all apparel
+                        p.font-bold.uppercase(class="hover:text-yellow-400") just dropped
+                        p.font-bold.uppercase(class="hover:text-yellow-400") mens
+                        p.font-bold.uppercase(class="hover:text-yellow-400") womens
+                div
+                    .text-3xl.font-bold mens
+                    .flex.flex-col.mt-5
+                        p(class="hover:text-yellow-400") T-shirs
+                        p(class="hover:text-yellow-400") Hoodies
+                        p(class="hover:text-yellow-400") Sweatshirts
+                        p(class="hover:text-yellow-400") Jackets
+                        p(class="hover:text-yellow-400") Tracksuits
+                        p(class="hover:text-yellow-400") Tracksuit Pants
+                        p(class="hover:text-yellow-400") Shorts
+                div
+                    .text-3xl.font-bold womens
+                    .flex.flex-col.mt-5
+                        p(class="hover:text-yellow-400") T-shirs
+                        p(class="hover:text-yellow-400") Hoodies
+                        p(class="hover:text-yellow-400") Sweatshirts
+                        p(class="hover:text-yellow-400") Jackets
+                        p(class="hover:text-yellow-400") Vesta
+                        p(class="hover:text-yellow-400") Tracksuits
+                        p(class="hover:text-yellow-400") Tracksuit Pants
+                        p(class="hover:text-yellow-400") Pants
+                        p(class="hover:text-yellow-400") Shorts
+                        p(class="hover:text-yellow-400") Dresses/Skirts
+                        p(class="hover:text-yellow-400") Leggings
+                div
+                    .text-3xl.uppercase.font-bold featured
+                    .grid.grid-flow-col.auto-cols-max.mt-5
+                        .card.w-72.mr-3
+                            img.bg-contain.bg-center.border.border-black(src='../img/blazer.png')
+                            p.uppercase.font-bold air jordan psg tee
+                        .card.w-72.mr-3
+                            img.bg-contain.bg-center.border.border-black(src='../img/airmax.jpg')
+                            p.uppercase.font-bold nsw icon gx hoodie
+        //section
+
         section
             .flex
                 .flex.justify-center.items-center.border-2.border-black(style="width: 43.7rem; height: 53.5rem;") mind

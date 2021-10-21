@@ -38,18 +38,31 @@ function sivamtime() {
 }
 window.onload = sivamtime;
 
-function openDropdown(event, dropdownID) {
-  let element = event.target;
-  while (element.nodeName !== "BUTTON") {
-    element = element.parentNode;
-  }
-  var popper = Popper.createPopper(
-    element,
-    document.getElementById(dropdownID),
-    {
-      placement: "bottom-start",
+//dropdown
+
+document.addEventListener("click", (event) => {
+    drop(event.target.dataset.type)
+})
+
+let drop = (type) => {
+  let element1 = document.querySelector("#sneaker-drop");
+  let element2 = document.querySelector("#apparel-drop");
+  if (type === "sneaker") {
+    element2.style.display = "none";
+    if (element1.style.display === "block") {
+      element1.style.display = "none";
+    } else {
+      element1.style.display = "block";
     }
-  );
-  document.getElementById(dropdownID).classList.toggle("hidden");
-  document.getElementById(dropdownID).classList.toggle("block");
-}
+  } else if (type === "apparel") {
+    element1.style.display = "none";
+    if (element2.style.display === "block") {
+      element2.style.display = "none";
+    } else {
+      element2.style.display = "block";
+    }
+  }else{
+    element1.style.display = "none";
+    element2.style.display = "none";
+  }
+};
