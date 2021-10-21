@@ -6,35 +6,32 @@ html(lang='en')
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
         title Lemkus | Sneakers & Culture | Lemkus
         link(rel='stylesheet' href='/css/tailwind.css')
-        script(src="/js/script.js") 
-        style(type='text/css').
-            * {
-                transition: all 2s;
-            }
+        link(rel='stylesheet' href='/css/style.css')
+        script(src="/js/script.js")
     body
         // Top Bar Nav
         nav.w-full.py-4(style='border-bottom: 1px solid black')
             .mx-5.flex.flex-wrap.items-center.justify-between
                 .logo.font-bold
-                    a(href="/") 
+                    a(href="/")
                         h4.inline-block Thailand
                         span.ml-2#date
                 nav
-                    ul.flex.items-center.justify-between.font-bold.text-sm.uppercase.no-underline
+                    ul.flex.items-center.justify-between.font-bold.text-sm.uppercase.no-underline.gap-x-2
                         li
                             a.px-4(class='hover:text-yellow-300' href='./launches') launches
                         li
-                            a.px-4(class='hover:text-yellow-300') sneakers
+                            button.px-4.border.border-transparent.rounded-full.font-bold.uppercase(class='p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white') sneakers
                         li
-                            a.px-4(class='hover:text-yellow-300') apparel
+                            button.px-4.border.border-transparent.rounded-full.font-bold.uppercase(class='p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white') apparel
                 .flex.items-center.font-bold.text-sm.no-underline.pr-6
-                    a(href='#')
+                    a(href='#' class='hover:text-yellow-300' )
                         | ACCOUNT
-                    a.pl-6(href='#')
+                    a.pl-6(href='#' class='hover:text-yellow-300' )
                         | WISHLIST (0)
-                    a.pl-6(href='#')
+                    a.pl-6(href='#' class='hover:text-yellow-300' )
                         | SEARCH
-                    a.pl-6(href='#')
+                    a.pl-6(href='#' class='hover:text-yellow-300' )
                         | BAG (0)
         //content
         
