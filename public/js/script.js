@@ -38,12 +38,13 @@ function sivamtime() {
 }
 window.onload = sivamtime;
 
-//dropdown
-
+//check
 document.addEventListener("click", (event) => {
-    drop(event.target.dataset.type)
-})
+  modalWishlist(event.target.dataset.type);
+  drop(event.target.dataset.type);
+});
 
+//dropdown
 let drop = (type) => {
   let element1 = document.querySelector("#sneaker-drop");
   let element2 = document.querySelector("#apparel-drop");
@@ -61,9 +62,22 @@ let drop = (type) => {
     } else {
       element2.style.display = "block";
     }
-  }else{
+  } else {
     element1.style.display = "none";
     element2.style.display = "none";
   }
 };
 
+//modal
+let modalWishlist = (type) => {
+  let element = document.querySelector("#wishlist");
+  if (type === "modal") {
+    if (element.style.display === "block") {
+      element.style.display = "none";
+    } else {
+      element.style.display = "block";
+    }
+  } else {
+    element.style.display = "none";
+  }
+};

@@ -7,6 +7,7 @@ html(lang='en')
         title Launches | Lemkus
         link(rel='stylesheet' href='/css/tailwind.css')
         link(rel='stylesheet' href='/css/style.css')
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css")
         script(src="/js/script.js")
     body
         // Top Bar Nav
@@ -31,7 +32,7 @@ html(lang='en')
                 .flex.items-center.font-bold.text-sm.no-underline.pr-6
                     a(href='/login' class='hover:text-yellow-300' )
                         | ACCOUNT
-                    a.pl-6(href='#' class='hover:text-yellow-300' )
+                    a.pl-6(href='#' class='hover:text-yellow-300' data-type="modal")
                         | WISHLIST (0)
                     a.pl-6(href='#' class='hover:text-yellow-300' )
                         | SEARCH
@@ -115,19 +116,30 @@ html(lang='en')
         //section
         .w-full.h-96.flex.flex-col.items-center
             .text-3xl.uppercase.mt-10.dharma-bold create account
-            input(type="text", name="" placeholder="First Name" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black.mt-10
-            input(type="text", name="" placeholder="Last Name" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
-            input(type="email", name="" placeholder="Email Address" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
-            input(type="password", name="" placeholder="Password" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
+            input(type="text" name="" placeholder="First Name" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black.mt-10
+            input(type="text" name="" placeholder="Last Name" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
+            input(type="email" name="" placeholder="Email Address" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
+            input(type="password" name="" placeholder="Password" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
             button.p-2.border.border-dark.rounded-full.uppercase.bg-yellow-400.w-36.mt-5(onclick="register") sign up
             p.uppercase.mt-5.dharma-bold already have an account? 
                 a(href="/login").text-dark.underline login
             a(href="/forgot").text-dark.underline.mt-5 Forgot Password?
         //modal
-        .h-full.w-full.flex.items-center.border.border-dark.absolute.top-0(style="background-color: rgba(0, 0, 0,0.1)")
-            .border.border-black.bg-white.mx-auto(class="w-5/6 h-5/6")
-                .w-full.bg-black.h-10.
-                    .uppercase.text-white guest shpper 
+        #wishlist.hidden.h-full.w-full.flex.items-center.border.border-dark.absolute.top-0(style="background-color: rgba(0, 0, 0,0.1)")
+            .border.border-black.bg-white.mx-auto(class="w-5/6 h-5/6").flex.flex-col.items-center
+                .w-full.bg-black.h-10.flex.items-center.justify-end.px-5
+                    i(class="ri-user-fill text-white text-xl")
+                    .uppercase.text-white.inline-block.mx-5 guest shpper
+                    button(data-type="modal")
+                        i(class="ri-close-line text-white text-xl")
+                .mt-10.flex.justify-between(class="w-11/12").border-b.border-black.pb-5.items-center
+                    button
+                        .text-2xl.uppercase my wishlist
+                    i(class="ri-more-2-line text-2xl")
+                .text-xl.uppercase.mt-20 love it? add to my wishlist
+                .p.my-10(class="w-6/12") My Wishlist allows you to keep track of all of your favorites and shopping activity whether you're on your computer, phone, or tablet. You won't have to waste time searching all over again for that item you loved on your phone the other day - it's all here in one place!
+                button.p-2.px-5.border.border-dark.rounded-full.uppercase.bg-yellow-400 continue shopping
+
         //footer
         footer.w-full.bg-yellow-400.uppercase.text-sm.py-10.font-light.mt-44
             .mx-10.flex.flex-col.items-center.justify-between
