@@ -66,3 +66,4 @@ let drop = (type) => {
     element2.style.display = "none";
   }
 };
+

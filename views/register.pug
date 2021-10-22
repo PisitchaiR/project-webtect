@@ -114,13 +114,20 @@ html(lang='en')
                             p.uppercase.font-bold nsw icon gx hoodie
         //section
         .w-full.h-96.flex.flex-col.items-center
-            .text-3xl.uppercase.mt-10.dharma-bold login
-            input(type="email", name="" placeholder="Email" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black.mt-10
+            .text-3xl.uppercase.mt-10.dharma-bold create account
+            input(type="text", name="" placeholder="First Name" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black.mt-10
+            input(type="text", name="" placeholder="Last Name" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
+            input(type="email", name="" placeholder="Email Address" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
             input(type="password", name="" placeholder="Password" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
-            button.p-2.border.border-dark.rounded-full.uppercase.bg-yellow-400.w-36.mt-5 sign in
-            p.uppercase.mt-5.dharma-bold don't have an account?
-                a(href="/register").text-dark.underline SIGN UP
+            button.p-2.border.border-dark.rounded-full.uppercase.bg-yellow-400.w-36.mt-5(onclick="register") sign up
+            p.uppercase.mt-5.dharma-bold already have an account? 
+                a(href="/login").text-dark.underline login
             a(href="/forgot").text-dark.underline.mt-5 Forgot Password?
+        //modal
+        .h-full.w-full.flex.items-center.border.border-dark.absolute.top-0(style="background-color: rgba(0, 0, 0,0.1)")
+            .border.border-black.bg-white.mx-auto(class="w-5/6 h-5/6")
+                .w-full.bg-black.h-10.
+                    .uppercase.text-white guest shpper 
         //footer
         footer.w-full.bg-yellow-400.uppercase.text-sm.py-10.font-light.mt-44
             .mx-10.flex.flex-col.items-center.justify-between
