@@ -6,19 +6,3 @@
 body{
     background-color: #FDFBF5;
 }
-
-@font-face {
-    font-family: dharma-regular;
-    src: url(/public/font/DharmaGothicE_Regular_R.otf);
-}
-@font-face {
-    font-family: dharma-bold;
-    src: url(/public/font/DharmaGothicE_Heavy_R.otf);
-}
-
-.dharma{
-    font-family: dharma-regular;
-}
-.dharma-bold{
-    font-family: dharma-bold;
-}

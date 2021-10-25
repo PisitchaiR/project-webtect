@@ -9,6 +9,10 @@ html(lang='en')
         link(rel='stylesheet' href='/css/style.css')
         link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css")
         script(src="/js/script.js")
+        style.
+            .btn-yellow{
+                @apply  p-2 px-5 border border-dark rounded-full uppercase bg-yellow-400;
+            }
     body
         // Top Bar Nav
         nav.w-full.py-4(style='border-bottom: 1px solid black')
@@ -24,13 +28,13 @@ html(lang='en')
                 nav
                     ul.flex.items-center.justify-between.font-bold.text-sm.uppercase.no-underline.gap-x-2
                         li
-                            a.px-4(href='/launches') launches
+                            a.px-4.border.border-black.rounded-full.p-1(href='/launches') launches
                         li
                             button.px-4.border.border-transparent.rounded-full.font-bold.uppercase(data-type="sneaker" class='p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white') sneakers
                         li
                             button.px-4.border.border-transparent.rounded-full.font-bold.uppercase(data-type="apparel" class='p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white') apparel
                 .flex.items-center.font-bold.text-sm.no-underline.pr-6
-                    a.px-4.border.border-black.rounded-full.p-1(href='/login' class='hover:text-yellow-300' )
+                    a(href='/login' class='hover:text-yellow-300' )
                         | ACCOUNT
                     a.pl-6(href='#' class='hover:text-yellow-300' data-type="modal")
                         | WISHLIST (0)
@@ -114,18 +118,13 @@ html(lang='en')
                             img.bg-contain.bg-center.border.border-black(src='../img/airmax.jpg')
                             p.uppercase.font-bold nsw icon gx hoodie
         //section
-        .w-full.h-96.flex.flex-col.items-center
-            .text-3xl.uppercase.mt-10.dharma-bold login
-            input(type="email" name="" placeholder="Email" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black.mt-10
-            input(type="password" name="" placeholder="Password" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
-            button.p-2.border.border-dark.rounded-full.uppercase.bg-yellow-400.w-36.mt-5 sign in
-            p.uppercase.mt-5.dharma-bold don't have an account?
-                a(href="/register").text-dark.underline SIGN UP
-            button(data-type="forget").text-dark.underline.mt-5 Forgot Password?
-            #forget.w-full.hidden
-                div.flex.flex-col.w-full.items-center
-                    input(type="email" name="" placeholder="Email Address" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black.mt-10
-                    button.p-2.border.border-dark.rounded-full.uppercase.bg-yellow-400.w-36.mt-5 submit
+        .h-96.px-10
+            .text-3xl.uppercase.mt-10 looking for something?
+            .input-box.border-b.border-black.flex.justify-between.w-full.mt-5.pb-2
+                div.flex.align-center.w-full
+                    i(class="ri-search-line").text-2xl
+                    input.placeholder-black.w-full.mx-5(type="text" placeholder="Search by product, category or keyword" required class="focus:outline-none focus:shadow-non")
+                i(class="ri-close-circle-line").text-2xl
         //modal
         #wishlist.hidden.h-full.w-full.flex.items-center.border.border-dark.absolute.top-0(style="background-color: rgba(0, 0, 0,0.1)")
             .border.border-black.bg-white.mx-auto(class="w-5/6 h-5/6").flex.flex-col.items-center
@@ -141,8 +140,11 @@ html(lang='en')
                 .text-xl.uppercase.mt-20 love it? add to my wishlist
                 .p.my-10(class="w-6/12") My Wishlist allows you to keep track of all of your favorites and shopping activity whether you're on your computer, phone, or tablet. You won't have to waste time searching all over again for that item you loved on your phone the other day - it's all here in one place!
                 button.p-2.px-5.border.border-dark.rounded-full.uppercase.bg-yellow-400 continue shopping
+        //slid
+        .border-l.border-black.bg-white.h-full.absolute.right-0.top-0(class="w-7/12")
+
         //footer
-        footer.w-full.bg-yellow-400.uppercase.text-sm.py-10.font-light.mt-44
+        footer.w-full.bg-yellow-400.uppercase.text-sm.py-10.font-light
             .mx-10.flex.flex-col.items-center.justify-between
                 .w-full.flex.justify-between
                     .join.flex.flex-col.font-bold.text-lg.w-80

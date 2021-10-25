@@ -34,7 +34,7 @@ html(lang='en')
                         | ACCOUNT
                     a.pl-6(href='#' class='hover:text-yellow-300' data-type="modal")
                         | WISHLIST (0)
-                    a.pl-6(href='#' class='hover:text-yellow-300' )
+                    a.pl-6(href='/search' class='hover:text-yellow-300' )
                         | SEARCH
                     a.pl-6(href='#' class='hover:text-yellow-300' )
                         | BAG (0)
@@ -114,7 +114,7 @@ html(lang='en')
                             img.bg-contain.bg-center.border.border-black(src='../img/airmax.jpg')
                             p.uppercase.font-bold nsw icon gx hoodie
         //section
-        .w-full.h-96.flex.flex-col.items-center
+        .w-full.h-full.flex.flex-col.items-center
             .text-3xl.uppercase.mt-10.dharma-bold create account
             input(type="text" name="" placeholder="First Name" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black.mt-10
             input(type="text" name="" placeholder="Last Name" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black
@@ -123,7 +123,11 @@ html(lang='en')
             button.p-2.border.border-dark.rounded-full.uppercase.bg-yellow-400.w-36.mt-5(onclick="register") sign up
             p.uppercase.mt-5.dharma-bold already have an account? 
                 a(href="/login").text-dark.underline login
-            a(href="/forgot").text-dark.underline.mt-5 Forgot Password?
+            button(data-type="forget").text-dark.underline.mt-5 Forgot Password?
+            #forget.w-full.hidden
+                div.flex.flex-col.w-full.items-center
+                    input(type="email" name="" placeholder="Email Address" class='w-4/12' required).mt-2.appearance-none.py-2.text-black.mb-3.leading-tight.placeholder-gray-600.border-b.border-black.mt-10
+                    button.p-2.border.border-dark.rounded-full.uppercase.bg-yellow-400.w-36.mt-5 submit
         //modal
         #wishlist.hidden.h-full.w-full.flex.items-center.border.border-dark.absolute.top-0(style="background-color: rgba(0, 0, 0,0.1)")
             .border.border-black.bg-white.mx-auto(class="w-5/6 h-5/6").flex.flex-col.items-center

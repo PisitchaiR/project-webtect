@@ -16,6 +16,7 @@ app.use("/", indexRouter);
 app.use("/launches", indexRouter);
 app.use("/login", indexRouter);
 app.use("/register", indexRouter);
+app.use("/search", indexRouter);
 
 app.listen(3000, () => {
   console.log("web run on http://localhost:3000");

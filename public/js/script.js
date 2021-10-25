@@ -42,6 +42,7 @@ window.onload = sivamtime;
 document.addEventListener("click", (event) => {
   modalWishlist(event.target.dataset.type);
   drop(event.target.dataset.type);
+  functionForget(event.target.dataset.type)
 });
 
 //dropdown
@@ -81,3 +82,17 @@ let modalWishlist = (type) => {
     element.style.display = "none";
   }
 };
+
+//forget
+let functionForget = (type) => {
+  let element = document.querySelector("#forget");
+  if (type === "forget") {
+    if (element.style.display === "block") {
+      element.style.display = "none";
+    } else {
+      element.style.display = "block";
+    }
+  } else {
+    element.style.display = "none";
+  }
+}
