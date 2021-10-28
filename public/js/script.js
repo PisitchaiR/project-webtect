@@ -40,9 +40,14 @@ window.onload = sivamtime;
 
 //check
 document.addEventListener("click", (event) => {
-  modalWishlist(event.target.dataset.type);
-  drop(event.target.dataset.type);
-  functionForget(event.target.dataset.type)
+  let value = event.target.dataset.type;
+  const condition = {
+    "sneaker" : modalWishlist(value),
+    "modal" : drop(value),
+    "forget" : functionForget(value),
+    "bag" : bag(value),
+  }
+  return condition[value]
 });
 
 //dropdown
@@ -87,6 +92,18 @@ let modalWishlist = (type) => {
 let functionForget = (type) => {
   let element = document.querySelector("#forget");
   if (type === "forget") {
+    if (element.style.display === "block") {
+      element.style.display = "none";
+    } else {
+      element.style.display = "block";
+    }
+  }
+}
+
+//slidbar
+let bag = (type) => {
+  let element = document.querySelector("#slidbar");
+  if (type === "bag") {
     if (element.style.display === "block") {
       element.style.display = "none";
     } else {

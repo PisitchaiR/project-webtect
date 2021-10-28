@@ -36,7 +36,7 @@ html(lang='en')
                         | WISHLIST (0)
                     a.pl-6(href='/search' class='hover:text-yellow-300' )
                         | SEARCH
-                    a.pl-6(href='#' class='hover:text-yellow-300' )
+                    a.pl-6(href='#' class='hover:text-yellow-300' data-type="bag")
                         | BAG (0)
         #sneaker-drop.h-96.z-10.w-full.absolute.hidden.bg-white.shadow-lg.p-5
             .grid.grid-flow-col.auto-cols-max.gap-24
@@ -141,6 +141,17 @@ html(lang='en')
                 .text-xl.uppercase.mt-20 love it? add to my wishlist
                 .p.my-10(class="w-6/12") My Wishlist allows you to keep track of all of your favorites and shopping activity whether you're on your computer, phone, or tablet. You won't have to waste time searching all over again for that item you loved on your phone the other day - it's all here in one place!
                 button.p-2.px-5.border.border-dark.rounded-full.uppercase.bg-yellow-400 continue shopping
+        //slide
+        #slidbar.hidden.h-full.w-full.flex.items-center.border.border-dark.absolute.top-0(style="background-color: rgba(0, 0, 0,0.3)")
+            .border-l.border-black.bg-white.h-full.absolute.right-0.top-0(class="w-8/12").flex
+                .border-r.border-black(class="w-2/6").h-full
+                    .text-3xl.uppercase.text-center.border-b.border-black.p-4 anything else?
+                div(class="w-4/6").px-3
+                    .flex.justify-between.p-4
+                        .uppercase.text-3xl your bag
+                        button(class="hover:underline hover:text-gray-500" data-type="bag") close
+                    .p-5.text-xl Your bag is empty
+
         //footer
         footer.w-full.bg-yellow-400.uppercase.text-sm.py-10.font-light.mt-44
             .mx-10.flex.flex-col.items-center.justify-between
