@@ -4,4 +4,6 @@
 - [] product example page
 - [] resposive web
 
-ช่วย list ด้วยนะว่าเหลืออะไร
+## ช่วย list ด้วยนะว่าเหลืออะไร
+ - [] SNEAKERS ทำ 3 Bands 2 เพศ {Nike, Air Jodan, Adidas}
+ - [] APPAREL  ทำ 3 อย่าง 2 เพศ {T-shirts, Hoodies, Sweatshrits}
