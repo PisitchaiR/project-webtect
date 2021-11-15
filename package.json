@@ -10,7 +10,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "owl.carousel": "^2.3.4",
         "postcss-cli": "^9.0.2"
     },
     "devDependencies": {
