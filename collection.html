@@ -169,50 +169,31 @@
                         <div class="text-3xl">FILTER BY</div>
                         <button class="underline uppercase">clear all</button>
                     </div>
-                    <div x-data="{ open: false }" class="flex flex-col border-b border-black pb-4 mt-5">
-                        <div class="flex justify-between">
-                            <div class="text-xl">BRAND</div>
-                            <button @click="open = ! open" :aria-expanded="show ? 'true' : 'false'">
-                                <i class="ri-arrow-up-s-line"></i>
+                    <!-- DROP DOWN text -->
+                    <div @click.away="open = false" class="relative flex flex-col  border-b border-black pb-4 mt-5"
+                        x-data="{ open: false }">
+                        <div class="flex justify-between items-center">
+                            <button @click="open = !open" class="text-xl w-full flex justify-between items-center">
+                                <p>BRAND</p>
+                                <i :class="{'rotate-180': open, 'rotate-0': !open}"
+                                    class="ri-arrow-drop-down-line text-3xl transition-transform duration-200 transform rotate-180"></i>
                             </button>
                         </div>
-                        <div x-show="open" @click.outside="open = false" class="mt-5">Contents...</div>
-                    </div>
-                    <div @click.away="open = false" class="relative" x-data="{ open: false }">
-                        <button @click="open = !open"
-                            class="flex flex-row items-center justify-between w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:block hover:text-gray-900">
-                            <span>Dropdown</span>
-                        </button>
-                        <i class="ri-arrow-up-s-line inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1 rotate-180":class="{'rotate-180': open, 'rotate-0': !open}"></i>
-                        <svg fill="currentColor" viewBox="0 0 20 20"
-                            :class="{'rotate-180': open, 'rotate-0': !open}"
-                            class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1 rotate-180">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd">
-                            </path>
-                        </svg>
-                    </div>
-                    <div x-data="{ open: false }" class="flex flex-col border-b border-black pb-4 mt-5">
-                        <div class="flex justify-between">
-                            <div class="text-xl">BRAND</div>
-                            <button @click="open = ! open"><i class="ri-arrow-up-s-line"></i></button>
+                        <div x-show="open" class="w-full" x-transition:enter="transition ease-out duration-100"
+                            x-transition:enter-start="transform opacity-0 scale-95"
+                            x-transition:enter-end="transform opacity-100 scale-100"
+                            x-transition:leave="transition ease-in duration-75"
+                            x-transition:leave-start="transform opacity-100 scale-100"
+                            x-transition:leave-end="transform opacity-0 scale-95">
+                            <div class="py-2">
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Adidas</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Air Jordan</label><br>
+                                <input type="radio" id="age3" name="age" value="100">
+                                <label for="age3">Nike</label><br>
+                            </div>
                         </div>
-                        <div x-show="open" @click.outside="open = false" class="mt-5">Contents...</div>
-                    </div>
-                    <div x-data="{ open: false }" class="flex flex-col border-b border-black pb-4 mt-5">
-                        <div class="flex justify-between">
-                            <div class="text-xl">BRAND</div>
-                            <button @click="open = ! open"><i class="ri-arrow-up-s-line"></i></button>
-                        </div>
-                        <div x-show="open" @click.outside="open = false" class="mt-5">Contents...</div>
-                    </div>
-                    <div x-data="{ open: false }" class="flex flex-col border-b border-black pb-4 mt-5">
-                        <div class="flex justify-between">
-                            <div class="text-xl">BRAND</div>
-                            <button @click="open = ! open"><i class="ri-arrow-up-s-line"></i></button>
-                        </div>
-                        <div x-show="open" @click.outside="open = false" class="mt-5">Contents...</div>
                     </div>
                 </div>
                 <div class="grid grid-cols-2 w-8/12">
