@@ -1,618 +1,107 @@
 {
-    "airjordan": [
-        {
-            "id": "1",
-            "genders": "men",
-            "name": "AIR JORDAN XXXVI",
-            "price": "3,499.00",
-            "size": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9480_61235ed927d382.43696003_LEMKUS-AIRJORDAN_CZ2650-004-1_85e1d5cd-1227-4943-9e99-b3ccc0006408.png?v=1631256492",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9480_61235ee17cea28.23760473_LEMKUS-AIRJORDAN_CZ2650-004-2_f37a1120-b83b-482f-b21f-232b1ef5e8ac.png?v=1631256492",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9480_61235eece296e1.72663343_LEMKUS-AIRJORDAN_CZ2650-004-3_cf8eca78-a015-44ef-a228-1c36b7518836.png?v=1631256492",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9480_61235f05850cc5.95932632_LEMKUS-AIRJORDAN_CZ2650-004-4_5063e614-ada7-428e-b6a7-38b8cc54b1c4.png?v=1631256492",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9480_61235f7bbfa9e3.83390555_LEMKUS-AIRJORDAN_CZ2650-004-5_0aa11533-321b-47ec-abe1-d417b9b7168d.png?v=1631256492",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9480_61235fa5282d65.05333419_LEMKUS-AIRJORDAN_CZ2650-004-6_5c9ffd1e-2052-4a38-bf7d-f1ceb2f95be8.png?v=1631256492",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9480_61235fc258d6e7.96025377_LEMKUS-AIRJORDAN_CZ2650-004-7_cbc6d35a-e390-42f7-ad61-2f763eac3476.png?v=1631256492",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9480_61235fe1bd5994.32053756_LEMKUS-AIRJORDAN_CZ2650-004-8_a4745867-f9c8-4eb4-9275-10e766c3673a.png?v=1631256492"
-            ],
-            "product": "CZ2650-0046",
-            "details": "Since 1985, Jordan Brand has always done things that have never been seen before. Almost forty years later, Jordan continues to bring new light to the game with international athletes that are redefining the blueprint once again. Beaming with talent, it’s about the shine within that makes the new faces of the game radiant on the court. Drawing inspiration from ultraviolet rays, the Air Jordan XXXVI 'First Light' (CZ2650-004/BLACK/HYPER VIOLET-WHITE-BRIGHT MANGO) celebrates the future of Jordan, the ones who will brighten the way for the next generation of global superstars all across the world.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "2",
-            "genders": "men",
-            "name": "JOEDAN MA2",
-            "price": "2,399.00",
-            "size": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9461_61237949baed51.86497085_LEMKUS-AIRJORDAN_CV8122-106-1_a90ce88b-58f5-4bf8-be1b-dae9b4dc7194.png?v=16297157160",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9461_61237952096bf2.84602974_LEMKUS-AIRJORDAN_CV8122-106-2_c155d840-f570-4b92-ac5a-47fb1da345b4.png?v=1629715716",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9461_6123795a357033.00442587_LEMKUS-AIRJORDAN_CV8122-106-3_463f4202-4503-49b3-a520-cf716422b068.png?v=1629715716",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9461_612379634e7ec9.19891386_LEMKUS-AIRJORDAN_CV8122-106-4.png?v=1629715716",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9461_6123796ce13361.61625785_LEMKUS-AIRJORDAN_CV8122-106-5.png?v=1629715716",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9461_61237976ac7900.72886646_LEMKUS-AIRJORDAN_CV8122-106-6.png?v=1629715716",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9461_612379878f83d0.04021378_LEMKUS-AIRJORDAN_CV8122-106-7.png?v=1629715716"
-            ],
-            "product": "CW5992-10603",
-            "details": "Shatter the sneaker status quo in the Jordan MA2(CV8122-106/WHITE/BLACK-UNIVERSITY RED-LT SMOKE GREY). Made with a mix of suede, full-grain leather and a variety of textiles, it's got unconventional labels, technical micro-graphics and raw foam edges for a balance of new and classic. Easy to get on and off, it wears with just about anything.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "3",
-            "genders": "men",
-            "name": "JOEDAN MAX AURA3",
-            "price": "2,199.00",
-            "size": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9496_61236aee8ba8a3.21052808_LEMKUS-AIRJORDAN_CZ4167-600-1.png?v=1632121430",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9496_61236afc6966a6.76524126_LEMKUS-AIRJORDAN_CZ4167-600-2.png?v=1632121430",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9496_61236b0605b822.80815882_LEMKUS-AIRJORDAN_CZ4167-600-3.png?v=1632121430",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9496_61236b0dc6be02.01992842_LEMKUS-AIRJORDAN_CZ4167-600-4.png?v=1632121430",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9496_61236b187cf715.93306171_LEMKUS-AIRJORDAN_CZ4167-600-5.png?v=1632121430",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9496_61236b21974712.72973417_LEMKUS-AIRJORDAN_CZ4167-600-6.png?v=1632121430",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9496_61236b2c044795.83406756_LEMKUS-AIRJORDAN_CZ4167-600-7.png?v=1632121430",
-                ""
-            ],
-            "product": "CV8122-1066",
-            "details": "Shatter the sneaker status quo in the Jordan MA2(CV8122-106/WHITE/BLACK-UNIVERSITY RED-LT SMOKE GREY). Made with a mix of suede, full-grain leather and a variety of textiles, it's got unconventional labels, technical micro-graphics and raw foam edges for a balance of new and classic. Easy to get on and off, it wears with just about anything.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "4",
-            "genders": "men",
-            "name": "JOEDAN 1 MID [PS]",
-            "price": "1,199.00",
-            "size": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9398_611f6f65c57bb4.12617588_LEMKUS-AIRJORDAN_640734-140-1.png?v=1630308758",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9398_611f6f6d8afcc2.01401867_LEMKUS-AIRJORDAN_640734-140-2.png?v=1630308758",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9398_611f6f75965a44.50793519_LEMKUS-AIRJORDAN_640734-140-3.png?v=1630308758",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9398_611f6f83dd6c65.38270730_LEMKUS-AIRJORDAN_640734-140-4.png?v=1630308758",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9398_611f6f8e8476c1.89860497_LEMKUS-AIRJORDAN_640734-140-5.png?v=1630308758",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9398_611f6f97e87b30.21804566_LEMKUS-AIRJORDAN_640734-140-6.png?v=1630308758",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9398_611f6f9fca1460.66927189_LEMKUS-AIRJORDAN_640734-140-7.png?v=1630308758"
-            ],
-            "product": "640734-14010",
-            "details": "Shatter the sneaker status quo in the Jordan MA2(CV8122-106/WHITE/BLACK-UNIVERSITY RED-LT SMOKE GREY). Made with a mix of suede, full-grain leather and a variety of textiles, it's got unconventional labels, technical micro-graphics and raw foam edges for a balance of new and classic. Easy to get on and off, it wears with just about anything.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "5",
-            "genders": "women",
-            "name": "JORDAN MA2 [GS]",
-            "price": "1,899.00",
-            "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126495f89e641.22526526_LEMKUS-AIRJORDAN_CW6594-061-1.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_612649675244e3.32770527_LEMKUS-AIRJORDAN_CW6594-061-2.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126496eae0166.07213581_LEMKUS-AIRJORDAN_CW6594-061-3.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_61264977529157.32482579_LEMKUS-AIRJORDAN_CW6594-061-4.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_612649816f9727.35998642_LEMKUS-AIRJORDAN_CW6594-061-5.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126498adecae6.61702044_LEMKUS-AIRJORDAN_CW6594-061-6.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_61264998481170.61051764_LEMKUS-AIRJORDAN_CW6594-061-7.png?v=1629899313"
-            ],
-            "product": "CW6594-0614",
-            "details": "The all-new Jordan MA2(CW6594-061/BLACK/WHITE-VERY BERRY) makes plays on the street with wildly diverse materials. Varied designs create a look that captures a look of Jordan heritage while forging a fresh, new identity that stands on its own.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "6",
-            "genders": "women",
-            "name": "AIR JORDAN 2 RETRO",
-            "price": "3,099.00",
-            "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5094_612cb0f0242952.10889881_LEMKUS-AIRJORDAN_CT6244-600-1.png?v=16303196110",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5094_612cb0f9448367.42335518_LEMKUS-AIRJORDAN_CT6244-600-2.png?v=1630319611",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5094_612cb1007b9010.03049578_LEMKUS-AIRJORDAN_CT6244-600-3.png?v=1630319611",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5094_612cb1083771d9.02469021_LEMKUS-AIRJORDAN_CT6244-600-4.png?v=1630319611",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5094_612cb10f939b59.40235130_LEMKUS-AIRJORDAN_CT6244-600-6.png?v=1630319611",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5094_612cb11800b953.65996760_LEMKUS-AIRJORDAN_CT6244-600-7.png?v=1630319611",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5094_612cb11fa8e4a0.69707663_LEMKUS-AIRJORDAN_CT6244-600-8.png?v=1630319611"
-            ],
-            "product": "CT6244-60003",
-            "details": "The Women’s Air Jordan 2 Retro 'Rivals' takes on a colour scheme that recalls the uniform colours of MJ's various rival teams. The retro silhouette carries a leather upper finished in University Red, complete with faux lizard skin paneling and sleek lines outlined in Court Purple. Contrasting black hits appear on the midsole and heel. Now Available Online and In-store at LEMKUS.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "7",
-            "genders": "women",
-            "name": "JORDAN MA2 (W)",
-            "price": "2,399.00",
-            "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126495f89e641.22526526_LEMKUS-AIRJORDAN_CW6594-061-1.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_612649675244e3.32770527_LEMKUS-AIRJORDAN_CW6594-061-2.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126496eae0166.07213581_LEMKUS-AIRJORDAN_CW6594-061-3.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_61264977529157.32482579_LEMKUS-AIRJORDAN_CW6594-061-4.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_612649816f9727.35998642_LEMKUS-AIRJORDAN_CW6594-061-5.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126498adecae6.61702044_LEMKUS-AIRJORDAN_CW6594-061-6.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_61264998481170.61051764_LEMKUS-AIRJORDAN_CW6594-061-7.png?v=1629899313"
-            ],
-            "product": " CW5992-10603",
-            "details": "The all-new Jordan MA2(CW6594-061/BLACK/WHITE-VERY BERRY) makes plays on the street with wildly diverse materials. Varied designs create a look that captures a look of Jordan heritage while forging a fresh, new identity that stands on its own.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "8",
-            "genders": "women",
-            "name": "JORDAN MA2 [GS]",
-            "price": "1,899.00",
-            "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126495f89e641.22526526_LEMKUS-AIRJORDAN_CW6594-061-1.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_612649675244e3.32770527_LEMKUS-AIRJORDAN_CW6594-061-2.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126496eae0166.07213581_LEMKUS-AIRJORDAN_CW6594-061-3.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_61264977529157.32482579_LEMKUS-AIRJORDAN_CW6594-061-4.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_612649816f9727.35998642_LEMKUS-AIRJORDAN_CW6594-061-5.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_6126498adecae6.61702044_LEMKUS-AIRJORDAN_CW6594-061-6.png?v=1629899313",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8659_61264998481170.61051764_LEMKUS-AIRJORDAN_CW6594-061-7.png?v=1629899313"
-            ],
-            "product": "CW6594-0614",
-            "details": "The all-new Jordan MA2(CW6594-061/BLACK/WHITE-VERY BERRY) makes plays on the street with wildly diverse materials. Varied designs create a look that captures a look of Jordan heritage while forging a fresh, new identity that stands on its own.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        }
-    ],
-    "adidas": [
-        {
-            "id": "1",
-            "genders": "men",
-            "name": "ZX10000",
-            "price": "2,399.00",
-            "size": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10010_6136086f3d3346.69237808_LEMKUS-ADIDAS_GZ7724-1.png?v=1630931572",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10010_613608791a7732.63490174_LEMKUS-ADIDAS_GZ7724-2.png?v=1630931572",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10010_6136088073deb8.91032992_LEMKUS-ADIDAS_GZ7724-3.png?v=1630931572",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10010_61360888c43ba7.92373072_LEMKUS-ADIDAS_GZ7724-4.png?v=1630931572",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10010_61360891d4ce92.18019592_LEMKUS-ADIDAS_GZ7724-5.png?v=1630931572",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10010_613608998edd73.72449725_LEMKUS-ADIDAS_GZ7724-6.png?v=1630931572"
-            ],
-            "product": "GZ77246",
-            "details": "Nothing is as simple as it looks at first glance. Take these adidas ZX 10,000 Shoes, for instance. They embrace layered complexity and then exaggerate it with a textile upper, synthetic suede overlays and bursts of colors. It all rides on a rubber outsole, so every step on your daily adventure sticks.(GZ7724/Grey Five/Sonic Fuchsia/Semi Solar Slime)",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "2",
-            "genders": "men",
-            "name": "FORUM MID",
-            "price": "2,099.00",
-            "size": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9045_611e2773330dc0.94574835_LEMKUS-ADIDAS_H01679-1_ea273278-c421-4dff-843e-607b29d2c045.png?v=1629367348",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9045_611e277c061328.14878524_LEMKUS-ADIDAS_H01679-2_a1c8de6f-2633-434b-985f-62110a21d57e.png?v=1629367348",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9045_611e279a325157.02704511_LEMKUS-ADIDAS_H01679-3_ddcca646-cce2-49c3-afe2-1f43f0c19b89.png?v=1629367348",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9045_611e27a44691d6.77511365_LEMKUS-ADIDAS_H01679-4_89ffbeb2-4f6d-4067-a2fc-4d28e436932d.png?v=1629367348",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9045_611e27b1b69997.88664171_LEMKUS-ADIDAS_H01679-5_72ca9a2f-3418-4cd0-852f-54d4b481bd75.png?v=1629367348",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9045_611e27c5b5bf25.19143182_LEMKUS-ADIDAS_H01679-6_d58e630a-dba5-4849-8fc7-e9cd60b8493f.png?v=1629367348",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9045_611e2812eff5f3.99186046_LEMKUS-ADIDAS_H01679-7_30ccb774-8b65-45b6-b869-7cdbd93a7c5f.png?v=1629367348"
-            ],
-            "product": "H016796",
-            "details": "Can you hear it? That's the energy of the stands. Lace up in these adidas Forum Mid Shoes and bring B-ball attitude with you wherever you step. Based on the iconic silhouette from '84, this version updates the classic with an airy mesh and leather upper and sleek details inspired by retro basketball gear. The iconic ankle strap remains, so you can wear this pair just like they did back in the day.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "3",
-            "genders": "men",
-            "name": "FORUM LOW",
-            "price": "1,599.00",
-            "size": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8999_611a682d9a1ac7.68250208_LEMKUS-ADIDAS_GZ9112-1.png?v=1629120802",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8999_611a6835eef2d2.73512491_LEMKUS-ADIDAS_GZ9112-2.png?v=1629120802",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8999_611a6840734605.28215819_LEMKUS-ADIDAS_GZ9112-3.png?v=1629120802",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8999_611a6848f16f32.04067938_LEMKUS-ADIDAS_GZ9112-4.png?v=1629120802",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8999_611a68518ca587.97168388_LEMKUS-ADIDAS_GZ9112-5.png?v=1629120802",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8999_611a685d34ea48.52333175_LEMKUS-ADIDAS_GZ9112-6.png?v=1629120802",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8999_611a687aeae590.48643170_LEMKUS-ADIDAS_GZ9112-7.png?v=1629120802"
-            ],
-            "product": "GZ91126",
-            "details": "Your passion, perspective and ideas are all part of what makes you unique. As you find your own creativity and self-expression, these adidas shoes weave primary and pastel hues into every stride. When you share your voice with others, you create opportunities to strengthen your community. The Trefoil serves as a reminder of the power of coming together. This product is made with recycled content as part of our ambition to end plastic waste. 20% of pieces used to make the upper are made with minimum 50% recycled content",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "4",
-            "genders": "men",
-            "name": "FORUM LOW",
-            "price": "1,599.00",
-            "size": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7033_60f152b462a673.12472594_LEMKUS-ADIDAS_FY7756_1.png?v=1628799845",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7033_60f152bd5b1a56.60039706_LEMKUS-ADIDAS_FY7756_7.png?v=1628799845",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7033_60f152ca69e618.43334373_LEMKUS-ADIDAS_FY7756_6.png?v=1628799846",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7033_60f152d5123779.18634972_LEMKUS-ADIDAS_FY7756_8.png?v=1628799846",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7033_60f152e5ca8366.26750338_LEMKUS-ADIDAS_FY7756_5.png?v=1628799846"
-            ],
-            "product": "FY775606",
-            "details": "The adidas Forum (FY7756-Cloud White/Royal Blue). hit the scene in '84 and gained major love on both the hardwood and in the music biz. the explosive hardwood energy and the iconic removable strap ankle design, distilled into a low top version meant for the streets. Now Available Online and In-store at Jack Lemkus.  ",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "5",
-            "genders": "women",
-            "name": "FORUM LOW (W)",
-            "price": "1,799.00",
-            "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7042_60f1478da7e707.55295612_LEMKUS-ADIDAS_G58030_1_009178f2-7f94-48f4-b8fa-b7273d382940.png?v=1628804050",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7042_60f1479e1868f0.91931467_LEMKUS-ADIDAS_G58030_5_b9ac1deb-dd1e-404f-ab39-520bcd5636db.png?v=1628804050",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7042_60f147a5a5af75.33419835_LEMKUS-ADIDAS_G58030_3_df206654-167f-41b6-9aff-136f7c3b676e.png?v=1628804050",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7042_60f147b5b7fa28.92873124_LEMKUS-ADIDAS_G58030_6_fdb7b841-8542-4a1f-bf91-eac31185408a.png?v=1628804050",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7042_60f147c3e5bff1.46433746_LEMKUS-ADIDAS_G58030_4_229154cf-7269-4d1e-b652-9a0981dba192.png?v=1628804050",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7042_60f147d08d3fb6.26352950_LEMKUS-ADIDAS_G58030_2.png?v=1628804050"
-            ],
-            "product": "G5803003.5",
-            "details": "The adidas Forum (G58030- Core Black/Core Black/Off White) hit the scene in '84 and gained major love on both the hardwood and in the music biz. the explosive hardwood energy and the iconic removable strap ankle design, distilled into a low top version meant for the streets. Now Available Online and In-store at LEMKUS.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "6",
-            "genders": "women",
-            "name": "FORUM LOW (W)",
-            "price": "1,599.00",
-            "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7035_60f14fb1a581b7.86501479_LEMKUS-ADIDAS_FZ3908_1.png?v=1628804061",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7035_60f14fb93c6088.31544239_LEMKUS-ADIDAS_FZ3908_3.png?v=1628804061",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7035_60f14fc3e0b799.93695622_LEMKUS-ADIDAS_FZ3908_9.png?v=1628804061",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7035_60f14fcf944f98.35213008_LEMKUS-ADIDAS_FZ3908_8.png?v=1628804061",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7035_60f14fdc695246.55533264_LEMKUS-ADIDAS_FZ3908_7.png?v=1628804061",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7035_60f14fe5df1d40.57216902_LEMKUS-ADIDAS_FZ3908_6.png?v=1628804061"
-            ],
-            "product": "FZ390803",
-            "details": "The adidas Forum (FZ3908- Cloud White/Core Black /True Pink). hit the scene in '84 and gained major love on both the hardwood and in the music biz. the explosive hardwood energy and the iconic removable strap ankle design, distilled into a low top version meant for the streets. Now Available Online and In-store at LEMKUS.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "7",
-            "genders": "women",
-            "name": "Stan Smith (W)",
-            "price": "1,799.00",
-            "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6921_60f15bb3ac9883.24203420_LEMKUS-ADIDAS_FX5569_1.png?v=1628802005",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6921_60f15bbfc846d1.64010251_LEMKUS-ADIDAS_FX5569_7.png?v=1628802005",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6921_60f15bca582ed8.50780469_LEMKUS-ADIDAS_FX5569_6.png?v=1628802005",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6921_60f15bf2c59226.57882751_LEMKUS-ADIDAS_FX5569_8.png?v=1628802005",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6921_60f15c8bb97b47.01163486_LEMKUS-ADIDAS_FX5569_3.png?v=1628802005"
-            ],
-            "product": "FX556903",
-            "details": "The Stan Smith (FX5569 -Cloud White/Screaming Pink/Off White) capture the essential style of the 1971 original, with a minimalist leather build and clean trim. It's made with vegan and recycled materials up top and recycled chewing gum in the outsole. Now Available Online and In-store at LEMKUS",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "8",
-            "genders": "women",
-            "name": "SUPERSTAR (W)",
-            "price": "1,899.00",
-            "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6922_60f142c30ff4d7.22261103_LEMKUS-ADIDAS_FX6041_1.png?v=1628801193",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6922_60f142c9db4487.14833304_LEMKUS-ADIDAS_FX6041_3.png?v=1628801193",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6922_60f142d0bb1305.60366559_LEMKUS-ADIDAS_FX6041_6.png?v=1628801193",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6922_60f142da9cf271.59614524_LEMKUS-ADIDAS_FX6041_2.png?v=1628801193",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6922_60f142e4166e18.14115292_LEMKUS-ADIDAS_FX6041_4.png?v=1628801193",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6922_60f142ec640ee8.11962175_LEMKUS-ADIDAS_FX6041_5.png?v=1628801193"
-            ],
-            "product": "FX604103",
-            "details": "The adidas Superstar (FX6041-Cloud White/Clear Mint/Gold Metallic)shoe is now a lifestyle staple for streetwear enthusiasts. The world-famous shell toe feature remains, providing style and protection. Their upper is a mix of materials, showing off the Shiny metallic yarn weaves through the perforated detail. Now Available Online and In-store at LEMKUS.",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        }
-    ],
     "nike": [
         {
-            "id": "1",
-            "genders": "men",
-            "name": "AIR FORCE 1 LV8 EMB (GS)",
-            "price": "1,699.00",
+            "id": 1,
+            "gender": "men",
+            "name": "AIR MAX 2021",
+            "price": "R 2,999.00", 
             "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
+                6,
+                7,
+                9,
+                10
             ],
             "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_615813e4da0ec0.44166814_LEMKUS-NIKE_DJ9993-100-1.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_615813eca35c36.22457183_LEMKUS-NIKE_DJ9993-100-2.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_615813f3f30ae3.45512840_LEMKUS-NIKE_DJ9993-100-3.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_615813fadd2756.48860843_LEMKUS-NIKE_DJ9993-100-4.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_61581404b77579.82126149_LEMKUS-NIKE_DJ9993-100-5.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_61581411685bd0.59777759_LEMKUS-NIKE_DJ9993-100-6.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_6158141d2beaf5.39390512_LEMKUS-NIKE_DJ9993-100-7.png?v=1633681147"
+                "./img/sneakers/nike/id1_1.png",
+                "./img/sneakers/nike/id1_2.png",
+                "./img/sneakers/nike/id1_3.png"
             ],
-            "product": "DJ9993-1004",
-            "details": "Get ready to celebrate the NBA’s diamond anniversary in a big way. Classic team colors (pick your fave!) honor 75 years of pro hoops. With durable leather and the iconic Air-Sole unit, you can show love to the past in legendary AF1 style. ",
+            "product": "DH4245-001-6",
+            "details": "We could use a lot of superlatives to describe the Nike Air Max 2021. We could tell you that we’ve incorporated recycled materials to design a sneaker with at least 20% recycled content. Or the new Air cushioning unit underfoot is our most revolutionary. Perhaps we’d call it the \"the pinnacle of comfort,\" waxing poetic about the cored-out foam midsole that gives you the lightest, softest feel. But maybe we just say it's modern meets technical with a splash of heritage DNA. What fun is giving away the surprises? ",
             "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
             "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
         },
         {
-            "id": "2",
-            "genders": "men",
-            "name": "AIR FORCE 1 LV8 EMB (GS)",
-            "price": "1,699.00",
+            "id": 1,
+            "gender": "men",
+            "name": "AIR MAX 2021",
+            "price": "R 2,999.00", 
             "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
+                6,
+                7,
+                9,
+                10
             ],
             "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10875_61580ecf69d5b1.84165154_LEMKUS-NIKE_DJ9993-001-1_d4e36eaf-1a5b-4c3a-91ef-a227097aa9cd.png?v=1633680237",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10875_61580ed715eec8.91083024_LEMKUS-NIKE_DJ9993-001-2_26ba2a7b-0740-4a9a-bed7-17815d43d859.png?v=1633680237",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10875_61580edebefb54.79174189_LEMKUS-NIKE_DJ9993-001-3_d2a30cee-72f9-4277-b010-beabb20f9f7d.png?v=1633680237",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10875_61580ee54d5d03.73156317_LEMKUS-NIKE_DJ9993-001-4_87e052fc-0341-491e-8495-a4a0386d9760.png?v=1633680237",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10875_61580eed01a836.05191823_LEMKUS-NIKE_DJ9993-001-5_d12904f1-1a11-4ffd-a5a5-a4414c956d6a.png?v=1633680237",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10875_61580ef446b0e7.86646031_LEMKUS-NIKE_DJ9993-001-6_3a2636cc-856e-4310-9bef-aa908f67b298.png?v=1633680237",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10875_61580efbd3e3e6.51089276_LEMKUS-NIKE_DJ9993-001-7_59506011-af4c-46b4-9df9-6bc2f544a262.png?v=1633680237",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10875_61580f057d5358.47378515_LEMKUS-NIKE_DJ9993-001-8_20cf3489-a1e7-4a86-bcaf-38c9f25509d6.png?v=1633680237"
+                "./img/sneakers/nike/id1_1.png",
+                "./img/sneakers/nike/id1_2.png",
+                "./img/sneakers/nike/id1_3.png"
             ],
-            "product": "DJ9993-0015",
-            "details": "Get ready to celebrate the NBA’s diamond anniversary in a big way. Classic team colors (pick your fave!) honor 75 years of pro hoops. With durable leather and the iconic Air-Sole unit, you can show love to the past in legendary AF1 style.",
+            "product": "DH4245-001-6",
+            "details": "We could use a lot of superlatives to describe the Nike Air Max 2021. We could tell you that we’ve incorporated recycled materials to design a sneaker with at least 20% recycled content. Or the new Air cushioning unit underfoot is our most revolutionary. Perhaps we’d call it the \"the pinnacle of comfort,\" waxing poetic about the cored-out foam midsole that gives you the lightest, softest feel. But maybe we just say it's modern meets technical with a splash of heritage DNA. What fun is giving away the surprises? ",
             "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
             "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
         },
         {
-            "id": "3",
-            "genders": "men",
-            "name": "AIR FORCE 1 LV8 EMB (GS)",
-            "price": "1,699.00",
+            "id": 1,
+            "gender": "men",
+            "name": "AIR MAX 2021",
+            "price": "R 2,999.00", 
             "size": [
-                "3.5",
-                "4",
-                "5",
-                "6"
+                6,
+                7,
+                9,
+                10
             ],
             "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_615813e4da0ec0.44166814_LEMKUS-NIKE_DJ9993-100-1.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_615813eca35c36.22457183_LEMKUS-NIKE_DJ9993-100-2.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_615813f3f30ae3.45512840_LEMKUS-NIKE_DJ9993-100-3.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_615813fadd2756.48860843_LEMKUS-NIKE_DJ9993-100-4.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_61581404b77579.82126149_LEMKUS-NIKE_DJ9993-100-5.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_61581411685bd0.59777759_LEMKUS-NIKE_DJ9993-100-6.png?v=1633681147",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10883_6158141d2beaf5.39390512_LEMKUS-NIKE_DJ9993-100-7.png?v=1633681147"
+                "./img/sneakers/nike/id1_1.png",
+                "./img/sneakers/nike/id1_2.png",
+                "./img/sneakers/nike/id1_3.png"
             ],
-            "product": "DJ9993-0015",
-            "details": "Get ready to celebrate the NBA’s diamond anniversary in a big way. Classic team colors (pick your fave!) honor 75 years of pro hoops. With durable leather and the iconic Air-Sole unit, you can show love to the past in legendary AF1 style. ",
+            "product": "DH4245-001-6",
+            "details": "We could use a lot of superlatives to describe the Nike Air Max 2021. We could tell you that we’ve incorporated recycled materials to design a sneaker with at least 20% recycled content. Or the new Air cushioning unit underfoot is our most revolutionary. Perhaps we’d call it the \"the pinnacle of comfort,\" waxing poetic about the cored-out foam midsole that gives you the lightest, softest feel. But maybe we just say it's modern meets technical with a splash of heritage DNA. What fun is giving away the surprises? ",
             "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
             "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
         },
         {
-            "id": "4",
-            "genders": "men",
-            "name": "AIR FORCE 1 LUXE",
-            "price": "2,500.00",
+            "id": 1,
+            "gender": "men",
+            "name": "AIR MAX 2021",
+            "price": "R 2,999.00", 
             "size": [
-                "6",
-                "7",
-                "8",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12"
+                6,
+                7,
+                9,
+                10
             ],
             "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9513_615db116bcc164.42927114_DB4109-200-1.png?v=1633530820",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9513_615db11e2c15a3.56772089_DB4109-200-2.png?v=1633530820",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9513_615db125ef1769.35718784_DB4109-200-3.png?v=1633530820",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9513_615db12f399249.04203222_DB4109-200-4.png?v=1633530820",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9513_615db136bfbdd5.11704773_DB4109-200-5.png?v=1633530820",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9513_615db13ec1b586.59656497_DB4109-200-6.png?v=1633530820",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9513_615db14747d6f0.35564063_DB4109-200-7.png?v=1633530820"
+                "./img/sneakers/nike/id1_1.png",
+                "./img/sneakers/nike/id1_2.png",
+                "./img/sneakers/nike/id1_3.png"
             ],
-            "product": "DB4109-2005.5",
-            "details": "Crafted with precision, the Nike Air Force 1 Luxe refreshes the b-ball icon. Its crisp leather in the upper features the perfect shine. Stitching along the midsole adds an artisan touch while the rugged tread on the outsole nods to your favorite city boots.",
+            "product": "DH4245-001-6",
+            "details": "We could use a lot of superlatives to describe the Nike Air Max 2021. We could tell you that we’ve incorporated recycled materials to design a sneaker with at least 20% recycled content. Or the new Air cushioning unit underfoot is our most revolutionary. Perhaps we’d call it the \"the pinnacle of comfort,\" waxing poetic about the cored-out foam midsole that gives you the lightest, softest feel. But maybe we just say it's modern meets technical with a splash of heritage DNA. What fun is giving away the surprises? ",
             "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
             "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
         },
         {
-            "id": "5",
-            "genders": "women",
-            "name": "AIR FORCE 1 (GS)",
-            "price": "1,499.00",
+            "id": 1,
+            "gender": "men",
+            "name": "AIR MAX 2021",
+            "price": "R 2,999.00", 
             "size": [
-               "3",
-               "4",
-               "5",
-               "6"
+                6,
+                7,
+                9,
+                10
             ],
             "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10432_61531ece45a8d8.37928908_LEMKUS-NIKE_CT3839-104-1.png?v=1632837810",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10432_61531ed63f4ad5.98273151_LEMKUS-NIKE_CT3839-104-2.png?v=1632837810",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10432_61531ed63f4ad5.98273151_LEMKUS-NIKE_CT3839-104-2.png?v=1632837810",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10432_61531edd558767.89453846_LEMKUS-NIKE_CT3839-104-3.png?v=1632837810",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10432_61531eea43d640.13009631_LEMKUS-NIKE_CT3839-104-5.png?v=1632837810",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10432_61531ef1120c42.90613282_LEMKUS-NIKE_CT3839-104-6.png?v=1632837810",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10432_61531ef9e8e579.80250744_LEMKUS-NIKE_CT3839-104-7.png?v=1632837810"
+                "./img/sneakers/nike/id1_1.png",
+                "./img/sneakers/nike/id1_2.png",
+                "./img/sneakers/nike/id1_3.png"
             ],
-            "product": "CT3839-1043",
-            "details": "Kick it in comfort in the Nike Air Force 1. The feel of classic leather and details that made this shoe an icon are sure to make your sneaker style stand out on the street.(CT3839-104/WHITE/PINK GLAZE)",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "6",
-            "genders": "women",
-            "name": "AIR MAX 90 (W)",
-            "price": "2,799.00",
-            "size": [
-               "3",
-               "4",
-               "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8947_611b957ae546b5.21274942_LEMKUS-NIKE_DM8075-100-1.png?v=1629198184",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8947_611b958276c815.45092980_LEMKUS-NIKE_DM8075-100-2.png?v=1629198184",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8947_611b958a22a745.59659770_LEMKUS-NIKE_DM8075-100-3.png?v=1629198184",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8947_611b959353eb70.06459575_LEMKUS-NIKE_DM8075-100-4.png?v=1629198184",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8947_611b959bc09508.52900510_LEMKUS-NIKE_DM8075-100-5.png?v=1629198184",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8947_611b95a8615478.84048371_LEMKUS-NIKE_DM8075-100-6.png?v=1629198184",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8947_611b95b793f1a2.09963201_LEMKUS-NIKE_DM8075-100-7.png?v=1629198184"
-            ],
-            "product": "DM8075-1003",
-            "details": "Nothing as fly, nothing as comfortable, nothing as proven—the Nike Air Max 90(DM8075-100/SAIL/BRIGHT CITRON-DOLL-LOBSTER) stays true to its OG roots with the iconic Waffle outsole, stitched overlays and classic design lines. A mix of nubby cord, textured suede and smooth satin alongside varying stitch patterns gives a modern look while Max Air cushioning adds comfort to your journey. Originally designed for performance running, the Max Air unit in the heel adds lightweight cushioning. The low-top design combines with a padded collar for a sleek look that feels soft and comfortable. The rubber Waffle outsole adds a heritage look, traction and durability. The stitched overlays and design lines add durability, comfort and the iconic '90s look",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "7",
-            "genders": "women",
-            "name": "AIR FORCE 1 PIXEL SE (W)",
-            "price": "2,099.00",
-            "size": [
-               "3",
-               "4",
-               "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9599_6149b39e018f90.71290814_LEMKUS-NIKE_DH9632-101-1_7d259b31-5ec7-406e-9ed9-0de879b81eec.png?v=1632338325",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9599_6149b3a6155676.95716078_LEMKUS-NIKE_DH9632-101-2_a186b1e4-3860-4ab9-8212-6436119c439d.png?v=1632338325",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9599_6149b3ad891311.43140147_LEMKUS-NIKE_DH9632-101-3_91e51693-0098-4b7b-8c24-3e4adb1e64cd.png?v=1632338325",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9599_6149b3c5b92443.54501611_LEMKUS-NIKE_DH9632-101-6_2313cc6c-30c0-4c21-875e-293b0f9d2b52.png?v=1632338325",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9599_6149b3be4e9200.88237138_LEMKUS-NIKE_DH9632-101-5_4f4cc20a-70ba-4848-99c4-cb6e90407759.png?v=1632338325",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9599_6149b3c5b92443.54501611_LEMKUS-NIKE_DH9632-101-6_2313cc6c-30c0-4c21-875e-293b0f9d2b52.png?v=1632338325",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9599_6149b3cd95aff1.01167105_LEMKUS-NIKE_DH9632-101-7_e990d00d-bfbc-40ce-b9fe-7d2594f59818.png?v=1632338325"
-            ],
-            "product": "DH9632-1013",
-            "details": "You've always been on point.Let there be no doubt in the Nike Air Force 1 Pixel SE, a re-imagined off-court style for you, by you.The distorted outsole and lifted midsole feature large, pixelated details for modern appeal while the inverted animal print Swoosh logo delivers a primal touch.You're not just in the game.You're leading it. (DH9632-101/Sail/Light Lemon Twist/Black/Sail)",
-            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
-            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
-        },
-        {
-            "id": "8",
-            "genders": "women",
-            "name": "AIR MAX 96 II (W)",
-            "price": "3,199.00",
-            "size": [
-               "3",
-               "4",
-               "6"
-            ],
-            "img": [
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8321_610bd51c369430.88550917_LEMKUS-NIKE_DM9462-500-1_3bef8b46-40c9-4a5e-8e96-a6128dec771c.png?v=1629201854",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8321_610bd5244b96d4.03587642_LEMKUS-NIKE_DM9462-500-2_e92dd332-676b-405b-82d8-809dc799453c.png?v=1629201854",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8321_610bd52cce1404.77489408_LEMKUS-NIKE_DM9462-500-3_af039c77-639f-4f65-b8c3-ab9e04910465.png?v=1629201854",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8321_610bd5361e16b3.62407901_LEMKUS-NIKE_DM9462-500-4_a220c8bd-90a7-4037-b41d-315ab03888dd.png?v=1629201854",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8321_610bd53d6fa8e8.09054018_LEMKUS-NIKE_DM9462-500-5_e8b5775e-bafb-4bf0-aecd-0bc0f36a0501.png?v=1629201854",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8321_610bd547d9e741.51195921_LEMKUS-NIKE_DM9462-500-6_f3fd3406-754a-49b9-93d1-7f77d80a462d.png?v=1629201854",
-                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8321_610bd55aa940c5.33351876_LEMKUS-NIKE_DM9462-500-7_fdc992ce-9239-426c-acf8-90e7fcebac79.png?v=1629201854"
-            ],
-            "product": "DM9462-500-3",
-            "details": "Bringing back the sporty aesthetic imagined by famed Nike designer Sergio Lorenzo, the Nike Air Max 96 II(DM9462-500/PURPLE DAWN/LEMON DROP-PURPLE PULSE) remake is a no brainer. With sweet lilac colors on classic '90s construction, it brings sophisticated style with fast-paced, track inspired details. Its large Nike Air unit keeps the perfect amount of casual while adding lasting comfort.",
+            "product": "DH4245-001-6",
+            "details": "We could use a lot of superlatives to describe the Nike Air Max 2021. We could tell you that we’ve incorporated recycled materials to design a sneaker with at least 20% recycled content. Or the new Air cushioning unit underfoot is our most revolutionary. Perhaps we’d call it the \"the pinnacle of comfort,\" waxing poetic about the cored-out foam midsole that gives you the lightest, softest feel. But maybe we just say it's modern meets technical with a splash of heritage DNA. What fun is giving away the surprises? ",
             "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
             "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
         }
