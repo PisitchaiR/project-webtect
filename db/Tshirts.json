@@ -1,0 +1,471 @@
+{
+    "newbalance": [
+        {
+            "id": "1",
+            "name": "EMBROIDERY T-SHIRT-B",
+            "gender": "men",
+            "price": "549.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11178_61659f8491c662.87995695_MT11592B-1.png?v=1634050105",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11178_61659f8c331d60.47736573_MT11592B-2.png?v=1634050105",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11178_61659f94631249.10079323_MT11592B-3.png?v=1634050105"
+            ],
+            "product": "MT11592BS",
+            "details": "Our NB Essentials Embroidered Tee is an instant casual classic. This short sleeve men’s shirt is crafted from soft and durable cotton jersey fabric with a relaxed fit that gives you room to move. An embroidered logo embellishment inspired by NB heritage styling adds a simple and stylish accent for a versatile everyday look you’ll love.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "2",
+            "name": "EMBROIDERY T-SHIRT-W",
+            "gender": "men",
+            "price": "549.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11173_61659fe1093fc6.66383838_MT11592A-1.png?v=1634050099",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11173_61659fe8bf6544.23725644_MT11592A-2.png?v=1634050099",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11173_61659ff5257cb7.31422378_MT11592A-3.png?v=1634050099"
+            ],
+            "product": "MT11592A-S",
+            "details": "Our NB Essentials Embroidered Tee is an instant casual classic. This short sleeve men’s shirt is crafted from soft and durable cotton jersey fabric with a relaxed fit that gives you room to move. An embroidered logo embellishment inspired by NB heritage styling adds a simple and stylish accent for a versatile everyday look you’ll love.",
+            "shipping": "us.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "3",
+            "name": "ATHLETICS HIGHER LEARNING T-SHIRT",
+            "gender": "men",
+            "price": "649.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10779_61659e5ab49748.88358346_MT13500-1.png?v=1634050111",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10779_61659e626e7229.26936858_MT13500-2.png?v=1634050111",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10779_61659e6a2d3545.57619062_MT13500-3.png?v=1634050111"
+            ],
+            "product": "MT13500S",
+            "details": "Our NB Athletics Higher Learning Tee features an academic-inspired New Balance logo graphic on the chest for classic style. Made of soft cotton jersey in an athletic fit, the men's crew neck t-shirt is the epitome of all-day, everyday comfort.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "4",
+            "name": "ARTIST LISTER T-SHIRT",
+            "gender": "men",
+            "price": "649.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10769_61659a76e6b3a0.20864300_MT13555S-1.png?v=1634049208",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10769_61659a7e48d389.93986622_MT13555S-2.png?v=1634049208",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10769_61659a85e7ae04.35165495_MT13555S-3.png?v=1634049208",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10769_61659a8d92b994.00607140_MT13555S-4.png?v=1634049208"
+            ],
+            "product": "MT13555S",
+            "details": "Express your original, creative style with the NB Athletics Artist Lister Tee 1. Made from soft cotton jersey fabric and styled in a comfortable relaxed fit, this men's tee makes a bold statement ideal for any activity. Part of our \"The Intelligent Choice\" collection, this piece features a Lister custom design illustrating the artist's take on intelligence.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "5",
+            "name": "ATHLETIC CLUB BOXY T-SHIRT (W)",
+            "gender": "women",
+            "price": "599.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11218_61658f2e213080.79525333_WT13509B-1.png?v=1634047482",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11218_61658f85a5b1a5.57714546_WT13509B-2.png?v=1634047482",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11218_6165902049bb36.81309417_WT13509B-3.png?v=1634047482"
+            ],
+            "product": "WT13509BXS",
+            "details": "The NB Essentials Athletic Club Boxy Tee has a roomy, non-constricting fit that will quickly make it your go-to top for everything from casual strolls to lounging on the couch. The women’s tee combines soft and breathable cotton jersey fabric with a stylish boxy design that looks great with shorts or leggings. A heritage-inspired logo on the front of the women’s t-shirt brings a cool collegiate vibe to the look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "6",
+            "name": "HIGHER LEARNING T-SHIRT (W)",
+            "gender": "women",
+            "price": "699.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10800_616593b07514d2.15571017_WT13504B-1_faebdd0d-9567-434b-95eb-f9f5d8e9acf5.png?v=1634109525",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10800_616593b8a4a212.47752521_WT13504B-2_056a4be9-7d19-4875-8681-7ae4df277f55.png?v=1634109525",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10800_616593c00b6ba4.46002638_WT13504B-3_585883ad-0b0f-4f1d-aba1-d2bbbb317e31.png?v=1634109525"
+            ],
+            "product": "WT13504BXS",
+            "details": "Let your casual wardrobe do the talking with the NB Athletics Higher Learning Oversized Tee. This bold, expressive women's tee features collegiate-inspired details such as gold satin stitching for a modern, on-trend look that sets the style bar high. Soft cotton jersey knit fabric in an oversized fit keeps you comfortable so your look seems effortless as you go about your day.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "7",
+            "name": "SPORTSWEAR ESSENTIAL T-SHIRT (W)",
+            "gender": "women",
+            "price": "399.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10251_615d7f1bdf2a52.46278211_CZ7339-101-1.png?v=1633518225",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10251_615d7f24212965.13189429_CZ7339-101-2.png?v=1633518225"
+            ],
+            "product": "CZ7339-101XS",
+            "details": "The Nike Sportswear T-Shirt is a closet staple made with cotton jersey fabric for a soft feel that moves with you throughout the day. This product is made with at least 75% organic cotton fibers.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "8",
+            "name": "NSW ESSENTIAL T-SHIRT (W)",
+            "gender": "women",
+            "price": "399.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9922_6135cee1a62870.68057911_LEMKUS-NIKE_CZ7339-011-1.png?v=1630917159",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9922_6135ceecd691f9.07775854_LEMKUS-NIKE_CZ7339-011-2.png?v=1630917159"
+            ],
+            "product": "CZ7339-011XS",
+            "detail": "The Nike Sportswear T-Shirt(CZ7339-011/BLACK/WHITE) is a closet staple made with cotton jersey fabric for a soft feel that moves with you throughout the day. This product is made with at least 75% organic cotton fibers.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        }
+    ],
+    "Nike": [
+        {
+            "id": "11",
+            "name": "JORDAN SPORT DNA T-SHIRT",
+            "gender": "male",
+            "price": "519.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11094_61668936b52ce5.90303156_DC9783-673-1.png?v=1634110433",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11094_6166893f6f85a0.91882152_DC9783-673-2.png?v=1634110433"
+            ],
+            "product": "DC9783-673M",
+            "detail": "The Jordan Sport DNA T-Shirt has front and back graphics inspired by basketball on the blacktop. It's made from soft, comfortable cotton and has an easy, relaxed fit.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "12",
+            "name": "JORDAN ZION T-SHIRT",
+            "gender": "male",
+            "price": "559.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10277_615da88bc2c414.48834380_DH0592-101-1.png?v=1633528115",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10277_615da893cebe54.53545962_DH0592-101-2.png?v=1633528115",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10277_615da89addace1.65206174_DH0592-101-3.png?v=1633528115",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10277_615da8a27cccb5.07650403_DH0592-101-4.png?v=1633528115"
+            ],
+            "product": "DH0592-101XS",
+            "detail": "The Jordan Dri-FIT Zion T-Shirt is made from soft, comfortable knit fabric with sweat-wicking technology. Graphics riff on Zion's new logo and his love of anime.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "13",
+            "name": "PARIS SAINT-GERMAIN LOGO T-SHIRT",
+            "gender": "male",
+            "price": "519.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9915_6135cca5104eb3.55649357_LEMKUS-AIRJORDAN_DB6514-100-1.png?v=1630916300",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9915_6135ccaf7da596.10404436_LEMKUS-AIRJORDAN_DB6514-100-2.png?v=1630916300"
+            ],
+            "product": "DB6514-100XS",
+            "detail": "Signal your pride for Paris Saint-Germain in this logo T-shirt(DB6514-100/WHITE) from Jordan Brand. It's made on soft, lightweight cotton. The tee has an oversized back graphic and colors inspired by the club's home kit on select versions.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "14",
+            "name": "JORDAN JUMPMAN 85 T-SHIRT",
+            "gender": "male",
+            "price": "549.00",
+            "size": [
+                "S",
+                "M",
+                "2XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9842_612a01e05471e6.62651146_LEMKUS-NIKE_DA9898-010-1.png?v=1630143171",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9842_612a01e7b4b447.84748018_LEMKUS-NIKE_DA9898-010-2.png?v=1630143171"
+            ],
+            "product": "DA9898-010M",
+            "detail": "The Jordan Jumpman 85 T-Shirt(DA9898-010/Black/Gym Red/Gym Red) riffs on the brand's heritage, stacking Jumpman logos atop the coveted Swoosh. It's made from premium heavyweight cotton with a relaxed fit.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "15",
+            "name": "SPORTSWEAR ESSENTIAL T-SHIRT (W)",
+            "gender": "women",
+            "price": "399.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10251_615d7f1bdf2a52.46278211_CZ7339-101-1.png?v=1633518225",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10251_615d7f1bdf2a52.46278211_CZ7339-101-1.png?v=1633518225"
+            ],
+            "product": "CZ7339-101XS",
+            "detail": "The Nike Sportswear T-Shirt is a closet staple made with cotton jersey fabric for a soft feel that moves with you throughout the day. This product is made with at least 75% organic cotton fibers.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "16",
+            "name": "NSW ESSENTIAL T-SHIRT (W)",
+            "gender": "women",
+            "price": "399.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9922_6135cee1a62870.68057911_LEMKUS-NIKE_CZ7339-011-1.png?v=1630917159",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9922_6135ceecd691f9.07775854_LEMKUS-NIKE_CZ7339-011-2.png?v=1630917159"
+            ],
+            "product": "CZ7339-011XS",
+            "detail": "The Nike Sportswear T-Shirt(CZ7339-011/BLACK/WHITE) is a closet staple made with cotton jersey fabric for a soft feel that moves with you throughout the day. This product is made with at least 75% organic cotton fibers.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "17",
+            "name": "SPORTSWEAR BOYFRIEND T-SHIRT (W)",
+            "gender": "women",
+            "price": "429.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9695_612a054bea44a0.93566700_LEMKUS-NIKE_DJ1834-100-1.png?v=1630144076",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9695_612a055414f073.39432193_LEMKUS-NIKE_DJ1834-100-2.png?v=1630144076"
+            ],
+            "product": "DJ1834-100L",
+            "detail": "The Nike Sportswear T-Shirt(DJ1834-100/WHITE) is made with soft cotton and a comfortable boyfriend fit. Stacked graphics offer added texture and a trendy '90s look. This product is made with at least 75% organic cotton fibers.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "18",
+            "name": "NSW STRIPE LONG SLEEVE TOP (W)",
+            "gender": "women",
+            "price": "769.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6265_610e3ed6a1fff3.67657885_LEMKUS-NIKE_DD5186-236_1.png?v=1628842977",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6265_610e3ee22a1e86.83034984_LEMKUS-NIKE_DD5186-236_2.png?v=1628842977",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6265_610e3eeb9e5240.19675398_LEMKUS-NIKE_DD5186-236_3.png?v=1628842977"
+            ],
+            "product": "DD5186-2360M",
+            "detail": "",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        }
+    ],
+    "NorthFace": [
+        {
+            "id": "21",
+            "name": "EASY T-SHIRT",
+            "gender": "male",
+            "price": "329.00",
+            "size": [
+                "XL",
+                "L",
+                "M",
+                "S",
+                "XS"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10134_613f4030e37b29.19495980_LEMKUS-TNF_2TX3-1-001.png?v=1631535460",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10134_613f4039157502.81528526_LEMKUS-TNF_2TX3-2-001.png?v=1631535460"
+            ],
+            "product": "2TX3-MGHXL",
+            "detail": "If you only buy one The North Face™ tee, it should be the short-sleeve Easy T-Shirt. It's a standard fit, made from 100% cotton and features a large printed logo on the front and a small one on the right shoulder.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "22",
+            "name": "WALLS ARE FOR CLIMBING T-SHIRT",
+            "gender": "male",
+            "price": "329.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10060_61408a4cf40e99.25001599_LEMKUS-TNF_3S3S-1.png?v=1631620083",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10060_61408a57bb6143.96480001_LEMKUS-TNF_3S3S-2.png?v=1631620083"
+            ],
+            "product": "3S3S-BGXS",
+            "detail": "Walls are meant for climbing, and this pure cotton T-shirt tells it like it is. Our catchy slogan has catchy colours to match, making it an essential for the moments when you’re not climbing but wish you were.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "23",
+            "name": "MOUNTAIN LINE T-SHIRT",
+            "gender": "male",
+            "price": "329.00",
+            "size": [
+                "XL",
+                "L",
+                "M",
+                "S",
+                "XS"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10045_61407d6f9b6f91.78055464_LEMKUSTNF_A3G2-1.png?v=1631616470",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10045_61407d790403f2.45638037_LEMKUSTNF_A3G2-2.png?v=1631616470"
+            ],
+            "product": "A3G2-BLKM",
+            "detail": "Perfect for the off-duty mountaineer, this T-shirt features a mountain summit outline across The North Face™ logo in a nod to your alpine adventures.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "24",
+            "name": "RAGLAN REDBOX T-SHIRT",
+            "gender": "male",
+            "price": "349.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8791_6112c3726a9959.11129234_3BQO-GP.png?v=1628842622",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8791_6112c37bcc8a82.54547949_3BQO-GP-001.png?v=1628842622"
+            ],
+            "product": "3BQO-GPXS",
+            "detail": "The Redbox(3BQO-GP) design is iconic.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "25",
+            "name": "EASY T-SHIRT (W)",
+            "gender": "women",
+            "price": "289.00",
+            "size": [
+                "L",
+                "M",
+                "S",
+                "XS"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10066_61407a13f17f28.65425183_LEMKUS-TNF_4T1Q-1_7a912c0d-e55e-4872-bc01-d2e272947848.png?v=1631616476",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10066_61407a682ad5c5.74941063_LEMKUS-TNF_4T1Q-2.png?v=1631616476"
+            ],
+            "product": "4T1Q-LWGXS",
+            "detail": "Another day, another tee.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": "26",
+            "name": "NEVER STOP EXPLORING T-SHIRT (W)",
+            "gender": "women",
+            "price": "299.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8779_6112c497a86018.84667821_A6PR-BW.png?v=1628842597",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8779_6112c4a6135be2.05263563_A6PR-BW-001.png?v=1628842597"
+            ],
+            "product": "A6PR-BWXS",
+            "detail": "Never stop exploring: it’s our mantra. Make it yours too with this classic pure cotton T-shirt(A6PR-BW) – an essential for sunny days in the great outdoors.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "return": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        }
+    ]
+}

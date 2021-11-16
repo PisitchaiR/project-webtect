@@ -1,0 +1,322 @@
+{
+    "Nike": [
+        {
+            "id": "1",
+            "name": "JORDAN 23 ENGINEERED HOODIE",
+            "gender": "men",
+            "price": "1899.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10484_615da9ced1b5d5.94454494_DM7860-072-1.png?v=1633529020",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10484_615da9d8e2ae95.21834068_DM7860-072-2.png?v=1633529020",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10484_615da9e10bcfd9.87803047_DM7860-072-3.png?v=1633529020",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10484_615da9e91bb5e8.03201108_DM7860-072-4.png?v=1633529020",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10484_615da9f2eff016.89063828_DM7860-072-5.png?v=1633529020"
+            ],
+            "product": "DM7860-072S",
+            "detail": "Prepare for winter in the city with the Jordan 23 Engineered Pullover Hoodie. Made from softly brushed fabric, it has an easy feel that layers well under a jacket.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "2",
+            "name": "TEAM 31 ESSENTIALS HOODIE",
+            "gender": "men",
+            "price": "949.0",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10588_615d7ec8588018.12267649_CZ4370-013-1.png?v=1633517306",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/10588_615d7ed10cdca6.50642067_CZ4370-013-2.png?v=1633517306"
+            ],
+            "product": "CZ4370-013M",
+            "detail": "In the stands or on the street, stand for the league in the Team 31 Essential Nike NBA Pullover Hoodie. Made from softly brushed fabric, it's warm, relaxed and wears well under a jacket.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "3",
+            "name": "SPORTSWEAR MODERN ESSENTIALS HOODIE",
+            "gender": "men",
+            "price": "1119.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9715_612654599b7936.94483014_LEMKUS-NIKE_DM4580-325-1.png?v=1629902003",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9715_61265462174890.38315476_LEMKUS-NIKE_DM4580-325-2.png?v=1629902003",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9715_6126546c84d493.51477839_LEMKUS-NIKE_DM4580-325-3.png?v=1629902003",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9715_612654767eb136.89823923_LEMKUS-NIKE_DM4580-325-4.png?v=1629902003",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9715_6126547f2d3587.44046225_LEMKUS-NIKE_DM4580-325-5.png?v=1629902003"
+            ],
+            "product": "DM4580-325M",
+            "detail": "The Nike Sportswear Modern Essentials Hoodie(DM4580-325/CARGO KHAKI/CARGO KHAKI/BLACK OXIDIZED) updates a layering staple with lightweight cotton slub fabric and woven overlays at the elbows and hood. Taping and metal details provide a premium look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "4",
+            "name": "SB LLAMA FLEECE",
+            "gender": "men",
+            "price": "1119.00",
+            "size": [
+                "L",
+                "S",
+                "M"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6390_612cca3d194328.27406234_LEMKUS-NIKE_DH3014-010-1.png?v=1630325900a",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6390_612cca45792320.89979519_LEMKUS-NIKE_DH3014-010-2.png?v=1630325900"
+            ],
+            "product": "DH3014-0100L",
+            "detail": "This is the coolest llama we know. He’s so cool that he wears Nike SB Blazers on all 4 feet and is immortalized on the Nike SB Hoodie. How many llamas can say that? None of them. Because llamas can’t talk.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "5",
+            "name": "NSW ESSENTIAL FULL-ZIP HOODIE (W)",
+            "gender": "women",
+            "price": "949.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9971_6135c7e3c728f1.36620673_LEMKUS-NIKE_DJ4120-869-1.png?v=1630915403",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9971_6135c7ec2796d0.08927561_LEMKUS-NIKE_DJ4120-869-2.png?v=1630915403",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9971_6135c7ec2796d0.08927561_LEMKUS-NIKE_DJ4120-869-2.png?v=1630915403",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9971_6135c7fc1859b1.02685898_LEMKUS-NIKE_DJ4120-869-4.png?v=1630915404",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/9971_6135c804717569.96920316_LEMKUS-NIKE_DJ4120-869-5.png?v=1630915404"
+            ],
+            "product": "DJ4120-869XS",
+            "detail": "Double up on warmth with the Nike Sportswear Full-Zip Hoodie. Throw it in your bag on days when cooler temps have you second-guessing your outfit.(ORANGE/DJ4120-869)",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "6",
+            "name": "NSW TECH FLEECE WINDRUNNER (W)",
+            "gender": "women",
+            "price": "1549.00",
+            "size": [
+                "S",
+                "M",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5489_610e6b1c43d215.41696660_LEMKUS-NIKE_CW4298-063-1.png?v=1628842884",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5489_610e6b1c43d215.41696660_LEMKUS-NIKE_CW4298-063-1.png?v=1628842884",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5489_610e6b379d3356.20641793_LEMKUS-NIKE_CW4298-063-3.png?v=1628842884"
+            ],
+            "product": "CW4298-0630S",
+            "detail": "",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "7",
+            "name": "NSW ICON GX HOODIE (W)",
+            "gender": "women",
+            "price": "1119.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6264_610525b682c569.49373222_LEMKUS-NIKE_DD5052-814-1.png?v=1628802419",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6264_610525c1c8fc90.00194198_LEMKUS-NIKE_DD5052-814-2.png?v=1628802419",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/6264_610525cbd86562.43808310_LEMKUS-NIKE_DD5052-814-3.png?v=1628802419"
+            ],
+            "product": "DD5052-8140XS",
+            "detail": "",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "8",
+            "name": "NSW TECH FLEECE WINDRUNNER (W)",
+            "gender": "women",
+            "price": "1599.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5488_610e38494403f3.21592181_LEMKUS-NIKE_CW4298-010_1.png?v=1628842984",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5488_610e38494403f3.21592181_LEMKUS-NIKE_CW4298-010_1.png?v=1628842984",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5488_610e38643c3a52.55100836_LEMKUS-NIKE_CW4298-010_3.png?v=1628842984",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/5488_610e3872de7ab5.26747914_LEMKUS-NIKE_CW4298-010_4.png?v=1628842984"
+            ],
+            "product": "CW4298-0100S",
+            "detail": "",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        }
+    ],
+    "converse": [
+        {
+            "id": "11",
+            "name": "SPACE JAM COURT READY HOODIE",
+            "gender": "men",
+            "price": "1999.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b42031cae7.76620592_LEMKUS-CONVERSE_10023064-001-1.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b42edd0670.50248283_LEMKUS-CONVERSE_10023064-001-2.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b43d9363f7.07131403_LEMKUS-CONVERSE_10023064-001-3.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b4535775c4.11646760_LEMKUS-CONVERSE_10023064-001-4.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b4642048f2.16884606_LEMKUS-CONVERSE_10023064-001-5.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b477096312.73636525_LEMKUS-CONVERSE_10023064-001-6.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b4821f64e2.87998108_LEMKUS-CONVERSE_10023064-001-7.png?v=1629290941"
+            ],
+            "product": "10023064-A010S",
+            "detail": "It's official. The Tune Squad is back in action and Converse just dropped a signature collection, including this limited-edition pullover hoodie. Made for style, durability and freedom of movement, this Space Jam: A New Legacy design adds the full Tune Squad to that fluid, court-to-street look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "12",
+            "name": "SPACE JAM LOLA BUNNY HOODIE",
+            "gender": "men",
+            "price": "1099.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe681f8d8cb6.94021344_LEMKUS-CONVERSE_10023067-102-1.png?v=1629290949",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe6826de4947.25520262_LEMKUS-CONVERSE_10023067-102-2.png?v=1629290949",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe683d5ce151.43722370_LEMKUS-CONVERSE_10023067-102-3.png?v=1629290949",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe6849934278.48909480_LEMKUS-CONVERSE_10023067-102-5.png?v=1629290949",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe6858c00e47.51790603_LEMKUS-CONVERSE_10023067-102-6.png?v=1629290949"
+            ],
+            "product": "10023067-A010XS",
+            "detail": "It's official. The Tune Squad is back in action and Converse just dropped a signature collection, including this signature Lola Bunny hoodie. The stylishly oversized design features a unique Lola Bunny action graphic on the front, bold puff print lettering on the back, and pops of pink.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "11",
+            "name": "SPACE JAM COURT READY HOODIE",
+            "gender": "women",
+            "price": "1999.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b42031cae7.76620592_LEMKUS-CONVERSE_10023064-001-1.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b42edd0670.50248283_LEMKUS-CONVERSE_10023064-001-2.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b43d9363f7.07131403_LEMKUS-CONVERSE_10023064-001-3.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b4535775c4.11646760_LEMKUS-CONVERSE_10023064-001-4.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b4642048f2.16884606_LEMKUS-CONVERSE_10023064-001-5.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b477096312.73636525_LEMKUS-CONVERSE_10023064-001-6.png?v=1629290941",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7928_6103b4821f64e2.87998108_LEMKUS-CONVERSE_10023064-001-7.png?v=1629290941"
+            ],
+            "product": "10023064-A010S",
+            "detail": "It's official. The Tune Squad is back in action and Converse just dropped a signature collection, including this limited-edition pullover hoodie. Made for style, durability and freedom of movement, this Space Jam: A New Legacy design adds the full Tune Squad to that fluid, court-to-street look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "12",
+            "name": "SPACE JAM LOLA BUNNY HOODIE",
+            "gender": "women",
+            "price": "1099.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe681f8d8cb6.94021344_LEMKUS-CONVERSE_10023067-102-1.png?v=1629290949",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe6826de4947.25520262_LEMKUS-CONVERSE_10023067-102-2.png?v=1629290949",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe683d5ce151.43722370_LEMKUS-CONVERSE_10023067-102-3.png?v=1629290949",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe6849934278.48909480_LEMKUS-CONVERSE_10023067-102-5.png?v=1629290949",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/7916_60fe6858c00e47.51790603_LEMKUS-CONVERSE_10023067-102-6.png?v=1629290949"
+            ],
+            "product": "10023067-A010XS",
+            "detail": "It's official. The Tune Squad is back in action and Converse just dropped a signature collection, including this signature Lola Bunny hoodie. The stylishly oversized design features a unique Lola Bunny action graphic on the front, bold puff print lettering on the back, and pops of pink.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        }
+    ],
+    "newbalance": [
+        {
+            "id": "21",
+            "name": "CLASH HOODIE",
+            "gender": "men",
+            "price": "1299.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8740_6112bad73c38c6.54693903_LEMKUS-NEWBALANCE_MT13564-1_37eb874e-68d2-48fc-b733-61220c0a75dc.png?v=1628842660",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8740_6112bb49557400.63560922_LEMKUS-NEWBALANCE_MT13564-2_d5d27138-e67a-4837-9e7b-560e5498d6ea.png?v=1628842660",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/8740_6112bb530918b8.18446625_LEMKUS-NEWBALANCE_MT13564-3_4ccdf6f7-319d-4944-a6c4-39b44d06cc26.png?v=1628842660"
+            ],
+            "product": "MT13564S",
+            "detail": "Make a style statement in our NB Athletics Clash Hoodie(MT13564). Made with washed cotton terry fabric, this men's hoodie features hand-drawn graphics to help you express your creativity and originality. The relaxed fit offers effortless wear so you can set trends in comfort.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        },
+        {
+            "id": "22",
+            "name": "ATHLETIC CLUB HOODY (W)",
+            "gender": "women",
+            "price": "999.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11199_616592eaada196.65677031_WT13508O-1.png?v=1634047477",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11199_616592f449a372.34742229_WT13508O-2.png?v=1634047477",
+                "https://cdn.shopify.com/s/files/1/0538/9280/8895/products/11199_616592fb6f50c8.28697719_WT13508O-3.png?v=1634047477"
+            ],
+            "product": "WT13508OXS",
+            "detail": "Warm and comfy, our NB Essentials Athletic Club Hoodie helps you keep the chill off in casual, sporty style. Great for everything from lounging to streetwear, the women’s hoodie has a roomy relaxed fit and it’s crafted from super-soft French terry fabric. A kangaroo pocket gives you a space to warm your hands, and the hood is lined for extra warmth.Product",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one"
+        }
+    ]
+}
