@@ -113,3 +113,24 @@ let bag = (type) => {
     element.style.display = "none";
   }
 }
+
+//text dropdown
+let text_drop = (type) => {
+  if(type == 'first'){
+    let button = document.getElementById("button1")
+    var element = document.getElementById("drop-first");
+    element.classList.toggle("hidden")
+    button.classList.remove()
+    button.classList.toggle("ri-subtract-line")
+    
+  }else{
+    let button = document.getElementById("button2")
+    var element1 = document.getElementById("drop-second1");
+    var element2 = document.getElementById("drop-second2");
+    element1.classList.toggle("hidden")
+    element2.classList.toggle("hidden")
+    button.classList.remove()
+    button.classList.toggle("ri-subtract-line")
+  }
+}
+
