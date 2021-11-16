@@ -263,7 +263,7 @@
                                     let sneaker = data.nike[i];
                                     let body = `<li class="inline-block">`;
                                     body += `<div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">`;
-                                    body += `<a href="items.php?type=nike&id=${sneaker.id}"><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
+                                    body += `<a href="items.php?role=sneaker&type=nike&id=${sneaker.id}"><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
                                         onmouseover="changeImg(this, '${sneaker.img[1]}')" onmouseout="normalImg(this, '${sneaker.img[0]}')">`;
                                     body += `<p class="mt-3 uppercase text-xl"
                                         onmouseover="changeText(this, '${sneaker.size}')" onmouseout="normalText(this, '${sneaker.name}', '${sneaker.price}')">${sneaker.name}<br>${sneaker.price}</p>`;
@@ -307,7 +307,7 @@
                                     let sneaker = data.airjordan[i];
                                     let body = `<li class="inline-block">`;
                                     body += `<div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">`;
-                                    body += `<a href=""><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
+                                    body += `<a href="items.php?role=sneaker&type=airjordan&id=${sneaker.id}"><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
                                         onmouseover="changeImg(this, '${sneaker.img[1]}')" onmouseout="normalImg(this, '${sneaker.img[0]}')">`;
                                     body += `<p class="mt-3 uppercase text-xl"
                                         onmouseover="changeText(this, '${sneaker.size}')" onmouseout="normalText(this, '${sneaker.name}', '${sneaker.price}')">${sneaker.name}<br>${sneaker.price}</p>`;
@@ -351,7 +351,7 @@
                                     let apparel = data.tshirt[i];
                                     let body = `<li class="inline-block">`;
                                     body += `<div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">`;
-                                    body += `<a href=""><img class="fade-in-product border border-black h-96" src="${apparel.img[0]}" alt="apparel" 
+                                    body += `<a href="items.php?role=apparel&type=tshirt&id=${apparel.id}"><img class="fade-in-product border border-black h-96" src="${apparel.img[0]}" alt="apparel" 
                                         onmouseover="changeImg(this, '${apparel.img[1]}')" onmouseout="normalImg(this, '${apparel.img[0]}')">`;
                                     body += `<p class="mt-3 uppercase text-xl"
                                         onmouseover="changeText(this, '${apparel.size}')" onmouseout="normalText(this, '${apparel.name}', '${apparel.price}')">${apparel.name}<br>${apparel.price}</p>`;
@@ -395,7 +395,7 @@
                                     let apparel = data.sweatshirts[i];
                                     let body = `<li class="inline-block">`;
                                     body += `<div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">`;
-                                    body += `<a href=""><img class="fade-in-product border border-black h-96" src="${apparel.img[0]}" alt="apparel" 
+                                    body += `<a href="items.php?role=apparel&type=sweatshirts&id=${apparel.id}"><img class="fade-in-product border border-black h-96" src="${apparel.img[0]}" alt="apparel" 
                                         onmouseover="changeImg(this, '${apparel.img[1]}')" onmouseout="normalImg(this, '${apparel.img[0]}')">`;
                                     body += `<p class="mt-3 uppercase text-xl"
                                         onmouseover="changeText(this, '${apparel.size}')" onmouseout="normalText(this, '${apparel.name}', '${apparel.price}')">${apparel.name}<br>${apparel.price}</p>`;

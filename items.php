@@ -1,8 +1,14 @@
 <?php
 
-$type = $_GET["type"] ?? "nike";
-$id = $_GET["id"] ?? 1;
-$json = file_get_contents('./db/sneakers.json');
+$role = $_GET["role"];
+$type = $_GET["type"];
+$id = $_GET["id"];
+
+if ($role == 'sneaker') {
+    $json = file_get_contents('./db/sneakers.json');
+} else {
+    $json = file_get_contents('./db/apparel.json');
+}
 
 $array = json_decode($json, true);
 
