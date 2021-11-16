@@ -20,10 +20,484 @@
             "details": "We could use a lot of superlatives to describe the Nike Air Max 2021. We could tell you that we’ve incorporated recycled materials to design a sneaker with at least 20% recycled content. Or the new Air cushioning unit underfoot is our most revolutionary. Perhaps we’d call it the \"the pinnacle of comfort,\" waxing poetic about the cored-out foam midsole that gives you the lightest, softest feel. But maybe we just say it's modern meets technical with a splash of heritage DNA. What fun is giving away the surprises? ",
             "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
             "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 2,
+            "gender": "men",
+            "name": "AIR FORCE 1 07 WB",
+            "price": "R 1,999.00", 
+            "size": [
+                6,
+                7,
+                8,
+                10
+            ],
+            "img": [
+                "./img/sneakers/nike/id2_1.png",
+                "./img/sneakers/nike/id2_2.png",
+                "./img/sneakers/nike/id2_3.png"
+            ],
+            "product": "CJ9179-2006",
+            "details": "The legend lives on in the Nike Air Force 1 '07 WB, a low-cut take on the iconic AF1 that offers classic court style and premium cushioning.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 3,
+            "gender": "men",
+            "name": "BURROW",
+            "price": "R 999.00", 
+            "size": [
+                5.5,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12
+            ],
+            "img": [
+                "./img/sneakers/nike/id3_1.png",
+                "./img/sneakers/nike/id3_2.png",
+                "./img/sneakers/nike/id3_3.png"
+            ],
+            "product": "DC1456-3005.5",
+            "details": "There's nothing like cozying up to a campfire. Nothing like adventure. But also, there's nothing like the comfort of home. The Nike Burrow lets you bridge worlds. Slip them on and get lounging or step out of the tent and enjoy the fresh mountain air. Its fleece-like lining helps keep you warm. The marshmallow soft foam midsole/outsole with grippy traction pattern adds spring to your step.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 4,
+            "gender": "men",
+            "name": "PG 5",
+            "price": "R 2,199.00", 
+            "size": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "img": [
+                "./img/sneakers/nike/id4_1.png",
+                "./img/sneakers/nike/id4_2.png",
+                "./img/sneakers/nike/id4_3.png"
+            ],
+            "product": "CW3143-0066",
+            "details": "Paul George has an effortlessly smooth, reliably steady game. He takes his time, but he's always well-positioned to make the extra pass, cut through the lane, or nail a pull-up jumper. The PG 5 combines the agile low-top profile Paul likes with flexible Nike Air Strobel cushioning. The full-length Air unit is stitched directly to the upper, bringing the plush, bouncy cushioning right up under the foot—perfect for keeping PG feeling like he's moving on clouds.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 5,
+            "gender": "women",
+            "name": "ZOOM AIR FIRE (W)",
+            "price": "R 2,099.00", 
+            "size": [
+                3,
+                3.5,
+                4,
+                4.5,
+                5,
+                6
+            ],
+            "img": [
+                "./img/sneakers/nike/id5_1.png",
+                "./img/sneakers/nike/id5_2.png",
+                "./img/sneakers/nike/id5_3.png"
+            ],
+            "product": "CW3876-1043",
+            "details": "The techy, unconventional look of the Nike Zoom Air Fire nods to the history of performance running sneakers while creating a fresh look with its rich texturing and layering. The wild design lines and boldly framed Zoom Air cushioning combine with a thick foam midsole, adding comfort to go along with your defiant style.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 6,
+            "gender": "women",
+            "name": "AIR HUARACHE (W)",
+            "price": "R 2,199.00", 
+            "size": [
+                3,
+                4,
+                5,
+                6
+            ],
+            "img": [
+                "./img/sneakers/nike/id6_1.png",
+                "./img/sneakers/nike/id6_2.png",
+                "./img/sneakers/nike/id6_3.png"
+            ],
+            "product": "DH4439-1043",
+            "details": "Built to fit your foot and designed for comfort, the Nike Air Huarache brings back the street-level favorite. Smooth leather on the upper mixes with super-breathable, perfectly shined neoprene-like fabric for easy styling. The low-cut collar and bootie-like construction keep it sleek and comfy. The iconic heel clip and stripped away branding keep the original '90s running look you love.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 7,
+            "gender": "women",
+            "name": "WAFFLE ONE (W)",
+            "price": "R 1,899.00", 
+            "size": [
+                3,
+                4,
+                4.5,
+                5,
+                5.5,
+                6
+            ],
+            "img": [
+                "./img/sneakers/nike/id7_1.png",
+                "./img/sneakers/nike/id7_2.png",
+                "./img/sneakers/nike/id7_3.png"
+            ],
+            "product": "DN4696-6003",
+            "details": "Bringing a new look to the Waffle sneaker family, the Nike Waffle One balances everything you love about heritage Nike running with fresh innovations. Its TPU heel clip adds energy while a mixture of transparent mesh (let that sock game shine) and retro suedes give texture and depth. The updated Waffle outsole provides a level of support and traction you have to feel to believe.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 8,
+            "gender": "women",
+            "name": "DUNK HIGH UP (W)",
+            "price": "R 2,199.00", 
+            "size": [
+                4.5,
+                5.5,
+                6.5,
+                8
+            ],
+            "img": [
+                "./img/sneakers/nike/id8_1.png",
+                "./img/sneakers/nike/id8_2.png",
+                "./img/sneakers/nike/id8_3.png"
+            ],
+            "product": "DH3718-1028",
+            "details": "There’s never a wrong time to stand tall. Created for the hardwood but taken to the streets, the Nike Dunk High Up gives the '80s b-ball icon the perfect lift. With its classic high-top design, sport-like essence, and elevated midsole, it stays true to hoops DNA while letting you channel your confidence with every step.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
         }
-        
+    ],
+    "airjordan": [
+        {
+            "id": 1,
+            "gender": "men",
+            "name": "AIR JORDAN 11 RETRO LOW IE",
+            "price": "R 3,299.00", 
+            "size": [
+                7,
+                8,
+                9,
+                11
+            ],
+            "img": [
+                "./img/sneakers/airjordan/id1_1.png",
+                "./img/sneakers/airjordan/id1_2.png",
+                "./img/sneakers/airjordan/id1_3.png"
+            ],
+            "product": "919712-0237",
+            "details": "The Air Jordan 11 Retro Low IE Shoe offers a fresh take on one of the most beloved Jordan designs ever. It's built with lightweight and breathable materials. Full-length Air cushioning combines with premium details for the ultimate fusion of style and comfort.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 2,
+            "gender": "men",
+            "name": "JORDAN MAX AURA 3",
+            "price": "R 2,199.00", 
+            "size": [
+                8,
+                10,
+                11
+            ],
+            "img": [
+                "./img/sneakers/airjordan/id2_1.png",
+                "./img/sneakers/airjordan/id2_2.png",
+                "./img/sneakers/airjordan/id2_3.png"
+            ],
+            "product": "CZ4167-6008",
+            "details": "Get your piece of Jordan history and heritage in the Jordan Max Aura 3(CZ4167-600/UNIVERSITY RED/WHITE). Inspired by the brand's rich legacy of performance basketball, it has the energy of a game shoe and a design that puts a fresh spin on classic details. ",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 3,
+            "gender": "men",
+            "name": "AIR JORDAN XXXVI",
+            "price": "R 3,499.00", 
+            "size": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "img": [
+                "./img/sneakers/airjordan/id3_1.png",
+                "./img/sneakers/airjordan/id3_2.png",
+                "./img/sneakers/airjordan/id3_3.png"
+            ],
+            "product": "CZ2650-0046",
+            "details": "Since 1985, Jordan Brand has always done things that have never been seen before. Almost forty years later, Jordan continues to bring new light to the game with international athletes that are redefining the blueprint once again. Beaming with talent, it’s about the shine within that makes the new faces of the game radiant on the court. Drawing inspiration from ultraviolet rays, the Air Jordan XXXVI \"First Light\" (CZ2650-004/BLACK/HYPER VIOLET-WHITE-BRIGHT MANGO) celebrates the future of Jordan, the ones who will brighten the way for the next generation of global superstars all across the world.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 4,
+            "gender": "men",
+            "name": "JORDAN MA2",
+            "price": "R 2,399.00", 
+            "size": [
+                8,
+                9,
+                10,
+                11
+            ],
+            "img": [
+                "./img/sneakers/airjordan/id4_1.png",
+                "./img/sneakers/airjordan/id4_2.png",
+                "./img/sneakers/airjordan/id4_3.png"
+            ],
+            "product": "CV8122-1068",
+            "details": "Shatter the sneaker status quo in the Jordan MA2(CV8122-106/WHITE/BLACK-UNIVERSITY RED-LT SMOKE GREY). Made with a mix of suede, full-grain leather and a variety of textiles, it's got unconventional labels, technical micro-graphics and raw foam edges for a balance of new and classic. Easy to get on and off, it wears with just about anything.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 5,
+            "gender": "women",
+            "name": "JORDAN MA2 (GS)",
+            "price": "R 1,899.00", 
+            "size": [
+                4,
+                5,
+                6
+            ],
+            "img": [
+                "./img/sneakers/airjordan/id5_1.png",
+                "./img/sneakers/airjordan/id5_2.png",
+                "./img/sneakers/airjordan/id5_3.png"
+            ],
+            "product": "CW6594-0614",
+            "details": "The all-new Jordan MA2(CW6594-061/BLACK/WHITE-VERY BERRY) makes plays on the street with wildly diverse materials. Varied designs create a look that captures a look of Jordan heritage while forging a fresh, new identity that stands on its own.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 6,
+            "gender": "women",
+            "name": "JORDAN MA2 (W)",
+            "price": "R 2,399.00", 
+            "size": [
+                3,
+                4,
+                5,
+                6
+            ],
+            "img": [
+                "./img/sneakers/airjordan/id6_1.png",
+                "./img/sneakers/airjordan/id6_2.png",
+                "./img/sneakers/airjordan/id6_3.png"
+            ],
+            "product": "CW5992-10603",
+            "details": "Shatter the sneaker status quo in the Jordan MA2(CW5992-106/WHITE/BLACK-UNIVERSITY RED-LT SMOKE GREY). Made with a mix of suede, full-grain leather and a variety of textiles, it features unconventional labels, technical micro-graphics and raw foam edges for a balance of new and classic. Easy to get on and off and effortlessly comfortable, the shoe is a stylish symbol of Jordan attitude and innovation.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 7,
+            "gender": "women",
+            "name": "AIR JORDAN 2 RETRO (W)",
+            "price": "R 3,099.00", 
+            "size": [
+                3,
+                4,
+                5,
+                7
+            ],
+            "img": [
+                "./img/sneakers/airjordan/id7_1.png",
+                "./img/sneakers/airjordan/id7_2.png",
+                "./img/sneakers/airjordan/id7_3.png"
+            ],
+            "product": "CT6244-60003",
+            "details": "The Women’s Air Jordan 2 Retro 'Rivals' takes on a colour scheme that recalls the uniform colours of MJ's various rival teams. The retro silhouette carries a leather upper finished in University Red, complete with faux lizard skin paneling and sleek lines outlined in Court Purple. Contrasting black hits appear on the midsole and heel. Now Available Online and In-store at LEMKUS.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        }
     ],
     "adidas": [
-        
+        {
+            "id": 1,
+            "gender": "men",
+            "name": "STREETBALL",
+            "price": "R 1,899.00", 
+            "size": [
+                7,
+                11
+            ],
+            "img": [
+                "./img/sneakers/adidas/id1_1.png",
+                "./img/sneakers/adidas/id1_2.png",
+                "./img/sneakers/adidas/id1_3.png"
+            ],
+            "product": "FX9701011",
+            "details": "It's a culture that lives and breathes way beyond the hardwood. These adidas Streetball (FX9701-Core Black/Crew Orange/Cream White)shoes channel the power and energy of the court right onto the sidewalk. Think mid-cut shape, sculpted sole and layered upper. A few pops of fuzzy animal print give it that little extra swagger. Now Available Online and In-store at LEMKUS.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 2,
+            "gender": "men",
+            "name": "FORUM LOW",
+            "price": "R 1,599.00", 
+            "size": [
+                6,
+                8,
+                9,
+                10
+            ],
+            "img": [
+                "./img/sneakers/adidas/id2_1.png",
+                "./img/sneakers/adidas/id2_2.png",
+                "./img/sneakers/adidas/id2_3.png"
+            ],
+            "product": "GZ91126",
+            "details": "Your passion, perspective and ideas are all part of what makes you unique. As you find your own creativity and self-expression, these adidas shoes weave primary and pastel hues into every stride. When you share your voice with others, you create opportunities to strengthen your community. The Trefoil serves as a reminder of the power of coming together.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 3,
+            "gender": "men",
+            "name": "FORUM MID",
+            "price": "R 2,099.00", 
+            "size": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "img": [
+                "./img/sneakers/adidas/id3_1.png",
+                "./img/sneakers/adidas/id3_2.png",
+                "./img/sneakers/adidas/id3_3.png"
+            ],
+            "product": "H016796",
+            "details": "Can you hear it? That's the energy of the stands. Lace up in these adidas Forum Mid Shoes and bring B-ball attitude with you wherever you step. Based on the iconic silhouette from '84, this version updates the classic with an airy mesh and leather upper and sleek details inspired by retro basketball gear. The iconic ankle strap remains, so you can wear this pair just like they did back in the day.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 4,
+            "gender": "men",
+            "name": "ZX 10,000",
+            "price": "R 2,399.00", 
+            "size": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "img": [
+                "./img/sneakers/adidas/id4_1.png",
+                "./img/sneakers/adidas/id4_2.png",
+                "./img/sneakers/adidas/id4_3.png"
+            ],
+            "product": "H043506",
+            "details": "Nothing is as simple as it looks at first glance. Take these adidas ZX 10,000 Shoes, for instance. They embrace layered complexity and then exaggerate it with a textile upper, synthetic suede overlays and bursts of colours. It all rides on a rubber outsole, so every step on your daily adventure sticks.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 5,
+            "gender": "women",
+            "name": "FORUM LOW (W)",
+            "price": "R 1,799.00", 
+            "size": [
+                3.5,
+                4,
+                5,
+                6
+            ],
+            "img": [
+                "./img/sneakers/adidas/id5_1.png",
+                "./img/sneakers/adidas/id5_2.png",
+                "./img/sneakers/adidas/id5_3.png"
+            ],
+            "product": "G5803003.5",
+            "details": "The adidas Forum (G58030- Core Black/Core Black/Off White) hit the scene in '84 and gained major love on both the hardwood and in the music biz. the explosive hardwood energy and the iconic removable strap ankle design, distilled into a low top version meant for the streets. Now Available Online and In-store at LEMKUS.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 6,
+            "gender": "women",
+            "name": "FORUM LOW (W)",
+            "price": "R 1,599.00", 
+            "size": [
+                3,
+                4,
+                5,
+                6
+            ],
+            "img": [
+                "./img/sneakers/adidas/id6_1.png",
+                "./img/sneakers/adidas/id6_2.png",
+                "./img/sneakers/adidas/id6_3.png"
+            ],
+            "product": "FZ390803",
+            "details": "The adidas Forum (FZ3908- Cloud White/Core Black /True Pink). hit the scene in '84 and gained major love on both the hardwood and in the music biz. the explosive hardwood energy and the iconic removable strap ankle design, distilled into a low top version meant for the streets. Now Available Online and In-store at LEMKUS.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 7,
+            "gender": "women",
+            "name": "STAN SMITH (W)",
+            "price": "R 1,799.00", 
+            "size": [
+                3,
+                3.5,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "img": [
+                "./img/sneakers/adidas/id7_1.png",
+                "./img/sneakers/adidas/id7_2.png",
+                "./img/sneakers/adidas/id7_3.png"
+            ],
+            "product": "FX556903",
+            "details": "The Stan Smith (FX5569 -Cloud White/Screaming Pink/Off White) capture the essential style of the 1971 original, with a minimalist leather build and clean trim. It's made with vegan and recycled materials up top and recycled chewing gum in the outsole. Now Available Online and In-store at LEMKUS.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 8,
+            "gender": "women",
+            "name": "SUPERSTAR (W)",
+            "price": "R 1,899.00", 
+            "size": [
+                3,
+                4,
+                5
+            ],
+            "img": [
+                "./img/sneakers/adidas/id8_1.png",
+                "./img/sneakers/adidas/id8_2.png",
+                "./img/sneakers/adidas/id8_3.png"
+            ],
+            "product": "FX604103",
+            "details": "The adidas Superstar (FX6041-Cloud White/Clear Mint/Gold Metallic)shoe is now a lifestyle staple for streetwear enthusiasts. The world-famous shell toe feature remains, providing style and protection. Their upper is a mix of materials, showing off the Shiny metallic yarn weaves through the perforated detail. Now Available Online and In-store at LEMKUS.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        }
     ]
 }
