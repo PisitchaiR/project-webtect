@@ -1,40 +1,86 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-body{
-    background-color: #FDFBF5;
+body {
+  background-color: #fdfbf5;
 }
+
+.bg-main {
+  background-color: #fdfbf5 !important;
+}
+
 .hide-scroll-bar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .hide-scroll-bar::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .tooltip {
-    opacity: 0;
-    position: fixed;
-    background-color: black;
-    color: white;
-    z-index: 9999;
-    cursor: pointer;
-    margin-top: 2rem;
-    transform: translate(-50%, -50%);
-    top: 0;
-    left: 0;
-    font-size: 1.25rem;
-    padding: 0.3rem 2rem;
-    border-radius: 999px;
-    background: #fff;
-    border: 1px solid #000;
-    color: #000;
-    transition: padding .5s;
+  opacity: 0;
+  position: fixed;
+  background-color: black;
+  color: white;
+  z-index: 9999;
+  cursor: pointer;
+  margin-top: 2rem;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  font-size: 1.25rem;
+  padding: 0.3rem 2rem;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+  transition: padding 0.5s;
 }
 
 .box:hover .tooltip {
+  opacity: 1;
+}
+
+.fade-in-product:hover {
+  animation: fade 1s ease-in alternate;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.25;
+  }
+
+  to {
     opacity: 1;
+  }
+}
+
+.loop {
+  animation: scrolling-left1 20s linear infinite;
+}
+
+.loop2 {
+  animation: scrolling-left2 20s linear infinite;
+  animation-delay: 10s;
+}
+
+@keyframes scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrolling-left2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
 }

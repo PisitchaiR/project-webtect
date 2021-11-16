@@ -1,0 +1,537 @@
+{
+    "tshirt": [
+        {
+            "id": 1,
+            "gender": "men",
+            "name": "JORDAN ZION T-SHIRT",
+            "price": "R 559.00",
+            "free" : "R186.33",
+            "size": [
+                "S",
+                "L",
+                "Xl",
+                "2XL"
+            ],
+            "img": [
+                "./img/apparel/tshirt/id1_1.png",
+                "./img/apparel/tshirt/id1_2.png",
+                "./img/apparel/tshirt/id1_3.png"
+            ],
+            "product": "DH0592-101S",
+            "details": "The Jordan Dri-FIT Zion T-Shirt is made from soft, comfortable knit fabric with sweat-wicking technology. Graphics riff on Zion's new logo and his love of anime.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 2,
+            "gender": "men",
+            "name": "SPACE JAM LOLA BUNNY TEE",
+            "price": "R 559.00",
+            "free" : "R199.67",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/tshirt/id2_1.png",
+                "./img/apparel/tshirt/id2_2.png",
+                "./img/apparel/tshirt/id2_3.png"
+            ],
+            "product": "10023070-A010M",
+            "details": "It's official. The Tune Squad is back in action and Converse just dropped a signature collection, including this signature Lola Bunny tee. The stylishly oversized design features a large Lola Bunny action graphic on the front and bold lettering on the vertical mesh back panel.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 3,
+            "gender": "men",
+            "name": "ARTIST LISTER T-SHIRT",
+            "price": "R 749.00",
+            "free" : "R249.67",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/tshirt/id3_1.png",
+                "./img/apparel/tshirt/id3_2.png",
+                "./img/apparel/tshirt/id3_3.png"
+            ],
+            "product": "MT13555S",
+            "details": "Express your original, creative style with the NB Athletics Artist Lister Tee 1. Made from soft cotton jersey fabric and styled in a comfortable relaxed fit, this men's tee makes a bold statement ideal for any activity. Part of our 'The Intelligent Choice' collection, this piece features a Lister custom design illustrating the artist's take on intelligence",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 4,
+            "gender": "men",
+            "name": "SB WAXED T-SHIRT",
+            "price": "R 429.00",
+            "free" : "R143.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/tshirt/id4_1.png",
+                "./img/apparel/tshirt/id4_2.png"
+            ],
+            "product": "DM6492-063XS",
+            "details": "Celebrating unconventional lighting everywhere, the Nike SB T-Shirt showcases a lit candle that's dripping wax into your sneaker—it's the price you pay for forgetting a flashlight on your annual camping trip.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 5,
+            "gender": "women",
+            "name": "SPACE JAM COURT READY TEE",
+            "price": "R 649.00",
+            "free" : "R216.33",
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "./img/apparel/tshirt/id5_1.png",
+                "./img/apparel/tshirt/id5_2.png",
+                "./img/apparel/tshirt/id5_3.png"
+            ],
+            "product": "10023071-A010S",
+            "details": "It's official. The Tune Squad is back in action and Converse just dropped a signature collection, including this limited-edition tee. Made for style, durability and freedom of movement, this Space Jam: A New Legacy design adds Tune Squad graphics to that fluid, court-to-street look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 6,
+            "gender": "women",
+            "name": "ATHLETIC CLUB BOXY T-SHIRT (W)",
+            "price": "R 599.00",
+            "free" : "R199.67",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "./img/apparel/tshirt/id6_1.png",
+                "./img/apparel/tshirt/id6_2.png",
+                "./img/apparel/tshirt/id6_3.png"
+            ],
+            "product": "WT13509BXS",
+            "details": "The NB Essentials Athletic Club Boxy Tee has a roomy, non-constricting fit that will quickly make it your go-to top for everything from casual strolls to lounging on the couch. The women’s tee combines soft and breathable cotton jersey fabric with a stylish boxy design that looks great with shorts or leggings. A heritage-inspired logo on the front of the women’s t-shirt brings a cool collegiate vibe to the look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 7,
+            "gender": "women",
+            "name": "NSW BOYFRIEND LX T-SHIRT",
+            "price": "R 429.00",
+            "free" : "R143.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "./img/apparel/tshirt/id7_1.png",
+                "./img/apparel/tshirt/id7_2.png"
+            ],
+            "product": "DM2800-601XS",
+            "details": "Carefree and confident, this T-shirt is made with a midweight cotton jersey. The printed graphic is accented with foil details that provide a subtle hit of shine.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 8,
+            "gender": "women",
+            "name": "EASY T-SHIRT (W)",
+            "price": "R 289.00",
+            "free" : "R96.33",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "./img/apparel/tshirt/id8_1.png",
+                "./img/apparel/tshirt/id8_2.png"
+            ],
+            "product": "4T1Q-AYS",
+            "details": "Another day, another tee.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        }
+    ],
+    "hoodies" : [
+        {
+            "id": 1,
+            "gender": "men",
+            "name": "ZION TRACKSUIT TOP",
+            "price": "R 2,229.00",
+            "free" : "R743.00",
+            "size": [
+                "XL",
+                "L",
+                "M",
+                "S"
+            ],
+            "img": [
+                "./img/apparel/hoodies/id1_1.png",
+                "./img/apparel/hoodies/id1_2.png",
+                "./img/apparel/hoodies/id1_3.png"
+            ],
+            "product": "DJ5881-393XL",
+            "details": "Zion calls himself Cozy Guy because he likes relaxed, comfortable clothing he can lounge in. The Zion Track Suit Top is made from plush, velvet-like fabric that feels soft and cozy. Z-shaped inset stripes and a thickly embroidered logo infuse Zion's signature elements into the design.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 2,
+            "gender": "men",
+            "name": "SPACE JAM COURT READY HOODIE",
+            "price": "R 1,999.00",
+            "free" : "R666.33",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/hoodies/id2_1.png",
+                "./img/apparel/hoodies/id2_2.png",
+                "./img/apparel/hoodies/id2_3.png"
+            ],
+            "product": "10023064-A010S",
+            "details": "It's official. The Tune Squad is back in action and Converse just dropped a signature collection, including this limited-edition pullover hoodie. Made for style, durability and freedom of movement, this Space Jam: A New Legacy design adds the full Tune Squad to that fluid, court-to-street look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 3,
+            "gender": "men",
+            "name": "CLASH HOODIE",
+            "price": "R 1,299.00",
+            "free" : "R433.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/hoodies/id3_1.png",
+                "./img/apparel/hoodies/id3_2.png",
+                "./img/apparel/hoodies/id3_3.png"
+            ],
+            "product": "MT13564S",
+            "details": "Make a style statement in our NB Athletics Clash Hoodie(MT13564). Made with washed cotton terry fabric, this men's hoodie features hand-drawn graphics to help you express your creativity and originality. The relaxed fit offers effortless wear so you can set trends in comfort.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 4,
+            "gender": "men",
+            "name": "NSW FANTASY CREATURE HOODIE",
+            "price": "R 1,029.00",
+            "free" : "R343.00",
+            "size": [
+                "XL",
+                "L",
+                "M",
+                "S",
+                "XS"
+            ],
+            "img": [
+                "./img/apparel/hoodies/id4_1.png",
+                "./img/apparel/hoodies/id4_2.png",
+                "./img/apparel/hoodies/id4_3.png"
+            ],
+            "product": "DM2249-010L",
+            "details": "The Nike Sportswear Hoodie is made with ultrasoft and warm fleece and a classic fit perfect for everyday wear. Delivering a whimsical, illustrative look, the printed graphics take a natural approach on a few Nike favorites.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 5,
+            "gender": "women",
+            "name": "ATHLETIC CLUB HOODY (W)",
+            "price": "R 999.00",
+            "free" : "R333.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "./img/apparel/hoodies/id5_1.png",
+                "./img/apparel/hoodies/id5_2.png",
+                "./img/apparel/hoodies/id5_3.png"
+            ],
+            "product": "WT13508OXS",
+            "details": "Warm and comfy, our NB Essentials Athletic Club Hoodie helps you keep the chill off in casual, sporty style. Great for everything from lounging to streetwear, the women’s hoodie has a roomy relaxed fit and it’s crafted from super-soft French terry fabric. A kangaroo pocket gives you a space to warm your hands, and the hood is lined for extra warmth.Product",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 6,
+            "gender": "women",
+            "name": "NSW ESSENTIAL FULL-ZIP HOODIE (W)",
+            "price": "R 949.00",
+            "free" : "R316.33",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/hoodies/id6_1.png",
+                "./img/apparel/hoodies/id6_2.png",
+                "./img/apparel/hoodies/id6_3.png"
+            ],
+            "product": "DJ4120-869XS",
+            "details": "Double up on warmth with the Nike Sportswear Full-Zip Hoodie. Throw it in your bag on days when cooler temps have you second-guessing your outfit.(ORANGE/DJ4120-869)",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 7,
+            "gender": "women",
+            "name": "NSW TECH FLEECE WINDRUNNER (W)",
+            "price": "R 1,549.00",
+            "free" : "R516.33",
+            "size": [
+                "S",
+                "M",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/hoodies/id7_1.png",
+                "./img/apparel/hoodies/id7_2.png",
+                "./img/apparel/hoodies/id7_3.png"
+            ],
+            "product": "CW4298-0630S",
+            "details": "",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 8,
+            "gender": "women",
+            "name": "NSW ICON GX HOODIE (W)",
+            "price": "R 1,119.00",
+            "free" : "R373.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/hoodies/id8_1.png",
+                "./img/apparel/hoodies/id8_2.png",
+                "./img/apparel/hoodies/id8_3.png"
+            ],
+            "product": "DD5052-8140XS",
+            "details": "",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        }
+    ],
+    "sweatshirts" : [
+        {
+            "id": 1,
+            "gender": "men",
+            "name": "JORDAN SPORT DNA FLEECE CREW",
+            "price": "R 1,119.00",
+            "free" : "R373.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "img": [
+                "./img/apparel/sweatshirts/id1_1.png",
+                "./img/apparel/sweatshirts/id1_2.png",
+                "./img/apparel/sweatshirts/id1_3.png"
+            ],
+            "product": "dc9615-010XS",
+            "details": "The Jordan Sport DNA Crew Sweatshirt features fresh artwork inspired by NYC street basketball. It's made from warm, cozy fabric with dropped shoulders and a relaxed feel.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 2,
+            "gender": "men",
+            "name": "ATHLECTIC CLUB HOODY",
+            "price": "R 1,099.00",
+            "free" : "R366.33",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/sweatshirts/id2_1.png",
+                "./img/apparel/sweatshirts/id2_2.png",
+                "./img/apparel/sweatshirts/id2_3.png"
+            ],
+            "product": "MT13519SS-S",
+            "details": "Our NB Essentials Athletic Club Hoodie offers an updated take on varsity style, with a cool heritage-inspired chest label. The men’s hoodie is made from soft French terry fabric to help keep you comfortable everywhere the day takes you. It has a kangaroo pocket and a drawcord hood to bring comfort to the next level.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 3,
+            "gender": "men",
+            "name": "ATHLECTIC CLUB CREW",
+            "price": "R 999.00",
+            "free" : "R333.00",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/sweatshirts/id3_1.png",
+                "./img/apparel/sweatshirts/id3_2.png",
+                "./img/apparel/sweatshirts/id3_3.png"
+            ],
+            "product": "MT13520ES",
+            "details": "Offering a modern take on varsity style, our NB Essentials Athletic Club Crew is a sharp addition to any guy’s wardrobe. The casual men’s sweater is made from soft French terry fabric, with a roomy relaxed fit that’s easy to pull on over your other layers on colder days. A heritage-inspired graphic on the chest and raglan sleeves give the casual sweater a laidback, athletic look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 4,
+            "gender": "men",
+            "name": "HIGHER LEARNING CREW",
+            "price": "R 1,099.00",
+            "free" : "R366.33",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/sweatshirts/id4_1.png",
+                "./img/apparel/sweatshirts/id4_2.png",
+                "./img/apparel/sweatshirts/id4_3.png"
+            ],
+            "product": "MT13506M",
+            "details": "The academic-inspired NB Athletics Fleece Crew will add a classic, stylish look to any winter wardrobe. This men's crew sweatshirt blends sport and style with its block seams, chest snap welt pocket, and crew neckline. The relaxed fit is easy to style with your other cold-weather clothing, and the soft cotton French terry keeps you warm as you go about your day.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 5,
+            "gender": "women",
+            "name": "ATHLETIC CLUB CREW (W)",
+            "price": "R 299.67",
+            "free" : "R366.33",
+            "size": [
+                "XS",
+                "S",
+                "M"
+            ],
+            "img": [
+                "./img/apparel/sweatshirts/id5_1.png",
+                "./img/apparel/sweatshirts/id5_2.png"
+            ],
+            "product": "WT13510SYXS",
+            "details": "Soft and cozy French terry fabric meets laidback modern styling in our NB Essentials Athletic Club Crew. Great for everyday casual wear, this comfy women’s sweatshirt has a roomy relaxed fit that leaves space to layer up on cool days. The versatile design pairs effortlessly with everything from jeans to leggings, and a heritage-inspired logo on the chest adds a subtle preppy vibe to the look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 6,
+            "gender": "women",
+            "name": "HIGHER LEARNING LEGGING (W)",
+            "price": "R 849.00",
+            "free" : "R283.00",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "img": [
+                "./img/apparel/sweatshirts/id6_1.png",
+                "./img/apparel/sweatshirts/id6_2.png",
+                "./img/apparel/sweatshirts/id6_3.png"
+            ],
+            "product": "WP13501SXS",
+            "details": "Put some preppy vibes in your step with the NB Athletics Higher Learning Legging. This women's legging will get you through the day with a high-rise waist, fitted silhouette, and breathable blended fabric. The collegiate-inspired design from the Higher Learning collection features a stripe side panel and metallic gold touches for a bold, modern look.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 7,
+            "gender": "women",
+            "name": "HIGHER LEARNING CREW (W)",
+            "price": "R 1,099.00",
+            "free" : "R366.33",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/sweatshirts/id7_1.png",
+                "./img/apparel/sweatshirts/id7_2.png"
+            ],
+            "product": "WT13500-XS",
+            "details": "Inspired by preppy collegiate vibes and modern style, the NB Athletics Higher Learning Crew will add a classic look to any wardrobe. This women's crew sweatshirt features bold color blocking mixed with soft metallic gold details for a look that sets the style bar high. The oversized fit is easy to wear, and the dry-handed cotton French terry fabric is comfortable for any activity.",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        },
+        {
+            "id": 8,
+            "gender": "women",
+            "name": "NSW AIR FLEECE MOCK TOP (W)",
+            "price": "R 949.00",
+            "free" : "R316.33",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "img": [
+                "./img/apparel/sweatshirts/id8_1.png",
+                "./img/apparel/sweatshirts/id8_2.png",
+                "./img/apparel/sweatshirts/id8_3.png"
+            ],
+            "product": "DD5433-100S",
+            "details": "",
+            "shipping": "Lemkus.com exclusively uses RAM, one of the leading Courier Companies in SA offering door to door FREE delivery on every order over R800.",
+            "returns": "You are purchasing online and there are going to be times that you get something that you don’t quite want, please don’t fear because we offer one free return on every order made. We will also refund you your money or give you on site credit should you want to wait for something else to come along. Please see our returns and exchanges section for more information."
+        }
+    ]
+}

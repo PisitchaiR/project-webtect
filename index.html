@@ -9,10 +9,13 @@
 
     <!-- style -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/tailwind.css">
     <link rel="stylesheet" href="./css/style.css">
 
@@ -20,16 +23,45 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
     <script src="./js/script.js"></script>
 </head>
 
 <body>
+    <!--
+        
+                               _oo0oo_
+                              o8888888o
+                              88" . "88
+                              (| -_- |)
+                              0\  =  /0
+                            ___/`---'\___
+                          .' \\|     |// '.
+                         / \\|||  :  |||// \
+                        / _||||| -:- |||||- \
+                       |   | \\\  -  /// |   |
+                       | \_|  ''\---/''  |_/ |
+                       \  .-\__  '-'  ___/-. /
+                     ___'. .'  /--.--\  `. .'___
+                  ."" '<  `.___\_<|>_/___.' >' "".
+                 | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+                 \  \ `_.   \_ __\ /__ _/   .-` /  /
+             =====`-.____`.___ \_____/___.-`___.-'=====
+                               `=---='
+        
+        
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+                       รอดพ้น         ทุก BUG สาธุ
+    -->
     <!--logo & animation-->
     <svg class="relative top-0 left-0 z-30 mt-20 px-8" id="logo" data-name="Large Logo"
         xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 1314 178.2">
@@ -167,6 +199,7 @@
                 </div>
             </a>
         </div>
+
         <!-- secondary banner three block -->
         <div class="box relative" onmousemove="showCursor(event)">
             <div class="tooltip">DRAG</div>
@@ -214,33 +247,9 @@
             </ul>
         </div>
 
-        <!-- 
-            🆂🆃🅰🅵🅵 🅿🅸🅲🅺🆂 
-
-            ────────▄█▀▄
-            ──────▄██▀▀▀▀▄
-            ────▄███▀▀▀▀▀▀▀▄
-            ──▄████▀▀▀▀▀▀▀▀▀▀▄
-            ▄█████▀▀▀▀▀▀▀▀▀▀▀▀▀▄
-
-        -->
-        <style>
-            .fade-in-product:hover {
-                animation: fade 1s ease-in alternate;
-            }
-
-            @keyframes fade {
-                from {
-                    opacity: 0.25;
-                }
-
-                to {
-                    opacity: 1;
-                }
-            }
-        </style>
+        <!-- nike -->
         <div class="flex flex-col">
-            <div class="px-8 text-9xl uppercase my-5">staff picks</div>
+            <div id="nike" class="px-8 text-9xl uppercase my-5">nike</div>
             <div onmousemove="showCursor(event)" class="box relative overflow-x-scroll flex hide-scroll-bar">
                 <div class="tooltip">DRAG</div>
                 <ul id="product" class="owl-carousel owl-theme product-carousel flex flex-nowrap">
@@ -250,11 +259,11 @@
                         fetch('./db/sneakers.json')
                             .then(res => res.json())
                             .then(data => {
-                                for (let i = 0; i < data.nike.length; i++) {
+                                for (let i = 0; i < 5; i++) {
                                     let sneaker = data.nike[i];
                                     let body = `<li class="inline-block">`;
                                     body += `<div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">`;
-                                    body += `<a href=""><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
+                                    body += `<a href="item.php?type=nike&id=${sneaker.id}"><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
                                         onmouseover="changeImg(this, '${sneaker.img[1]}')" onmouseout="normalImg(this, '${sneaker.img[0]}')">`;
                                     body += `<p class="mt-3 uppercase text-xl"
                                         onmouseover="changeText(this, '${sneaker.size}')" onmouseout="normalText(this, '${sneaker.name}', '${sneaker.price}')">${sneaker.name}<br>${sneaker.price}</p>`;
@@ -267,23 +276,6 @@
                                     autoWidth: true,
                                 })
                             })
-
-                        function changeImg(e, img) {
-                            e.src = img;
-                        }
-
-                        function normalImg(e, img) {
-                            e.src = img;
-                        }
-
-                        function changeText(e, size) {
-                            e.innerHTML = size.replaceAll(',', " ");
-                        }
-
-                        function normalText(e, name, price) {
-                            e.innerHTML = name + "<br>" + price;
-                        }
-
                     </script>
 
                     <!-- *original -->
@@ -299,6 +291,139 @@
             </div>
         </div>
 
+        <!-- air jordan -->
+        <div class="flex flex-col">
+            <div class="px-8 text-9xl uppercase my-5">air jordan</div>
+            <div onmousemove="showCursor(event)" class="box relative overflow-x-scroll flex hide-scroll-bar">
+                <div class="tooltip">DRAG</div>
+                <ul id="airjordan" class="owl-carousel owl-theme airjordan-carousel flex flex-nowrap">
+                    <script>
+                        const airjordan = document.getElementById("airjordan");
+
+                        fetch('./db/sneakers.json')
+                            .then(res => res.json())
+                            .then(data => {
+                                for (let i = 0; i < 5; i++) {
+                                    let sneaker = data.airjordan[i];
+                                    let body = `<li class="inline-block">`;
+                                    body += `<div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">`;
+                                    body += `<a href=""><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
+                                        onmouseover="changeImg(this, '${sneaker.img[1]}')" onmouseout="normalImg(this, '${sneaker.img[0]}')">`;
+                                    body += `<p class="mt-3 uppercase text-xl"
+                                        onmouseover="changeText(this, '${sneaker.size}')" onmouseout="normalText(this, '${sneaker.name}', '${sneaker.price}')">${sneaker.name}<br>${sneaker.price}</p>`;
+                                    body += `</a></div></li>`;
+
+                                    airjordan.innerHTML += body;
+                                }
+
+                                $('.airjordan-carousel').owlCarousel({
+                                    autoWidth: true,
+                                })
+                            })
+                    </script>
+
+                    <!-- *original -->
+                    <!-- <li class="inline-block">
+                        <div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">
+                            <a href=""><img class="border border-black h-96" src="./img/shirt.png" alt="">
+                                <p class="mt-3 uppercase text-xl">liverpool fc heritage jacket</p>
+                                <p class="uppercase text-xl">B 1,499.00</p>
+                            </a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- T-shirt -->
+        <div class="flex flex-col">
+            <div class="px-8 text-9xl uppercase my-5">T-shirt</div>
+            <div onmousemove="showCursor(event)" class="box relative overflow-x-scroll flex hide-scroll-bar">
+                <div class="tooltip">DRAG</div>
+                <ul id="tshirt" class="owl-carousel owl-theme tshirt-carousel flex flex-nowrap">
+                    <script>
+                        const tshirt = document.getElementById("tshirt");
+
+                        fetch('./db/apparel.json')
+                            .then(res => res.json())
+                            .then(data => {
+                                for (let i = 0; i < 5; i++) {
+                                    let apparel = data.tshirt[i];
+                                    let body = `<li class="inline-block">`;
+                                    body += `<div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">`;
+                                    body += `<a href=""><img class="fade-in-product border border-black h-96" src="${apparel.img[0]}" alt="apparel" 
+                                        onmouseover="changeImg(this, '${apparel.img[1]}')" onmouseout="normalImg(this, '${apparel.img[0]}')">`;
+                                    body += `<p class="mt-3 uppercase text-xl"
+                                        onmouseover="changeText(this, '${apparel.size}')" onmouseout="normalText(this, '${apparel.name}', '${apparel.price}')">${apparel.name}<br>${apparel.price}</p>`;
+                                    body += `</a></div></li>`;
+
+                                    tshirt.innerHTML += body;
+                                }
+
+                                $('.tshirt-carousel').owlCarousel({
+                                    autoWidth: true,
+                                })
+                            })
+                    </script>
+
+                    <!-- *original -->
+                    <!-- <li class="inline-block">
+                        <div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">
+                            <a href=""><img class="border border-black h-96" src="./img/shirt.png" alt="">
+                                <p class="mt-3 uppercase text-xl">liverpool fc heritage jacket</p>
+                                <p class="uppercase text-xl">B 1,499.00</p>
+                            </a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- sweatshirts -->
+        <div class="flex flex-col">
+            <div class="px-8 text-9xl uppercase my-5">Sweatshirts</div>
+            <div onmousemove="showCursor(event)" class="box relative overflow-x-scroll flex hide-scroll-bar">
+                <div class="tooltip">DRAG</div>
+                <ul id="sweatshirts" class="owl-carousel owl-theme sweatshirts-carousel flex flex-nowrap">
+                    <script>
+                        const sweatshirts = document.getElementById("sweatshirts");
+
+                        fetch('./db/apparel.json')
+                            .then(res => res.json())
+                            .then(data => {
+                                for (let i = 0; i < 5; i++) {
+                                    let apparel = data.sweatshirts[i];
+                                    let body = `<li class="inline-block">`;
+                                    body += `<div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">`;
+                                    body += `<a href=""><img class="fade-in-product border border-black h-96" src="${apparel.img[0]}" alt="apparel" 
+                                        onmouseover="changeImg(this, '${apparel.img[1]}')" onmouseout="normalImg(this, '${apparel.img[0]}')">`;
+                                    body += `<p class="mt-3 uppercase text-xl"
+                                        onmouseover="changeText(this, '${apparel.size}')" onmouseout="normalText(this, '${apparel.name}', '${apparel.price}')">${apparel.name}<br>${apparel.price}</p>`;
+                                    body += `</a></div></li>`;
+
+                                    sweatshirts.innerHTML += body;
+                                }
+
+                                $('.sweatshirts-carousel').owlCarousel({
+                                    autoWidth: true,
+                                })
+                            })
+                    </script>
+
+                    <!-- *original -->
+                    <!-- <li class="inline-block">
+                        <div class="border-r border-t border-b border-black p-5 w-96 flex justify-center">
+                            <a href=""><img class="border border-black h-96" src="./img/shirt.png" alt="">
+                                <p class="mt-3 uppercase text-xl">liverpool fc heritage jacket</p>
+                                <p class="uppercase text-xl">B 1,499.00</p>
+                            </a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- culture -->
         <div class="flex flex-col">
             <div class="px-8 flex justify-between">
                 <div class="text-9xl uppercase my-5 text-yellow-400">culture</div>
@@ -548,6 +673,21 @@
             margin: 20,
         });
 
+        function changeImg(e, img) {
+            e.src = img;
+        }
+
+        function normalImg(e, img) {
+            e.src = img;
+        }
+
+        function changeText(e, size) {
+            e.innerHTML = size.replaceAll(',', " ");
+        }
+
+        function normalText(e, name, price) {
+            e.innerHTML = name + "<br>" + price;
+        }
 
     </script>
 </body>
