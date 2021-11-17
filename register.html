@@ -14,27 +14,44 @@
 
 <body>
     <!-- Top Bar Nav-->
-    <nav class="w-full py-4" style="border-bottom: 1px solid black">
+    <nav class="w-full py-4 sticky top-0 bg-white" style="border-bottom: 1px solid black">
         <div class="mx-5 flex flex-wrap items-center justify-between">
-            <div class="logo font-bold"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="45%" viewBox="0 0 125.365 17.001">
+            <div class="logo font-bold"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="45%"
+                        viewBox="0 0 125.365 17.001">
                         <g id="Small_Logo" transform="translate(-25 -19.5)">
-                            <path class="cls-1" id="Path_1073" d="M5.791 1.779L0 18.125h16.209l1.524-4.492H8.368l3.893-11.854z" transform="translate(25 18.049)"></path>
-                            <path class="cls-1" id="Path_1074" d="M134.961 18.125l2.7-8.1-6.624 5.814h-.116l-2.731-5.814-2.7 8.1h-6.653L122.8 6.53h-12.883l-.553 1.57h10.649l-1.307 3.947h-10.649l-.61 1.6h10.808l-1.482 4.483h-17.49l5.462-16.346h26.265l2.44 5.745 6.276-5.745h7.467l-5.462 16.346z" transform="translate(-56.041 18.049)"></path>
-                            <path class="cls-1" id="Path_1331" d="M380.26 16.3c-1.918 1.541-4.823 2.148-8.048 2.148-5.723 0-8.8-2.2-8.8-5.884a8.6 8.6 0 0 1 .436-2.639l2.333-6.962-7.8 6.285 4.242 8.873h-7.233l-2.441-5.254-2.849 2.292-.988 2.966h-6.8l5.462-16.346h6.8L352.6 7.64l6.77-5.861h14.12l-2.847 8.5a4.5 4.5 0 0 0-.232 1.285c0 1.354.988 2.055 2.789 2.055a3.491 3.491 0 0 0 2.179-.677 4.716 4.716 0 0 0 1.453-2.382l2.934-8.78h6.915l-3.225 9.62a10.155 10.155 0 0 1-3.2 4.9" transform="translate(-254.418 18.049)"></path>
-                            <path class="cls-1" id="Path_1332" d="M578.518 6.445c3.457 1.028 5.665 2.195 5.665 4.693a4.836 4.836 0 0 1-1.947 3.83C580.7 16.206 578.2 17 574.974 17a17.115 17.115 0 0 1-10.024-2.966l3.893-3.736a12.444 12.444 0 0 0 6.857 2.312c.872 0 1.482-.257 1.482-.724 0-.514-.378-.677-3.341-1.565-3.777-1.121-5.549-2.2-5.549-4.6a4.655 4.655 0 0 1 1.917-3.62A11.555 11.555 0 0 1 577.443 0a16.253 16.253 0 0 1 9.065 2.452l-3.893 3.736a11.245 11.245 0 0 0-5.869-1.822c-.872 0-1.482.187-1.482.654 0 .49.436.584 3.254 1.424" transform="translate(-436.143 19.5)"></path>
+                            <path class="cls-1" id="Path_1073"
+                                d="M5.791 1.779L0 18.125h16.209l1.524-4.492H8.368l3.893-11.854z"
+                                transform="translate(25 18.049)"></path>
+                            <path class="cls-1" id="Path_1074"
+                                d="M134.961 18.125l2.7-8.1-6.624 5.814h-.116l-2.731-5.814-2.7 8.1h-6.653L122.8 6.53h-12.883l-.553 1.57h10.649l-1.307 3.947h-10.649l-.61 1.6h10.808l-1.482 4.483h-17.49l5.462-16.346h26.265l2.44 5.745 6.276-5.745h7.467l-5.462 16.346z"
+                                transform="translate(-56.041 18.049)"></path>
+                            <path class="cls-1" id="Path_1331"
+                                d="M380.26 16.3c-1.918 1.541-4.823 2.148-8.048 2.148-5.723 0-8.8-2.2-8.8-5.884a8.6 8.6 0 0 1 .436-2.639l2.333-6.962-7.8 6.285 4.242 8.873h-7.233l-2.441-5.254-2.849 2.292-.988 2.966h-6.8l5.462-16.346h6.8L352.6 7.64l6.77-5.861h14.12l-2.847 8.5a4.5 4.5 0 0 0-.232 1.285c0 1.354.988 2.055 2.789 2.055a3.491 3.491 0 0 0 2.179-.677 4.716 4.716 0 0 0 1.453-2.382l2.934-8.78h6.915l-3.225 9.62a10.155 10.155 0 0 1-3.2 4.9"
+                                transform="translate(-254.418 18.049)"></path>
+                            <path class="cls-1" id="Path_1332"
+                                d="M578.518 6.445c3.457 1.028 5.665 2.195 5.665 4.693a4.836 4.836 0 0 1-1.947 3.83C580.7 16.206 578.2 17 574.974 17a17.115 17.115 0 0 1-10.024-2.966l3.893-3.736a12.444 12.444 0 0 0 6.857 2.312c.872 0 1.482-.257 1.482-.724 0-.514-.378-.677-3.341-1.565-3.777-1.121-5.549-2.2-5.549-4.6a4.655 4.655 0 0 1 1.917-3.62A11.555 11.555 0 0 1 577.443 0a16.253 16.253 0 0 1 9.065 2.452l-3.893 3.736a11.245 11.245 0 0 0-5.869-1.822c-.872 0-1.482.187-1.482.654 0 .49.436.584 3.254 1.424"
+                                transform="translate(-436.143 19.5)"></path>
                         </g>
                     </svg></a></div>
             <nav>
                 <ul class="flex items-center justify-between font-bold text-sm uppercase no-underline gap-x-2">
                     <li><a class="px-4 border border-black rounded-full p-1" href="launches.html">launches</a></li>
-                    <li><button class="px-4 border border-transparent rounded-full font-bold uppercase p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white" data-type="sneaker">sneakers</button></li>
-                    <li><button class="px-4 border border-transparent rounded-full font-bold uppercase p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white" data-type="apparel">apparel</button></li>
+                    <li><button
+                            class="px-4 border border-transparent rounded-full font-bold uppercase p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white"
+                            data-type="sneaker">sneakers</button></li>
+                    <li><button
+                            class="px-4 border border-transparent rounded-full font-bold uppercase p-0.5 hover:text-yellow-300 focus:bg-black focus:text-white"
+                            data-type="apparel">apparel</button></li>
                 </ul>
             </nav>
-            <div class="flex items-center font-bold text-sm no-underline pr-6"><a class="hover:text-yellow-300" href="login.html">ACCOUNT</a><a class="pl-6 hover:text-yellow-300" href="#" data-type="modal">WISHLIST (0)</a><a class="pl-6 hover:text-yellow-300" href="search.html">SEARCH</a><a class="pl-6 hover:text-yellow-300" href="#" data-type="bag">BAG (0)</a></div>
+            <div class="flex items-center font-bold text-sm no-underline pr-6"><a class="hover:text-yellow-300"
+                    href="login.html">ACCOUNT</a><a class="pl-6 hover:text-yellow-300" href="#"
+                    data-type="modal">WISHLIST (0)</a><a class="pl-6 hover:text-yellow-300"
+                    href="search.html">SEARCH</a><a class="pl-6 hover:text-yellow-300" href="#" data-type="bag">BAG
+                    (0)</a></div>
         </div>
     </nav>
-    <div class="h-96 z-10 w-full absolute hidden bg-white shadow-lg p-5" id="sneaker-drop">
+    <div class="h-96 z-10 w-full sticky hidden bg-white shadow-lg p-5" style="top:7.4%" id="sneaker-drop">
         <div class="grid grid-flow-col auto-cols-max gap-24">
             <div>
                 <div class="text-3xl font-bold">COLLECTIONS</div>
@@ -55,10 +72,12 @@
             <div>
                 <div class="text-3xl uppercase font-bold">featured</div>
                 <div class="grid grid-flow-col auto-cols-max mt-5">
-                    <div class="card w-72 mr-3"><img class="bg-contain bg-center border border-black" src="./img/blazer.png">
+                    <div class="card w-72 mr-3"><img class="bg-contain bg-center border border-black"
+                            src="./img/blazer.png">
                         <p class="uppercase font-bold">air max 90 qs</p>
                     </div>
-                    <div class="card w-72 mr-3"><img class="bg-contain bg-center border border-black" src="./img/airmax.jpg">
+                    <div class="card w-72 mr-3"><img class="bg-contain bg-center border border-black"
+                            src="./img/airmax.jpg">
                         <p class="uppercase font-bold">nike blazer</p>
                     </div>
                     <div class="card w-72"><img class="bg-contain bg-center border border-black" src="./img/chuck.jpg">
@@ -68,7 +87,7 @@
             </div>
         </div>
     </div>
-    <div class="h-96 z-10 w-full absolute hidden bg-white shadow-lg p-5" id="apparel-drop">
+    <div class="h-96 z-10 w-full sticky hidden bg-white shadow-lg p-5" style="top:7.4%" id="apparel-drop">
         <div class="grid grid-flow-col auto-cols-max gap-32">
             <div>
                 <div class="text-3xl font-bold">COLLECTIONS</div>
@@ -97,10 +116,12 @@
             <div>
                 <div class="text-3xl uppercase font-bold">featured</div>
                 <div class="grid grid-flow-col auto-cols-max mt-5">
-                    <div class="card w-72 mr-3"><img class="bg-contain bg-center border border-black" src="./img/blazer.png">
+                    <div class="card w-72 mr-3"><img class="bg-contain bg-center border border-black"
+                            src="./img/blazer.png">
                         <p class="uppercase font-bold">air jordan psg tee</p>
                     </div>
-                    <div class="card w-72 mr-3"><img class="bg-contain bg-center border border-black" src="./img/airmax.jpg">
+                    <div class="card w-72 mr-3"><img class="bg-contain bg-center border border-black"
+                            src="./img/airmax.jpg">
                         <p class="uppercase font-bold">nsw icon gx hoodie</p>
                     </div>
                 </div>
@@ -109,34 +130,57 @@
     </div>
     <!--section-->
     <div class="w-full h-full flex flex-col items-center">
-        <div class="text-3xl uppercase mt-10 dharma-bold">create account</div><input class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black mt-10" type="text" name="" placeholder="First Name" required><input class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black" type="text" name="" placeholder="Last Name" required><input class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black" type="email" name="" placeholder="Email Address" required><input class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black" type="password" name="" placeholder="Password" required><button class="p-2 border border-dark rounded-full uppercase bg-yellow-400 w-36 mt-5" onclick="register">sign up</button>
-        <p class="uppercase mt-5 dharma-bold">already have an account? <a class="text-dark underline" href="/login">login</a></p><button class="text-dark underline mt-5" data-type="forget">Forgot Password?</button>
+        <div class="text-3xl uppercase mt-10 dharma-bold">create account</div><input
+            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black mt-10"
+            type="text" name="" placeholder="First Name" required><input
+            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black"
+            type="text" name="" placeholder="Last Name" required><input
+            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black"
+            type="email" name="" placeholder="Email Address" required><input
+            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black"
+            type="password" name="" placeholder="Password" required><button
+            class="p-2 border border-dark rounded-full uppercase bg-yellow-400 w-36 mt-5" onclick="register">sign
+            up</button>
+        <p class="uppercase mt-5 dharma-bold">already have an account? <a class="text-dark underline"
+                href="/login">login</a></p><button class="text-dark underline mt-5" data-type="forget">Forgot
+            Password?</button>
         <div class="w-full hidden" id="forget">
-            <div class="flex flex-col w-full items-center"><input class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black mt-10" type="email" name="" placeholder="Email Address" required><button class="p-2 border border-dark rounded-full uppercase bg-yellow-400 w-36 mt-5">submit</button></div>
+            <div class="flex flex-col w-full items-center"><input
+                    class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black mt-10"
+                    type="email" name="" placeholder="Email Address" required><button
+                    class="p-2 border border-dark rounded-full uppercase bg-yellow-400 w-36 mt-5">submit</button></div>
         </div>
     </div>
     <!--modal-->
-    <div class="hidden h-full w-full flex items-center border border-dark absolute top-0" id="wishlist" style="background-color: rgba(0, 0, 0,0.1)">
+    <div class="hidden h-full w-full flex items-center border border-dark absolute top-0" id="wishlist"
+        style="background-color: rgba(0, 0, 0,0.1)">
         <div class="border border-black bg-white mx-auto w-5/6 h-5/6 flex flex-col items-center">
-            <div class="w-full bg-black h-10 flex items-center justify-end px-5"><i class="ri-user-fill text-white text-xl"></i>
-                <div class="uppercase text-white inline-block mx-5">guest shpper</div><button data-type="modal"><i class="ri-close-line text-white text-xl"></i></button>
+            <div class="w-full bg-black h-10 flex items-center justify-end px-5"><i
+                    class="ri-user-fill text-white text-xl"></i>
+                <div class="uppercase text-white inline-block mx-5">guest shpper</div><button data-type="modal"><i
+                        class="ri-close-line text-white text-xl"></i></button>
             </div>
             <div class="mt-10 flex justify-between w-11/12 border-b border-black pb-5 items-center"><button>
                     <div class="text-2xl uppercase">my wishlist</div>
                 </button><i class="ri-more-2-line text-2xl"></i></div>
             <div class="text-xl uppercase mt-20">love it? add to my wishlist</div>
-            <div class="p my-10 w-6/12">My Wishlist allows you to keep track of all of your favorites and shopping activity whether you're on your computer, phone, or tablet. You won't have to waste time searching all over again for that item you loved on your phone the other day - it's all here in one place!</div><button class="p-2 px-5 border border-dark rounded-full uppercase bg-yellow-400">continue shopping</button>
+            <div class="p my-10 w-6/12">My Wishlist allows you to keep track of all of your favorites and shopping
+                activity whether you're on your computer, phone, or tablet. You won't have to waste time searching all
+                over again for that item you loved on your phone the other day - it's all here in one place!</div>
+            <button class="p-2 px-5 border border-dark rounded-full uppercase bg-yellow-400">continue shopping</button>
         </div>
     </div>
     <!--slide-->
-    <div class="hidden h-full w-full flex items-center border border-dark absolute top-0" id="slidbar" style="background-color: rgba(0, 0, 0,0.3)">
+    <div class="hidden h-full w-full flex items-center border border-dark absolute top-0" id="slidbar"
+        style="background-color: rgba(0, 0, 0,0.3)">
         <div class="border-l border-black bg-white h-full absolute right-0 top-0 w-8/12 flex">
             <div class="border-r border-black w-2/6 h-full">
                 <div class="text-3xl uppercase text-center border-b border-black p-4">anything else?</div>
             </div>
             <div class="w-4/6 px-3">
                 <div class="flex justify-between p-4">
-                    <div class="uppercase text-3xl">your bag</div><button class="hover:underline hover:text-gray-500" data-type="bag">close</button>
+                    <div class="uppercase text-3xl">your bag</div><button class="hover:underline hover:text-gray-500"
+                        data-type="bag">close</button>
                 </div>
                 <div class="p-5 text-xl">Your bag is empty</div>
             </div>
@@ -146,19 +190,46 @@
     <footer class="w-full bg-yellow-400 uppercase text-sm py-10 font-light mt-44">
         <div class="mx-10 flex flex-col items-center justify-between">
             <div class="w-full flex justify-between">
-                <div class="join flex flex-col font-bold text-lg w-80">JOIN OUR COMMUNITY<input class="mt-2 appearance-none rounded-sm border w-full py-2 px-3 bg-yellow-400 text-black border-black mb-3 leading-tight placeholder-black focus:outline-none focus:shadow-none" type="email" placeholder="EMAIL" required></div>
-                <div class="grid grid-cols-3 gap-2 gap-x-10 text-xs"><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">about us</a><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">privacy policy</a><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">how to order</a><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">faq</a><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">delivery policy</a><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">tack your order</a><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">contact us</a><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">terms of use</a><a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">return & exchanges</a></div>
-            </div><a class="w-full mb-20 mt-10" href="https://lemkus.com" title=""><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 125.365 17.001" fill="white">
+                <div class="join flex flex-col font-bold text-lg w-80">JOIN OUR COMMUNITY<input
+                        class="mt-2 appearance-none rounded-sm border w-full py-2 px-3 bg-yellow-400 text-black border-black mb-3 leading-tight placeholder-black focus:outline-none focus:shadow-none"
+                        type="email" placeholder="EMAIL" required></div>
+                <div class="grid grid-cols-3 gap-2 gap-x-10 text-xs">
+                    <a class="py-1 transition-all" href="">about us</a>
+                    <a class="py-1 transition-all" href="">privacy policy</a>
+                    <a class="py-1 transition-all" href="">how to order</a>
+                    <a class="py-1 transition-all" href="">faq</a>
+                    <a class="py-1 transition-all" href="">delivery policy</a>
+                    <a class="py-1 transition-all" href="">tack your order</a>
+                    <a class="py-1 transition-all" href="">contact us</a>
+                    <a class="py-1 transition-all" href="">terms of use</a>
+                    <a class="py-1 transition-all" href="">return & exchanges</a>
+                </div>
+            </div><a class="w-full mb-20 mt-10" href="https://lemkus.com" title=""><svg
+                    xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 125.365 17.001" fill="white">
                     <g id="Small_Logo" transform="translate(-25 -19.5)">
-                        <path class="cls-1" id="Path_1073" d="M5.791 1.779L0 18.125h16.209l1.524-4.492H8.368l3.893-11.854z" transform="translate(25 18.049)"></path>
-                        <path class="cls-1" id="Path_1074" d="M134.961 18.125l2.7-8.1-6.624 5.814h-.116l-2.731-5.814-2.7 8.1h-6.653L122.8 6.53h-12.883l-.553 1.57h10.649l-1.307 3.947h-10.649l-.61 1.6h10.808l-1.482 4.483h-17.49l5.462-16.346h26.265l2.44 5.745 6.276-5.745h7.467l-5.462 16.346z" transform="translate(-56.041 18.049)"></path>
-                        <path class="cls-1" id="Path_1331" d="M380.26 16.3c-1.918 1.541-4.823 2.148-8.048 2.148-5.723 0-8.8-2.2-8.8-5.884a8.6 8.6 0 0 1 .436-2.639l2.333-6.962-7.8 6.285 4.242 8.873h-7.233l-2.441-5.254-2.849 2.292-.988 2.966h-6.8l5.462-16.346h6.8L352.6 7.64l6.77-5.861h14.12l-2.847 8.5a4.5 4.5 0 0 0-.232 1.285c0 1.354.988 2.055 2.789 2.055a3.491 3.491 0 0 0 2.179-.677 4.716 4.716 0 0 0 1.453-2.382l2.934-8.78h6.915l-3.225 9.62a10.155 10.155 0 0 1-3.2 4.9" transform="translate(-254.418 18.049)"></path>
-                        <path class="cls-1" id="Path_1332" d="M578.518 6.445c3.457 1.028 5.665 2.195 5.665 4.693a4.836 4.836 0 0 1-1.947 3.83C580.7 16.206 578.2 17 574.974 17a17.115 17.115 0 0 1-10.024-2.966l3.893-3.736a12.444 12.444 0 0 0 6.857 2.312c.872 0 1.482-.257 1.482-.724 0-.514-.378-.677-3.341-1.565-3.777-1.121-5.549-2.2-5.549-4.6a4.655 4.655 0 0 1 1.917-3.62A11.555 11.555 0 0 1 577.443 0a16.253 16.253 0 0 1 9.065 2.452l-3.893 3.736a11.245 11.245 0 0 0-5.869-1.822c-.872 0-1.482.187-1.482.654 0 .49.436.584 3.254 1.424" transform="translate(-436.143 19.5)"></path>
+                        <path class="cls-1" id="Path_1073"
+                            d="M5.791 1.779L0 18.125h16.209l1.524-4.492H8.368l3.893-11.854z"
+                            transform="translate(25 18.049)"></path>
+                        <path class="cls-1" id="Path_1074"
+                            d="M134.961 18.125l2.7-8.1-6.624 5.814h-.116l-2.731-5.814-2.7 8.1h-6.653L122.8 6.53h-12.883l-.553 1.57h10.649l-1.307 3.947h-10.649l-.61 1.6h10.808l-1.482 4.483h-17.49l5.462-16.346h26.265l2.44 5.745 6.276-5.745h7.467l-5.462 16.346z"
+                            transform="translate(-56.041 18.049)"></path>
+                        <path class="cls-1" id="Path_1331"
+                            d="M380.26 16.3c-1.918 1.541-4.823 2.148-8.048 2.148-5.723 0-8.8-2.2-8.8-5.884a8.6 8.6 0 0 1 .436-2.639l2.333-6.962-7.8 6.285 4.242 8.873h-7.233l-2.441-5.254-2.849 2.292-.988 2.966h-6.8l5.462-16.346h6.8L352.6 7.64l6.77-5.861h14.12l-2.847 8.5a4.5 4.5 0 0 0-.232 1.285c0 1.354.988 2.055 2.789 2.055a3.491 3.491 0 0 0 2.179-.677 4.716 4.716 0 0 0 1.453-2.382l2.934-8.78h6.915l-3.225 9.62a10.155 10.155 0 0 1-3.2 4.9"
+                            transform="translate(-254.418 18.049)"></path>
+                        <path class="cls-1" id="Path_1332"
+                            d="M578.518 6.445c3.457 1.028 5.665 2.195 5.665 4.693a4.836 4.836 0 0 1-1.947 3.83C580.7 16.206 578.2 17 574.974 17a17.115 17.115 0 0 1-10.024-2.966l3.893-3.736a12.444 12.444 0 0 0 6.857 2.312c.872 0 1.482-.257 1.482-.724 0-.514-.378-.677-3.341-1.565-3.777-1.121-5.549-2.2-5.549-4.6a4.655 4.655 0 0 1 1.917-3.62A11.555 11.555 0 0 1 577.443 0a16.253 16.253 0 0 1 9.065 2.452l-3.893 3.736a11.245 11.245 0 0 0-5.869-1.822c-.872 0-1.482.187-1.482.654 0 .49.436.584 3.254 1.424"
+                            transform="translate(-436.143 19.5)"></path>
                     </g>
                 </svg></a>
             <div class="w-full flex justify-between">
                 <div class="credit">© 2021 JACK LEMKUS - ALL RIGHTS RESERVED</div>
-                <div class="link grid gap-x-5 grid-cols-3"><a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="#">instagram</a><a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="#">twitter</a><a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="#">facebook</a></div>
+                <div class="link grid gap-x-5 grid-cols-3"><a
+                        class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all"
+                        href="#">instagram</a><a
+                        class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all"
+                        href="#">twitter</a><a
+                        class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all"
+                        href="#">facebook</a></div>
             </div>
         </div>
     </footer>
