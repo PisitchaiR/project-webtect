@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
     <script src="./js/script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -136,19 +137,61 @@
     </div>
     <!--section-->
     <div class="w-full h-full flex flex-col items-center">
-        <div class="text-3xl uppercase mt-10 dharma-bold">create account</div><input
-            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black mt-10"
-            type="text" name="" placeholder="First Name" required><input
-            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black"
-            type="text" name="" placeholder="Last Name" required><input
-            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black"
-            type="email" name="" placeholder="Email Address" required><input
-            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black"
-            type="password" name="" placeholder="Password" required><button
-            class="p-2 border border-dark rounded-full uppercase bg-yellow-400 w-36 mt-5" onclick="register">sign
-            up</button>
+        <div class="text-3xl uppercase mt-10 dharma-bold">create account</div>
+        <input
+            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black mt-10 focus:outline-none"
+            type="text" name="" placeholder="First Name" required id="username">
+        <input
+            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black focus:outline-none"
+            type="text" name="" placeholder="Last Name" required id="lastname">
+        <input
+            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black focus:outline-none"
+            type="email" name="" placeholder="Email Address" required id="email">
+        <input
+            class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black focus:outline-none"
+            type="password" name="" placeholder="Password" required id="password">
+        <button class="p-2 border border-dark rounded-full uppercase bg-yellow-400 w-36 mt-5" onclick="register()">sign
+            up
+        </button>
+        <script>
+            let register = () => {
+                let username = document.querySelector("#username").value
+                let lastname = document.querySelector("#lastname").value
+                let email = document.querySelector("#email").value
+                let password = document.querySelector("#password").value
+                if (username == "") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'กรุณากรอกชื่อ',
+                    })
+                }
+                else if (lastname == "") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'กรุณากรอกนามสกุล',
+                    })
+                } else if (email == "") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'กรุณากรอกอีเมลล์',
+                    })
+                } else if (password == "") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'กรุณากรอกรหัสผ่าน',
+                    })
+                }
+                else {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'สมัครสมาชิคสำเร็จ',
+                    })
+                    window.location.href = "./login.html";
+                }
+            }
+        </script>
         <p class="uppercase mt-5 dharma-bold">already have an account? <a class="text-dark underline"
-                href="/login">login</a></p><button class="text-dark underline mt-5" data-type="forget">Forgot
+                href="/login.html">login</a></p><button class="text-dark underline mt-5" data-type="forget">Forgot
             Password?</button>
         <div class="w-full hidden" id="forget">
             <div class="flex flex-col w-full items-center"><input
