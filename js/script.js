@@ -133,4 +133,3 @@ let text_drop = (type) => {
     button.classList.toggle("ri-subtract-line")
   }
 }
-
