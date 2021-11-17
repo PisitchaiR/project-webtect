@@ -145,13 +145,15 @@ $data = $array[$type][$id - 1];
     <!--section-->
     <section>
         <div class="w-full h-16 flex items-center pl-6 space-x-2">
-            <span>Home</span>
+            <span><a href="index.html" class="no-underline text-black">HOME</a></span>
             <span>|</span>
-            <span>Sneaker</span>
-            <span>|</span>
-            <span>Adidas</span>
-            <span>|</span>
-            <span>Forum</span>
+            <?php if($role == 'sneaker') {
+                echo '<span><a href="sneaker.html" class="no-underline text-black">Sneakers</a></span>';
+            } else {
+                echo '<span><a href="apparel.html" class="no-underline text-black">Apparel</a></span>';
+            }
+
+            ?>
         </div>
         <div class="flex height-screen">
             <div class="flex flex-col space-y-4 items-center" style="width: 8%;">
