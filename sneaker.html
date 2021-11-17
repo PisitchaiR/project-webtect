@@ -308,17 +308,17 @@
                         <div class="grid grid-cols-2 w-full">
                             <template x-for="item in filteredEmployees" :key="item">
                                 <div class="border-b border-r border-black p-5 flex justify-center items-cneter">
-                                    <a href="">
-                                        <img class="border border-black" src="./img/airmax.jpg" alt="">
-                                        <div class="text-2xl uppercase mt-5"
-                                            x-text="item.employee_name + ' (' + item.employee_age + ')'"></div>
-                                        <div class="text-xl uppercase" x-text="'$'+item.employee_salary/100"></div>
+                                    <a :href="`items.php?role=sneaker&type=${item.type}&id=${item.num}`">
+                                        <img class="border border-black" :src="`${item.img}`" alt="">
+                                        <div class="text-2xl uppercase mt-5" x-text="item.name"></div>
+                                        <div class="text-xl uppercase" x-text="item.price"></div>
                                     </a>
                                 </div>
                             </template>
                         </div>
 
-                        <div class="w-full h-full py-2 flex items-center justify-center border-t border-black" x-show="pageCount() > 1">
+                        <div class="w-full h-full py-2 flex items-center justify-center border-t border-black"
+                            x-show="pageCount() > 1">
                             <!-- Display page numbers -->
                             <template x-for="(page,index) in pages()" :key="index">
                                 <button class="mx-2" :class="{ 'text-black' : index === pageNumber }" type="button"
@@ -327,7 +327,8 @@
                                 </button>
                             </template>
                             <!--Next Button-->
-                            <button x-on:click="nextPage" :disabled="pageNumber >= pageCount() -1" class="flex items-center"
+                            <button x-on:click="nextPage" :disabled="pageNumber >= pageCount() -1"
+                                class="flex items-center"
                                 :class="{ 'disabled cursor-not-allowed text-gray-600' : pageNumber >= pageCount() -1 }">
                                 <i class="ri-arrow-right-line"></i>
                             </button>
@@ -353,179 +354,117 @@
                         var sourceData = [
                             {
                                 id: "1",
-                                employee_name: "Tiger Nixon",
-                                employee_salary: "320800",
-                                employee_age: "61",
-                                profile_image: "https://randomuser.me/api/portraits/men/1.jpg",
+                                name: "AIR MAX 2021",
+                                price: "R 2,999.00",
+                                img: "./img/sneakers/nike/id1_1.png",
+                                type: "nike",
+                                num: "1",
                             },
                             {
                                 id: "2",
-                                employee_name: "Garrett Winters",
-                                employee_salary: "170750",
-                                employee_age: "63",
-                                profile_image: "https://randomuser.me/api/portraits/men/2.jpg",
+                                name: "AIR FORCE 1 07 WB",
+                                price: "R 1,999.00",
+                                img: "./img/sneakers/nike/id2_1.png",
+                                type: "nike",
+                                num: "2",
                             },
                             {
                                 id: "3",
-                                employee_name: "Ashton Cox",
-                                employee_salary: "86000",
-                                employee_age: "66",
-                                profile_image: "https://randomuser.me/api/portraits/men/3.jpg",
+                                name: "BURROW",
+                                price: "R 999.00",
+                                img: "./img/sneakers/nike/id3_1.png",
+                                type: "nike",
+                                num: "3",
                             },
                             {
                                 id: "4",
-                                employee_name: "Cedric Kelly",
-                                employee_salary: "433060",
-                                employee_age: "22",
-                                profile_image: "https://randomuser.me/api/portraits/men/4.jpg",
+                                name: "ZOOM AIR FIRE (W)",
+                                price: "R 2,099.00",
+                                img: "./img/sneakers/nike/id5_1.png",
+                                type: "nike",
+                                num: "5",
                             },
                             {
                                 id: "5",
-                                employee_name: "Airi Satou",
-                                employee_salary: "162700",
-                                employee_age: "33",
-                                profile_image: "https://randomuser.me/api/portraits/women/5.jpg",
+                                name: "AIR HUARACHE (W)",
+                                price: "R 2,199.00",
+                                img: "./img/sneakers/nike/id6_1.png",
+                                type: "nike",
+                                num: "6",
                             },
                             {
                                 id: "6",
-                                employee_name: "Brielle Williamson",
-                                employee_salary: "372000",
-                                employee_age: "61",
-                                profile_image: "https://randomuser.me/api/portraits/women/6.jpg",
+                                name: "AIR JORDAN 11 RETRO LOW IE",
+                                price: "R 3,299.00",
+                                img: "./img/sneakers/airjordan/id1_1.png",
+                                type: "airjordan",
+                                num: "1",
                             },
                             {
                                 id: "7",
-                                employee_name: "Herrod Chandler",
-                                employee_salary: "137500",
-                                employee_age: "59",
-                                profile_image: "https://randomuser.me/api/portraits/men/7.jpg",
+                                name: "WAFFLE ONE (W)",
+                                price: "R 1,899.00",
+                                img: "./img/sneakers/nike/id7_1.png",
+                                type: "nike",
+                                num: "7",
                             },
                             {
                                 id: "8",
-                                employee_name: "Rhona Davidson",
-                                employee_salary: "327900",
-                                employee_age: "55",
-                                profile_image: "https://randomuser.me/api/portraits/women/8.jpg",
+                                name: "JORDAN MAX AURA 3",
+                                price: "R 2,199.00",
+                                img: "./img/sneakers/airjordan/id2_1.png",
+                                type: "airjordan",
+                                num: "2",
                             },
                             {
                                 id: "9",
-                                employee_name: "Colleen Hurst",
-                                employee_salary: "205500",
-                                employee_age: "39",
-                                profile_image: "https://randomuser.me/api/portraits/women/9.jpg",
+                                name: "AIR JORDAN XXXVI",
+                                price: "R 3,499.00",
+                                img: "./img/sneakers/airjordan/id3_1.png",
+                                type: "airjordan",
+                                num: "3",
                             },
                             {
                                 id: "10",
-                                employee_name: "Sonya Frost",
-                                employee_salary: "103600",
-                                employee_age: "23",
-                                profile_image: "https://randomuser.me/api/portraits/women/10.jpg",
+                                name: "STREETBALL",
+                                price: "R 1,899.00",
+                                img: "./img/sneakers/adidas/id1_1.png",
+                                type: "adidas",
+                                num: "1",
                             },
                             {
                                 id: "11",
-                                employee_name: "Jena Gaines",
-                                employee_salary: "90560",
-                                employee_age: "30",
-                                profile_image: "https://randomuser.me/api/portraits/women/11.jpg",
+                                name: "ZX 10,000",
+                                price: "R 2,399.00",
+                                img: "./img/sneakers/adidas/id4_1.png",
+                                type: "adidas",
+                                num: "4",
                             },
                             {
                                 id: "12",
-                                employee_name: "Quinn Flynn",
-                                employee_salary: "342000",
-                                employee_age: "22",
-                                profile_image: "https://randomuser.me/api/portraits/men/12.jpg",
+                                name: "STAN SMITH (W)",
+                                price: "R 1,799.00",
+                                img: "./img/sneakers/adidas/id7_1.png",
+                                type: "adidas",
+                                num: "7",
                             },
                             {
                                 id: "13",
-                                employee_name: "Charde Marshall",
-                                employee_salary: "470600",
-                                employee_age: "36",
-                                profile_image: "https://randomuser.me/api/portraits/women/12.jpg",
+                                name: "DUNK HIGH UP (W)",
+                                price: "R 2,199.00",
+                                img: "./img/sneakers/nike/id8_1.png",
+                                type: "nike",
+                                num: "8",
                             },
                             {
                                 id: "14",
-                                employee_name: "Haley Kennedy",
-                                employee_salary: "313500",
-                                employee_age: "43",
-                                profile_image: "https://randomuser.me/api/portraits/women/14.jpg",
-                            },
-                            {
-                                id: "15",
-                                employee_name: "Tatyana Fitzpatrick",
-                                employee_salary: "385750",
-                                employee_age: "19",
-                                profile_image: "https://randomuser.me/api/portraits/women/15.jpg",
-                            },
-                            {
-                                id: "16",
-                                employee_name: "Michael Silva",
-                                employee_salary: "198500",
-                                employee_age: "66",
-                                profile_image: "https://randomuser.me/api/portraits/men/16.jpg",
-                            },
-                            {
-                                id: "17",
-                                employee_name: "Paul Byrd",
-                                employee_salary: "725000",
-                                employee_age: "64",
-                                profile_image: "https://randomuser.me/api/portraits/men/17.jpg",
-                            },
-                            {
-                                id: "18",
-                                employee_name: "Gloria Little",
-                                employee_salary: "237500",
-                                employee_age: "59",
-                                profile_image: "https://randomuser.me/api/portraits/women/18.jpg",
-                            },
-                            {
-                                id: "19",
-                                employee_name: "Bradley Greer",
-                                employee_salary: "132000",
-                                employee_age: "41",
-                                profile_image: "https://randomuser.me/api/portraits/men/19.jpg",
-                            },
-                            {
-                                id: "20",
-                                employee_name: "Dai Rios",
-                                employee_salary: "217500",
-                                employee_age: "35",
-                                profile_image: "https://randomuser.me/api/portraits/men/20.jpg",
-                            },
-                            {
-                                id: "21",
-                                employee_name: "Jenette Caldwell",
-                                employee_salary: "345000",
-                                employee_age: "30",
-                                profile_image: "https://randomuser.me/api/portraits/women/21.jpg",
-                            },
-                            {
-                                id: "22",
-                                employee_name: "Yuri Berry",
-                                employee_salary: "675000",
-                                employee_age: "40",
-                                profile_image: "https://randomuser.me/api/portraits/men/22.jpg",
-                            },
-                            {
-                                id: "23",
-                                employee_name: "Caesar Vance",
-                                employee_salary: "106450",
-                                employee_age: "21",
-                                profile_image: "https://randomuser.me/api/portraits/men/23.jpg",
-                            },
-                            {
-                                id: "24",
-                                employee_name: "Doris Wilder",
-                                employee_salary: "85600",
-                                employee_age: "23",
-                                profile_image: "https://randomuser.me/api/portraits/women/24.jpg",
-                            },
-                            {
-                                id: "25",
-                                employee_name: "Doris Wilder",
-                                employee_salary: "85600",
-                                employee_age: "23",
-                                profile_image: "https://randomuser.me/api/portraits/women/24.jpg",
-                            },
+                                name: "FORUM LOW",
+                                price: "R 1,599.00",
+                                img: "./img/sneakers/adidas/id2_1.png",
+                                type: "adidas",
+                                num: "2",
+                            }
+                            
                         ];
 
                         function loadEmployees() {
@@ -547,7 +486,7 @@
 
                                     //Return the total results of the filters
                                     this.total = this.myForData.filter((item) => {
-                                        return item.employee_name
+                                        return item.name
                                             .toLowerCase()
                                             .includes(this.search.toLowerCase());
                                     }).length;
@@ -555,7 +494,7 @@
                                     //Return the filtered data
                                     return this.myForData
                                         .filter((item) => {
-                                            return item.employee_name
+                                            return item.name
                                                 .toLowerCase()
                                                 .includes(this.search.toLowerCase());
                                         })
