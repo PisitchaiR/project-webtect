@@ -145,13 +145,15 @@ $data = $array[$type][$id - 1];
     <!--section-->
     <section>
         <div class="w-full h-16 flex items-center pl-6 space-x-2">
-            <span>Home</span>
+            <span><a href="index.html" class="no-underline text-black">HOME</a></span>
             <span>|</span>
-            <span>Sneaker</span>
-            <span>|</span>
-            <span>Adidas</span>
-            <span>|</span>
-            <span>Forum</span>
+            <?php if($role == 'sneaker') {
+                echo '<span><a href="sneaker.html" class="no-underline text-black">Sneakers</a></span>';
+            } else {
+                echo '<span><a href="apparel.html" class="no-underline text-black">Apparel</a></span>';
+            }
+
+            ?>
         </div>
         <div class="flex height-screen">
             <div class="flex flex-col space-y-4 items-center" style="width: 8%;">
@@ -352,24 +354,24 @@ $data = $array[$type][$id - 1];
                     <input class="mt-2 appearance-none rounded-sm border w-full py-2 px-3 bg-yellow-400 text-black border-black mb-3 leading-tight placeholder-black focus:outline-none focus:shadow-none" type="email" placeholder="EMAIL" required>
                 </div>
                 <div class="grid grid-cols-3 gap-2 gap-x-10 text-xs">
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">about us
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">about us
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">privacy policy
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">privacy policy
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">how
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">how
                         to order
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">faq
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">faq
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">delivery policy
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">delivery policy
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">tack your order
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">tack your order
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">contact us
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">contact us
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">terms of use
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">terms of use
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">return & exchanges
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="javascript:void(0)">return & exchanges
                     </a>
                 </div>
             </div><a class="w-full mb-20 mt-10" href="https://lemkus.com" title=""><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 125.365 17.001" fill="white">
@@ -383,11 +385,11 @@ $data = $array[$type][$id - 1];
             <div class="w-full flex justify-between">
                 <div class="credit">© 2021 JACK LEMKUS - ALL RIGHTS RESERVED</div>
                 <div class="link grid gap-x-5 grid-cols-3">
-                    <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="#">instagram
+                    <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="javascript:void(0)">instagram
                     </a>
-                    <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="#">twitter
+                    <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="javascript:void(0)">twitter
                     </a>
-                    <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="#">facebook
+                    <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all" href="javascript:void(0)">facebook
                     </a>
                 </div>
             </div>

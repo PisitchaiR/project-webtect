@@ -276,7 +276,7 @@
                         <div class="grid grid-cols-2 w-full">
                             <template x-for="item in filteredEmployees" :key="item">
                                 <div class="border-b border-r border-black p-5 flex justify-center items-cneter">
-                                    <a :href="`items.php?role=sneaker&type=${item.type}&id=${item.num}`">
+                                    <a :href="`items.php?role=apparel&type=${item.type}&id=${item.num}`">
                                         <img class="border border-black" :src="`${item.img}`" alt="">
                                         <div class="text-2xl uppercase mt-5" x-text="item.name"></div>
                                         <div class="text-xl uppercase" x-text="item.price"></div>
@@ -390,13 +390,13 @@
                                 price: "R 1,029.00",
                                 img: "./img/apparel/hoodies/id4_1.png",
                                 type: "hoodies",
-                                num: "3",
+                                num: "4",
                             },
                             {
                                 id: "10",
                                 name: "JORDAN SPORT DNA FLEECE CREW",
                                 price: "R 1,119.00",
-                                img: "./img/sneakers/sweatshirts/id1_1.png",
+                                img: "./img/apparel/sweatshirts/id1_1.png",
                                 type: "sweatshirts",
                                 num: "1",
                             },
@@ -404,7 +404,7 @@
                                 id: "11",
                                 name: "ATHLECTIC CLUB HOODY",
                                 price: "R 1,099.00",
-                                img: "./img/sneakers/sweatshirts/id2_1.png",
+                                img: "./img/apparel/sweatshirts/id2_1.png",
                                 type: "sweatshirts",
                                 num: "2",
                             },
@@ -412,7 +412,7 @@
                                 id: "12",
                                 name: "ATHLECTIC CLUB CREW",
                                 price: "R 999.00",
-                                img: "./img/sneakers/sweatshirts/id3_1.png",
+                                img: "./img/apparel/sweatshirts/id3_1.png",
                                 type: "sweatshirts",
                                 num: "3",
                             },
@@ -420,7 +420,7 @@
                                 id: "13",
                                 name: "HIGHER LEARNING CREW",
                                 price: "R 1,099.00",
-                                img: "./img/sneakers/sweatshirts/id4_1.png",
+                                img: "./img/apparel/sweatshirts/id4_1.png",
                                 type: "sweatshirts",
                                 num: "4",
                             },
@@ -428,11 +428,11 @@
                                 id: "14",
                                 name: "ATHLETIC CLUB CREW (W)",
                                 price: "R 299.67",
-                                img: "./img/sneakers/sweatshirts/id5_1.png",
+                                img: "./img/apparel/sweatshirts/id5_1.png",
                                 type: "sweatshirts",
                                 num: "5",
                             }
-                            
+
                         ];
 
                         function loadEmployees() {
@@ -586,30 +586,32 @@
                 </div>
                 <div class="grid grid-cols-3 gap-2 gap-x-10 text-xs">
                     <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
-                        href="">about us
+                        href="javascript:void(0)">about us
                     </a>
                     <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
-                        href="">privacy policy
+                        href="javascript:void(0)">privacy policy
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">how
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
+                        href="javascript:void(0)">how
                         to order
                     </a>
-                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all" href="">faq
+                    <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
+                        href="javascript:void(0)">faq
                     </a>
                     <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
-                        href="">delivery policy
+                        href="javascript:void(0)">delivery policy
                     </a>
                     <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
-                        href="">tack your order
+                        href="javascript:void(0)">tack your order
                     </a>
                     <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
-                        href="">contact us
+                        href="javascript:void(0)">contact us
                     </a>
                     <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
-                        href="">terms of use
+                        href="javascript:void(0)">terms of use
                     </a>
                     <a class="border border-transparent py-1 rounded-full hover:border-black transition-all"
-                        href="">return & exchanges
+                        href="javascript:void(0)">return & exchanges
                     </a>
                 </div>
             </div><a class="w-full mb-20 mt-10" href="https://lemkus.com" title=""><svg
@@ -633,13 +635,13 @@
                 <div class="credit">© 2021 JACK LEMKUS - ALL RIGHTS RESERVED</div>
                 <div class="link grid gap-x-5 grid-cols-3">
                     <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all"
-                        href="#">instagram
+                        href="javascript:void(0)">instagram
                     </a>
                     <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all"
-                        href="#">twitter
+                        href="javascript:void(0)">twitter
                     </a>
                     <a class="border border-transparent text-center py-1 px-2 rounded-full hover:border-black transition-all"
-                        href="#">facebook
+                        href="javascript:void(0)">facebook
                     </a>
                 </div>
             </div>
