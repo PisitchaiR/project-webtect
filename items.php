@@ -246,24 +246,24 @@ $data = $array[$type][$id - 1];
         <p class="text-9xl pl-5 text-yellow-400">RECOMMENDED</p>
         <div class="grid grid-cols-3">
             <div class="border border-black p-5 flex justify-center">
-                <a href="">
-                    <img class="border border-black" src="./img/airmax.jpg" alt="">
-                    <div class="text-2xl uppercase mt-5">air jordan i mid se </div>
-                    <div class="text-xl uppercase">B 2,399.00</div>
+                <a href="items.php?role=sneaker&type=nike&id=1">
+                    <img class="border border-black" src="./img/sneakers/nike/id1_1.png" alt="product">
+                    <div class="text-2xl uppercase mt-5">AIR MAX 2021</div>
+                    <div class="text-xl uppercase">R 2,999.00</div>
                 </a>
             </div>
             <div class="border border-black p-5 flex justify-center">
-                <a href="">
-                    <img class="border border-black" src="./img/airmax.jpg" alt="">
-                    <div class="text-2xl uppercase mt-5">air jordan i mid se </div>
-                    <div class="text-xl uppercase">B 2,399.00</div>
+                <a href="items.php?role=sneaker&type=nike&id=2">
+                    <img class="border border-black" src="./img/sneakers/nike/id2_1.png" alt="product">
+                    <div class="text-2xl uppercase mt-5">AIR FORCE 1 07 WB</div>
+                    <div class="text-xl uppercase">R 1,999.00</div>
                 </a>
             </div>
             <div class="border border-black p-5 flex justify-center">
-                <a href="">
-                    <img class="border border-black" src="./img/airmax.jpg" alt="">
-                    <div class="text-2xl uppercase mt-5">air jordan i mid se </div>
-                    <div class="text-xl uppercase">B 2,399.00</div>
+                <a href="items.php?role=sneaker&type=nike&id=3">
+                    <img class="border border-black" src="./img/sneakers/nike/id3_1.png" alt="product">
+                    <div class="text-2xl uppercase mt-5">BURROW</div>
+                    <div class="text-xl uppercase">R 999.00</div>
                 </a>
             </div>
         </div>
@@ -314,25 +314,26 @@ $data = $array[$type][$id - 1];
             <div class="border-r border-black w-2/6 h-full">
                 <div class="text-3xl uppercase text-center p-4 border-b border-black">anything else?</div>
                 <div class="overflow-y-scroll h-full">
-                    <div class="p-5 flex flex-col border-b border-black"><img src="./img/airmax.jpg" alt="">
-                        <div class="text-xl uppercase">nsw everyday essential 3pk</div>
-                        <div class="uppercase">b 279.00</div>
+                    <div class="p-5 flex flex-col border-b border-black">
+                        <a href="items.php?role=sneaker&type=nike&id=4">
+                            <img src="./img/sneakers/nike/id4_1.png" alt="nike">
+                            <div class="text-xl uppercase">PG 5</div>
+                            <div class="uppercase">R 2,199.00</div>
+                        </a>
                     </div>
-                    <div class="p-5 flex flex-col border-b border-black"><img src="./img/airmax.jpg" alt="">
-                        <div class="text-xl uppercase">nsw everyday essential 3pk</div>
-                        <div class="uppercase">b 279.00</div>
+                    <div class="p-5 flex flex-col border-b border-black">
+                        <a href="items.php?role=sneaker&type=nike&id=5">
+                            <img src="./img/sneakers/nike/id5_1.png" alt="nike">
+                            <div class="text-xl uppercase">ZOOM AIR FIRE (W)</div>
+                            <div class="uppercase">R 2,099.00</div>
+                        </a>
                     </div>
-                    <div class="p-5 flex flex-col border-b border-black"><img src="./img/airmax.jpg" alt="">
-                        <div class="text-xl uppercase">nsw everyday essential 3pk</div>
-                        <div class="uppercase">b 279.00</div>
-                    </div>
-                    <div class="p-5 flex flex-col border-b border-black"><img src="./img/airmax.jpg" alt="">
-                        <div class="text-xl uppercase">nsw everyday essential 3pk</div>
-                        <div class="uppercase">b 279.00</div>
-                    </div>
-                    <div class="p-5 flex flex-col border-b border-black"><img src="./img/airmax.jpg" alt="">
-                        <div class="text-xl uppercase">nsw everyday essential 3pk</div>
-                        <div class="uppercase">b 279.00</div>
+                    <div class="p-5 flex flex-col border-b border-black">
+                        <a href="items.php?role=sneaker&type=nike&id=6">
+                            <img src="./img/sneakers/nike/id6_1.png" alt="nike">
+                            <div class="text-xl uppercase">AIR HUARACHE (W)</div>
+                            <div class="uppercase">R 2,199.00</div>
+                        </a>
                     </div>
                 </div>
             </div>
