@@ -69,22 +69,23 @@ $data = $array[$type][$id - 1];
             </div>
         </div>
     </nav>
-    <div class="h-96 z-10 w-full absolute hidden bg-white shadow-lg p-5 z-50" id="sneaker-drop">
+    <div class="h-96 z-10 w-full hidden bg-white shadow-lg p-5 sticky z-40" style="top:7.4%" id="sneaker-drop">
         <div class="grid grid-flow-col auto-cols-max gap-24">
             <div>
                 <div class="text-3xl font-bold">COLLECTIONS</div>
                 <div class="flex flex-col mt-5">
-                    <p class="font-bold uppercase hover:text-yellow-400">all sneakers</p>
-                    <p class="font-bold uppercase hover:text-yellow-400">mens</p>
-                    <p class="font-bold uppercase hover:text-yellow-400">womens</p>
+                    <a href="sneaker.html" class="no-underline text-black font-bold uppercase hover:text-yellow-400">all
+                        sneakers</a>
+                    <a href="sneaker.html" class="no-underline text-black font-bold uppercase hover:text-yellow-400">mens</a>
+                    <a href="sneaker.html" class="no-underline text-black font-bold uppercase hover:text-yellow-400">womens</a>
                 </div>
             </div>
             <div>
                 <div class="text-3xl font-bold">BRANDS</div>
                 <div class="flex flex-col mt-5">
-                    <p class="hover:text-yellow-400">Nike</p>
-                    <p class="hover:text-yellow-400">Air Jordan</p>
-                    <p class="hover:text-yellow-400">Adidas</p>
+                    <a href="sneaker.html" class="no-underline text-black hover:text-yellow-400">Nike</a>
+                    <a href="sneaker.html" class="no-underline text-black hover:text-yellow-400">Air Jordan</a>
+                    <a href="sneaker.html" class="no-underline text-black hover:text-yellow-400">Adidas</a>
                 </div>
             </div>
             <div>
@@ -103,30 +104,31 @@ $data = $array[$type][$id - 1];
             </div>
         </div>
     </div>
-    <div class="h-96 z-10 w-full absolute hidden bg-white shadow-lg p-5 z-50" id="apparel-drop">
+    <div class="h-96 z-10 w-full sticky hidden bg-white shadow-lg p-5 z-40" style="top:7.4%" id="apparel-drop">
         <div class="grid grid-flow-col auto-cols-max gap-32">
             <div>
                 <div class="text-3xl font-bold">COLLECTIONS</div>
                 <div class="flex flex-col mt-5">
-                    <p class="font-bold uppercase hover:text-yellow-400">all apparel</p>
-                    <p class="font-bold uppercase hover:text-yellow-400">mens</p>
-                    <p class="font-bold uppercase hover:text-yellow-400">womens</p>
+                    <a href="apparel.html" class="no-underline text-black font-bold uppercase hover:text-yellow-400">all
+                        apparel</a>
+                    <a href="apparel.html" class="no-underline text-black font-bold uppercase hover:text-yellow-400">mens</a>
+                    <a href="apparel.html" class="no-underline text-black font-bold uppercase hover:text-yellow-400">womens</a>
                 </div>
             </div>
             <div>
                 <div class="text-3xl font-bold">mens</div>
                 <div class="flex flex-col mt-5">
-                    <p class="hover:text-yellow-400">T-shirs</p>
-                    <p class="hover:text-yellow-400">Hoodies</p>
-                    <p class="hover:text-yellow-400">Sweatshirts</p>
+                    <a href="apparel.html" class="no-underline text-black hover:text-yellow-400">T-shirs</a>
+                    <a href="apparel.html" class="no-underline text-black hover:text-yellow-400">Hoodies</a>
+                    <a href="apparel.html" class="no-underline text-black hover:text-yellow-400">Sweatshirts</a>
                 </div>
             </div>
             <div>
                 <div class="text-3xl font-bold">womens</div>
                 <div class="flex flex-col mt-5">
-                    <p class="hover:text-yellow-400">T-shirs</p>
-                    <p class="hover:text-yellow-400">Hoodies</p>
-                    <p class="hover:text-yellow-400">Sweatshirts</p>
+                    <a href="apparel.html" class="no-underline text-black hover:text-yellow-400">T-shirs</a>
+                    <a href="apparel.html" class="no-underline text-black hover:text-yellow-400">Hoodies</a>
+                    <a href="apparel.html" class="no-underline text-black hover:text-yellow-400">Sweatshirts</a>
                 </div>
             </div>
             <div>
@@ -147,7 +149,7 @@ $data = $array[$type][$id - 1];
         <div class="w-full h-16 flex items-center pl-6 space-x-2">
             <span><a href="index.html" class="no-underline text-black">HOME</a></span>
             <span>|</span>
-            <?php if($role == 'sneaker') {
+            <?php if ($role == 'sneaker') {
                 echo '<span><a href="sneaker.html" class="no-underline text-black">Sneakers</a></span>';
             } else {
                 echo '<span><a href="apparel.html" class="no-underline text-black">Apparel</a></span>';
@@ -157,17 +159,17 @@ $data = $array[$type][$id - 1];
         </div>
         <div class="flex height-screen">
             <div class="flex flex-col space-y-4 items-center" style="width: 8%;">
-                <?php foreach($data['img'] as $img) {
+                <?php foreach ($data['img'] as $img) {
                     echo '<div class="w-20 h-20 border border-black">
-                    <img class="w-full" src="'.$img.'"/></div>';
-                } 
+                    <img class="w-full" src="' . $img . '"/></div>';
+                }
                 ?>
             </div>
             <div class="overflow-y-auto catalog space-y-5 hide-scroll-bar h-screen" style="width: 47%;">
-                <?php foreach($data['img'] as $img) {
+                <?php foreach ($data['img'] as $img) {
                     echo '<div class="border border-black w-full overflow-hidden flex items-center" style="height: 40rem;">
-                    <img class="w-full" src="'.$img.'"/></div>';
-                } 
+                    <img class="w-full" src="' . $img . '"/></div>';
+                }
                 ?>
             </div>
             <div class="pl-16 pr-7 overflow-y-auto" style="width: 45%;">
@@ -190,7 +192,7 @@ $data = $array[$type][$id - 1];
                 </div>
                 <div class="flex space-x-2 mb-7">
                     <?php foreach ($data['size'] as $size) {
-                        echo '<button style="border-radius: 50px; border: 1px solid black;" class="flex justify-center items-center border-2 border-black h-7 w-20 text-black hover:text-white hover:bg-black">'.$size.'</button>';
+                        echo '<button style="border-radius: 50px; border: 1px solid black;" class="flex justify-center items-center border-2 border-black h-7 w-20 text-black hover:text-white hover:bg-black">' . $size . '</button>';
                     }
                     ?>
                 </div>
@@ -267,33 +269,29 @@ $data = $array[$type][$id - 1];
         </div>
     </div>
     <div class="flex flex-col">
-            <div class="px-8 flex justify-between">
-                <div class="text-9xl uppercase my-5 text-yellow-400">culture</div>
-                <div class="flex items-end"><button
-                        class="rounded-full border border-black uppercase bg-yellow-400 p-2 px-6 mb-6">view all</button>
-                </div>
-            </div>
-            <div class="grid grid-cols-4 px-8 font-bold">
-                <div class="card flex flex-col mx-2 border-b border-black pb-10">
-                    <a href="culture_1.html">
-                        <img class="border border-black" src="./img/poster.png" alt="">
-                        <div class="mt-5 uppercase text-xl hover:text-yellow-300">REEBOK KAMIKAZE X NICE KICKS X NBA JAM</div>
-                    </a>
-                </div>
-                <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_2.html"><img
-                            class="border border-black" src="./img/poster2.png" alt="">
-                        <div class="mt-5 uppercase text-xl hover:text-yellow-300">BATHANDWA NGWENDU: STORYTELLER + DIRECTOR</div>
-                    </a></div>
-                <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_3.html"><img
-                            class="border border-black" src="./img/poster3.png" alt="">
-                        <div class="mt-5 uppercase text-xl hover:text-yellow-300">ROBYN AGULHAS: FASHION DESIGNER</div>
-                    </a></div>
-                <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_4.html"><img
-                            class="border border-black" src="./img/poster4.png" alt="">
-                        <div class="mt-5 uppercase text-xl hover:text-yellow-300">HISHAAM ABRAHAMS: PHOTOGRAPHER | RESEARCH PROJECT</div>
-                    </a></div>
+        <div class="px-8 flex justify-between">
+            <div class="text-9xl uppercase my-5 text-yellow-400">culture</div>
+            <div class="flex items-end"><button class="rounded-full border border-black uppercase bg-yellow-400 p-2 px-6 mb-6">view all</button>
             </div>
         </div>
+        <div class="grid grid-cols-4 px-8 font-bold">
+            <div class="card flex flex-col mx-2 border-b border-black pb-10">
+                <a href="culture_1.html">
+                    <img class="border border-black" src="./img/poster.png" alt="">
+                    <div class="mt-5 uppercase text-xl hover:text-yellow-300">REEBOK KAMIKAZE X NICE KICKS X NBA JAM</div>
+                </a>
+            </div>
+            <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_2.html"><img class="border border-black" src="./img/poster2.png" alt="">
+                    <div class="mt-5 uppercase text-xl hover:text-yellow-300">BATHANDWA NGWENDU: STORYTELLER + DIRECTOR</div>
+                </a></div>
+            <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_3.html"><img class="border border-black" src="./img/poster3.png" alt="">
+                    <div class="mt-5 uppercase text-xl hover:text-yellow-300">ROBYN AGULHAS: FASHION DESIGNER</div>
+                </a></div>
+            <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_4.html"><img class="border border-black" src="./img/poster4.png" alt="">
+                    <div class="mt-5 uppercase text-xl hover:text-yellow-300">HISHAAM ABRAHAMS: PHOTOGRAPHER | RESEARCH PROJECT</div>
+                </a></div>
+        </div>
+    </div>
     <!--modal-->
     <div class="hidden h-full w-full flex items-center border border-dark absolute top-0 z-50" id="wishlist" style="background-color: rgba(0, 0, 0,0.1)">
         <div class="border border-black bg-white mx-auto w-5/6 h-5/6 flex flex-col items-center">
