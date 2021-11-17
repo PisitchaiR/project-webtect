@@ -174,7 +174,7 @@
                         fetch('./db/sneakers.json')
                             .then(res => res.json())
                             .then(data => {
-                                for (let i = 0; i < 5; i++) {
+                                for (let i = 0; i < 7; i++) {
                                     let sneaker = data.adidas[i];
                                     let body = `<li class="inline-block z-50 relative bg-main">`;
                                     body += `<div class="border border-black p-5 w-96 flex justify-center">`;
