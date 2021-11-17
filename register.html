@@ -194,10 +194,29 @@
                 href="login.html">login</a></p><button class="text-dark underline mt-5" data-type="forget">Forgot
             Password?</button>
         <div class="w-full hidden" id="forget">
-            <div class="flex flex-col w-full items-center"><input
+            <div class="flex flex-col w-full items-center">
+                <input
                     class="w-4/12 mt-2 appearance-none py-2 text-black mb-3 leading-tight placeholder-gray-600 border-b border-black mt-10"
-                    type="email" name="" placeholder="Email Address" required><button
-                    class="p-2 border border-dark rounded-full uppercase bg-yellow-400 w-36 mt-5">submit</button></div>
+                    type="email" name="" placeholder="Email Address" required id="email-for">
+                <button class="p-2 border border-dark rounded-full uppercase bg-yellow-400 w-36 mt-5"
+                    onclick="forgot()">submit</button>
+                <script>
+                    let forgot = () => {
+                        let email = document.querySelector("#email-for").value
+                        if (email == "") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'กรุณากรอกอีเมลล์',
+                            })
+                        } else {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'ส่งอีเมลล์เรียบร้อย'
+                            })
+                        }
+                    }
+                </script>
+            </div>
         </div>
     </div>
     <!--modal-->
