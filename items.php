@@ -265,26 +265,33 @@ $data = $array[$type][$id - 1];
         </div>
     </div>
     <div class="flex flex-col">
-        <div class="px-8 flex justify-between">
-            <div class="text-9xl uppercase my-5 text-yellow-400">culture</div>
-            <div class="flex items-end"><button class="rounded-full border border-black uppercase bg-yellow-400 p-2 px-6 mb-6">view all</button>
+            <div class="px-8 flex justify-between">
+                <div class="text-9xl uppercase my-5 text-yellow-400">culture</div>
+                <div class="flex items-end"><button
+                        class="rounded-full border border-black uppercase bg-yellow-400 p-2 px-6 mb-6">view all</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 px-8 font-bold">
+                <div class="card flex flex-col mx-2 border-b border-black pb-10">
+                    <a href="culture_1.html">
+                        <img class="border border-black" src="./img/poster.png" alt="">
+                        <div class="mt-5 uppercase text-xl hover:text-yellow-300">REEBOK KAMIKAZE X NICE KICKS X NBA JAM</div>
+                    </a>
+                </div>
+                <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_2.html"><img
+                            class="border border-black" src="./img/poster2.png" alt="">
+                        <div class="mt-5 uppercase text-xl hover:text-yellow-300">BATHANDWA NGWENDU: STORYTELLER + DIRECTOR</div>
+                    </a></div>
+                <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_3.html"><img
+                            class="border border-black" src="./img/poster3.png" alt="">
+                        <div class="mt-5 uppercase text-xl hover:text-yellow-300">ROBYN AGULHAS: FASHION DESIGNER</div>
+                    </a></div>
+                <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href="culture_4.html"><img
+                            class="border border-black" src="./img/poster4.png" alt="">
+                        <div class="mt-5 uppercase text-xl hover:text-yellow-300">HISHAAM ABRAHAMS: PHOTOGRAPHER | RESEARCH PROJECT</div>
+                    </a></div>
             </div>
         </div>
-        <div class="grid grid-cols-4 px-8">
-            <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href=""><img class="border border-black" src="./img/poster.png" alt="">
-                    <div class="mt-5 uppercase text-xl">reebok kamikze x nice kicks x nba jam</div>
-                </a></div>
-            <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href=""><img class="border border-black" src="./img/poster.png" alt="">
-                    <div class="mt-5 uppercase text-xl">reebok kamikze x nice kicks x nba jam</div>
-                </a></div>
-            <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href=""><img class="border border-black" src="./img/poster.png" alt="">
-                    <div class="mt-5 uppercase text-xl">reebok kamikze x nice kicks x nba jam</div>
-                </a></div>
-            <div class="card flex flex-col mx-2 border-b border-black pb-10"><a href=""><img class="border border-black" src="./img/poster.png" alt="">
-                    <div class="mt-5 uppercase text-xl">reebok kamikze x nice kicks x nba jam</div>
-                </a></div>
-        </div>
-    </div>
     <!--modal-->
     <div class="hidden h-full w-full flex items-center border border-dark absolute top-0 z-50" id="wishlist" style="background-color: rgba(0, 0, 0,0.1)">
         <div class="border border-black bg-white mx-auto w-5/6 h-5/6 flex flex-col items-center">

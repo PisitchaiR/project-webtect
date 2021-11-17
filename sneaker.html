@@ -11,9 +11,9 @@
     <link
         href="https://www.dafontfree.net/embed/ZGhhcm1hLWdvdGhpYy1lLWJvbGQmZGF0YS80Ni9kLzYzNDgxL0RoYXJtYUdvdGhpY0VfQm9sZF9SLm90Zg"
         rel="stylesheet" type="text/css">
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-    <script src="./js/script.js"></script>
+    <script src="/js/script.js"></script>
 </head>
 
 <body>
@@ -67,6 +67,7 @@
             </div>
         </div>
     </nav>
+    <!-- sneaker-drop -->
     <div class="h-96 z-10 w-full absolute hidden bg-white shadow-lg p-5 z-50" id="sneaker-drop">
         <div class="grid grid-flow-col auto-cols-max gap-24">
             <div>
@@ -103,6 +104,7 @@
             </div>
         </div>
     </div>
+    <!-- apparel-drop -->
     <div class="h-96 z-10 w-full absolute hidden bg-white shadow-lg p-5 z-50" id="apparel-drop">
         <div class="grid grid-flow-col auto-cols-max gap-32">
             <div>
@@ -145,13 +147,15 @@
         </div>
     </div>
     <!--section-->
-    <section class="flex flex-col justify-center items-center">
+    <section class="flex flex-col justify-center items-center" x-data="loadEmployees()">
         <div class="text-7xl mt-5 uppercase">sneakers</div>
         <div class="flex justify-between w-full mt-5 pb-2 px-10">
             <div class="flex align-center w-full border-b border-black">
                 <i class="ri-search-line text-2xl"></i>
-                <input class="placeholder-black w-full mx-5 focus:outline-none focus:shadow-non" type="text"
-                    placeholder="Search by product, category or keyword" required>
+                <input class="placeholder-black w-full mx-5 focus:outline-none focus:shadow-non"
+                    placeholder="Search by product, category or keyword" x-ref="searchField" x-model="search"
+                    x-on:click="viewPage(0)" x-on:keydown.window.prevent.slash=" viewPage(0), $refs.searchField.focus()"
+                    placeholder="Search for an employee..." type="search">
             </div>
         </div>
         <div class="w-full">
@@ -164,7 +168,7 @@
                 </div>
             </div>
             <div class="w-full border border-black mt-5 flex">
-                <div class="border-r border-black p-4 w-5/12">
+                <div class="border-r border-black p-4 w-4/12 sticky top-10">
                     <div class="flex justify-between">
                         <div class="text-3xl">FILTER BY</div>
                         <button class="underline uppercase">clear all</button>
@@ -186,20 +190,27 @@
                             x-transition:leave-start="transform opacity-100 scale-100"
                             x-transition:leave-end="transform opacity-0 scale-95">
                             <div class="py-2">
-                                <input type="radio" id="type1" name="type" value="adidas">
-                                <label for="type1">Adidas</label><br>
-                                <input type="radio" id="type2" name="type" value="airjordan">
-                                <label for="type2">Air Jordan</label><br>
-                                <input type="radio" id="type3" name="type" value="nike">
-                                <label for="type3">Nike</label><br>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Adidas</label><br>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Air Jordan</label><br>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Nike</label><br>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!-- DROP DOWN text -->
                     <div @click.away="open = false" class="relative flex flex-col  border-b border-black pb-4 mt-5"
                         x-data="{ open: false }">
                         <div class="flex justify-between items-center">
                             <button @click="open = !open" class="text-xl w-full flex justify-between items-center">
-                                <p>GENDER</p>
+                                <p>SIZE</p>
                                 <i :class="{'rotate-180': open, 'rotate-0': !open}"
                                     class="ri-arrow-drop-down-line text-3xl transition-transform duration-200 transform rotate-180"></i>
                             </button>
@@ -211,86 +222,330 @@
                             x-transition:leave-start="transform opacity-100 scale-100"
                             x-transition:leave-end="transform opacity-0 scale-95">
                             <div class="py-2">
-                                <input type="radio" id="sex1" name="sex" value="men">
-                                <label for="sex1">Men</label><br>
-                                <input type="radio" id="sex2" name="sex" value="women">
-                                <label for="sex2">Women</label><br>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Adidas</label><br>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Air Jordan</label><br>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Nike</label><br>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <script>
-                        const form = document.querySelector("input[name='type']");
-
-                        form.addEventListener("click", e => {
-                            e.preventDefault();
-                            const format = new FormData();
-                            format.get('type')
-                            console.log(format);
-                            postData(format).then(data => {
-                                console.log(data.type);
-                            })
-                        });
-
-                        async function postData(format) {
-                            const res = await fetch('check.php', {
-                                method: "POST",
-                                body: format
-                            });
-                            const data = await res.json();
-                            return data;
-                        }
-
-                    </script> -->
+                    <!-- DROP DOWN text -->
+                    <div @click.away="open = false" class="relative flex flex-col  border-b border-black pb-4 mt-5"
+                        x-data="{ open: false }">
+                        <div class="flex justify-between items-center">
+                            <button @click="open = !open" class="text-xl w-full flex justify-between items-center">
+                                <p>PRICE</p>
+                                <i :class="{'rotate-180': open, 'rotate-0': !open}"
+                                    class="ri-arrow-drop-down-line text-3xl transition-transform duration-200 transform rotate-180"></i>
+                            </button>
+                        </div>
+                        <div x-show="open" class="w-full" x-transition:enter="transition ease-out duration-100"
+                            x-transition:enter-start="transform opacity-0 scale-95"
+                            x-transition:enter-end="transform opacity-100 scale-100"
+                            x-transition:leave="transition ease-in duration-75"
+                            x-transition:leave-start="transform opacity-100 scale-100"
+                            x-transition:leave-end="transform opacity-0 scale-95">
+                            <div class="py-2">
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Adidas</label><br>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Air Jordan</label><br>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Nike</label><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DROP DOWN text -->
+                    <div @click.away="open = false" class="relative flex flex-col  border-b border-black pb-4 mt-5"
+                        x-data="{ open: false }">
+                        <div class="flex justify-between items-center">
+                            <button @click="open = !open" class="text-xl w-full flex justify-between items-center">
+                                <p>BRAND</p>
+                                <i :class="{'rotate-180': open, 'rotate-0': !open}"
+                                    class="ri-arrow-drop-down-line text-3xl transition-transform duration-200 transform rotate-180"></i>
+                            </button>
+                        </div>
+                        <div x-show="open" class="w-full" x-transition:enter="transition ease-out duration-100"
+                            x-transition:enter-start="transform opacity-0 scale-95"
+                            x-transition:enter-end="transform opacity-100 scale-100"
+                            x-transition:leave="transition ease-in duration-75"
+                            x-transition:leave-start="transform opacity-100 scale-100"
+                            x-transition:leave-end="transform opacity-0 scale-95">
+                            <div class="py-2">
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Adidas</label><br>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Air Jordan</label><br>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" id="age1" name="age" value="30">
+                                    <label for="age1" class="ml-2">Nike</label><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- show product -->
-                <div class="grid grid-cols-2 w-8/12" id="box">
+                <!-- items -->
+                <div class="w-8/12">
+                    <div class="w-full mx-auto">
+                        <div class="grid grid-cols-2 w-full">
+                            <template x-for="item in filteredEmployees" :key="item">
+                                <div class="border-b border-r border-black p-5 flex justify-center items-cneter">
+                                    <a :href="`items.php?role=sneaker&type=${item.type}&id=${item.num}`">
+                                        <img class="border border-black" :src="`${item.img}`" alt="">
+                                        <div class="text-2xl uppercase mt-5" x-text="item.name"></div>
+                                        <div class="text-xl uppercase" x-text="item.price"></div>
+                                    </a>
+                                </div>
+                            </template>
+                        </div>
+
+                        <div class="w-full h-full py-2 flex items-center justify-center border-t border-black"
+                            x-show="pageCount() > 1">
+                            <!-- Display page numbers -->
+                            <template x-for="(page,index) in pages()" :key="index">
+                                <button class="mx-2" :class="{ 'text-black' : index === pageNumber }" type="button"
+                                    x-on:click="viewPage(index)">
+                                    <span x-text="index+1"></span>
+                                </button>
+                            </template>
+                            <!--Next Button-->
+                            <button x-on:click="nextPage" :disabled="pageNumber >= pageCount() -1"
+                                class="flex items-center"
+                                :class="{ 'disabled cursor-not-allowed text-gray-600' : pageNumber >= pageCount() -1 }">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+
+
+                        <div class="flex flex-wrap justify-between items-center text-sm leading-5 text-gray-700">
+                            <!--Message to display when no results-->
+                            <div class="mx-auto flex items-center font-bold text-red-500" x-show="total===0">
+                                <svg class="h-8 w-8 text-red-500" viewBox="0 0 24 24" stroke-width="2"
+                                    stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <circle cx="12" cy="12" r="9" />
+                                    <line x1="9" y1="10" x2="9.01" y2="10" />
+                                    <line x1="15" y1="10" x2="15.01" y2="10" />
+                                    <path d="M9.5 16a10 10 0 0 1 6 -1.5" />
+                                </svg>
+                                <span class="ml-4"> No results!!</span>
+                            </div>
+                        </div>
+                    </div>
                     <script>
-                        const box = document.getElementById("box");
+                        var sourceData = [
+                            {
+                                id: "1",
+                                name: "AIR MAX 2021",
+                                price: "R 2,999.00",
+                                img: "./img/sneakers/nike/id1_1.png",
+                                type: "nike",
+                                num: "1",
+                            },
+                            {
+                                id: "2",
+                                name: "AIR FORCE 1 07 WB",
+                                price: "R 1,999.00",
+                                img: "./img/sneakers/nike/id2_1.png",
+                                type: "nike",
+                                num: "2",
+                            },
+                            {
+                                id: "3",
+                                name: "BURROW",
+                                price: "R 999.00",
+                                img: "./img/sneakers/nike/id3_1.png",
+                                type: "nike",
+                                num: "3",
+                            },
+                            {
+                                id: "4",
+                                name: "ZOOM AIR FIRE (W)",
+                                price: "R 2,099.00",
+                                img: "./img/sneakers/nike/id5_1.png",
+                                type: "nike",
+                                num: "5",
+                            },
+                            {
+                                id: "5",
+                                name: "AIR HUARACHE (W)",
+                                price: "R 2,199.00",
+                                img: "./img/sneakers/nike/id6_1.png",
+                                type: "nike",
+                                num: "6",
+                            },
+                            {
+                                id: "6",
+                                name: "AIR JORDAN 11 RETRO LOW IE",
+                                price: "R 3,299.00",
+                                img: "./img/sneakers/airjordan/id1_1.png",
+                                type: "airjordan",
+                                num: "1",
+                            },
+                            {
+                                id: "7",
+                                name: "WAFFLE ONE (W)",
+                                price: "R 1,899.00",
+                                img: "./img/sneakers/nike/id7_1.png",
+                                type: "nike",
+                                num: "7",
+                            },
+                            {
+                                id: "8",
+                                name: "JORDAN MAX AURA 3",
+                                price: "R 2,199.00",
+                                img: "./img/sneakers/airjordan/id2_1.png",
+                                type: "airjordan",
+                                num: "2",
+                            },
+                            {
+                                id: "9",
+                                name: "AIR JORDAN XXXVI",
+                                price: "R 3,499.00",
+                                img: "./img/sneakers/airjordan/id3_1.png",
+                                type: "airjordan",
+                                num: "3",
+                            },
+                            {
+                                id: "10",
+                                name: "STREETBALL",
+                                price: "R 1,899.00",
+                                img: "./img/sneakers/adidas/id1_1.png",
+                                type: "adidas",
+                                num: "1",
+                            },
+                            {
+                                id: "11",
+                                name: "ZX 10,000",
+                                price: "R 2,399.00",
+                                img: "./img/sneakers/adidas/id4_1.png",
+                                type: "adidas",
+                                num: "4",
+                            },
+                            {
+                                id: "12",
+                                name: "STAN SMITH (W)",
+                                price: "R 1,799.00",
+                                img: "./img/sneakers/adidas/id7_1.png",
+                                type: "adidas",
+                                num: "7",
+                            },
+                            {
+                                id: "13",
+                                name: "DUNK HIGH UP (W)",
+                                price: "R 2,199.00",
+                                img: "./img/sneakers/nike/id8_1.png",
+                                type: "nike",
+                                num: "8",
+                            },
+                            {
+                                id: "14",
+                                name: "FORUM LOW",
+                                price: "R 1,599.00",
+                                img: "./img/sneakers/adidas/id2_1.png",
+                                type: "adidas",
+                                num: "2",
+                            }
+                            
+                        ];
 
-                        fetch('./db/sneakers.json')
-                            .then(res => res.json())
-                            .then(data => {
-                                for (let i = 0; i < 7; i++) {
-                                    let sneaker = data.adidas[i];
-                                    let body = `<div class="inline-block z-50 relative bg-main">`;
-                                    body += `<div class="border border-black p-5 w-96 flex justify-center">`;
-                                    body += `<a href="items.php?role=sneaker&type=adidas&id=${sneaker.id}"><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
-                                                            onmouseover="changeImg(this, '${sneaker.img[1]}')" onmouseout="normalImg(this, '${sneaker.img[0]}')">`;
-                                    body += `<p class="mt-3 uppercase text-xl"
-                                                            onmouseover="changeText(this, '${sneaker.size}')" onmouseout="normalText(this, '${sneaker.name}', '${sneaker.price}')">${sneaker.name}<br>${sneaker.price}</p>`;
-                                    body += `</a></div></div>`;
+                        function loadEmployees() {
+                            return {
+                                search: "",
+                                pageNumber: 0,
+                                size: 10,
+                                total: "",
+                                myForData: sourceData,
 
-                                    box.innerHTML += body;
-                                }
+                                get filteredEmployees() {
+                                    const start = this.pageNumber * this.size,
+                                        end = start + this.size;
 
-                                for (let i = 0; i < 8; i++) {
-                                    let sneaker = data.nike[i];
-                                    let body = `<div class="inline-block z-50 relative bg-main">`;
-                                    body += `<div class="border border-black p-5 w-96 flex justify-center">`;
-                                    body += `<a href="items.php?role=sneaker&type=nike&id=${sneaker.id}"><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
-                                                            onmouseover="changeImg(this, '${sneaker.img[1]}')" onmouseout="normalImg(this, '${sneaker.img[0]}')">`;
-                                    body += `<p class="mt-3 uppercase text-xl"
-                                                            onmouseover="changeText(this, '${sneaker.size}')" onmouseout="normalText(this, '${sneaker.name}', '${sneaker.price}')">${sneaker.name}<br>${sneaker.price}</p>`;
-                                    body += `</a></div></div>`;
+                                    if (this.search === "") {
+                                        this.total = this.myForData.length;
+                                        return this.myForData.slice(start, end);
+                                    }
 
-                                    box.innerHTML += body;
-                                }
+                                    //Return the total results of the filters
+                                    this.total = this.myForData.filter((item) => {
+                                        return item.name
+                                            .toLowerCase()
+                                            .includes(this.search.toLowerCase());
+                                    }).length;
 
-                                for (let i = 0; i < 8; i++) {
-                                    let sneaker = data.airjordan[i];
-                                    let body = `<div class="inline-block z-50 relative bg-main">`;
-                                    body += `<div class="border border-black p-5 w-96 flex justify-center">`;
-                                    body += `<a href="items.php?role=sneaker&type=airjordan&id=${sneaker.id}"><img class="fade-in-product border border-black h-96" src="${sneaker.img[0]}" alt="sneaker" 
-                                                            onmouseover="changeImg(this, '${sneaker.img[1]}')" onmouseout="normalImg(this, '${sneaker.img[0]}')">`;
-                                    body += `<p class="mt-3 uppercase text-xl"
-                                                            onmouseover="changeText(this, '${sneaker.size}')" onmouseout="normalText(this, '${sneaker.name}', '${sneaker.price}')">${sneaker.name}<br>${sneaker.price}</p>`;
-                                    body += `</a></div></div>`;
+                                    //Return the filtered data
+                                    return this.myForData
+                                        .filter((item) => {
+                                            return item.name
+                                                .toLowerCase()
+                                                .includes(this.search.toLowerCase());
+                                        })
+                                        .slice(start, end);
+                                },
 
-                                    box.innerHTML += body;
-                                }
-                            })
+                                //Create array of all pages (for loop to display page numbers)
+                                pages() {
+                                    return Array.from({
+                                        length: Math.ceil(this.total / this.size),
+                                    });
+                                },
+
+                                //Next Page
+                                nextPage() {
+                                    this.pageNumber++;
+                                },
+
+                                //Previous Page
+                                prevPage() {
+                                    this.pageNumber--;
+                                },
+
+                                //Total number of pages
+                                pageCount() {
+                                    return Math.ceil(this.total / this.size);
+                                },
+
+                                //Return the start range of the paginated results
+                                startResults() {
+                                    return this.pageNumber * this.size + 1;
+                                },
+
+                                //Return the end range of the paginated results
+                                endResults() {
+                                    let resultsOnPage = (this.pageNumber + 1) * this.size;
+
+                                    if (resultsOnPage <= this.total) {
+                                        return resultsOnPage;
+                                    }
+
+                                    return this.total;
+                                },
+
+                                //Link to navigate to page
+                                viewPage(index) {
+                                    this.pageNumber = index;
+                                },
+                            };
+                        }
                     </script>
-
                 </div>
             </div>
         </div>
@@ -353,7 +608,7 @@
         </div>
     </div>
     <!--footer-->
-    <footer class="w-full bg-yellow-400 uppercase text-sm py-10 font-light mt-20">
+    <footer class="w-full bg-yellow-400 uppercase text-sm py-10 font-light">
         <div class="mx-10 flex flex-col items-center justify-between">
             <div class="w-full flex justify-between">
                 <div class="join flex flex-col font-bold text-lg w-80">JOIN OUR COMMUNITY
@@ -422,24 +677,6 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        function changeImg(e, img) {
-            e.src = img;
-        }
-
-        function normalImg(e, img) {
-            e.src = img;
-        }
-
-        function changeText(e, size) {
-            e.innerHTML = size.replaceAll(',', " ");
-        }
-
-        function normalText(e, name, price) {
-            e.innerHTML = name + "<br>" + price;
-        }
-    </script>
 </body>
 
 </html>
